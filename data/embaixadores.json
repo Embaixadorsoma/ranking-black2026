@@ -1,7 +1,13 @@
 [
  {
   "dia": "2026-11-01",
-  "embaixador": "Gleybson  Andrade",
+  "embaixador": "ANNA RITA DE MOURA LIRA",
+  "pedidos": 3,
+  "total": 1562.74
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "Gleybson Andrade",
   "pedidos": 1,
   "total": 599
  },
@@ -19,14 +25,14 @@
  },
  {
   "dia": "2026-11-01",
-  "embaixador": "ANNA RITA DE MOURA LIRA",
-  "pedidos": 1,
-  "total": 299.5
- },
- {
-  "dia": "2026-11-01",
   "embaixador": "Carla Cavalcante",
   "pedidos": 1,
   "total": 179.4
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "Andre Guimaraes Gaiofato",
+  "pedidos": 1,
+  "total": 65.8
  }
 ]

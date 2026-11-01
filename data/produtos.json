@@ -8,14 +8,14 @@
  {
   "dia": "2026-11-01",
   "posicao": 2,
-  "produto": "Vinho Branco Anduco Chardonnay",
-  "unidades": 5
+  "produto": "Vinho Tinto Crotta Malbec",
+  "unidades": 12
  },
  {
   "dia": "2026-11-01",
-  "posicao": 3,
-  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
-  "unidades": 5
+  "posicao": 2,
+  "produto": "Espumante Buffon Moscatel Rosé",
+  "unidades": 12
  },
  {
   "dia": "2026-11-01",
@@ -25,26 +25,44 @@
  },
  {
   "dia": "2026-11-01",
-  "posicao": 5,
+  "posicao": 4,
+  "produto": "Vinho Branco Anduco Chardonnay",
+  "unidades": 5
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 4,
+  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
+  "unidades": 5
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 7,
   "produto": "Vinho Tinto Finca Santa Rosa Merlot",
   "unidades": 4
  },
  {
   "dia": "2026-11-01",
-  "posicao": 6,
+  "posicao": 7,
   "produto": "Vinho Tinto Finca Santa Rosa Carménère",
   "unidades": 4
  },
  {
   "dia": "2026-11-01",
-  "posicao": 7,
+  "posicao": 9,
   "produto": "Vinho Branco Anduco Torrontés",
   "unidades": 3
  },
  {
   "dia": "2026-11-01",
-  "posicao": 8,
+  "posicao": 10,
   "produto": "Vinho Rosé Finca Santa Rosa",
+  "unidades": 2
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 10,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
   "unidades": 2
  }
 ]
