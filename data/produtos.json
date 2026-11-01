@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "dia": "2026-11-01",
+  "posicao": 1,
+  "produto": "Vinho Tinto Anduco Malbec",
+  "unidades": 9
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 2,
+  "produto": "Vinho Branco Anduco Chardonnay",
+  "unidades": 2
+ }
+]
