@@ -14,25 +14,37 @@
  {
   "dia": "2026-11-01",
   "posicao": 3,
+  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
+  "unidades": 5
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 4,
+  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
+  "unidades": 5
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 5,
+  "produto": "Vinho Tinto Finca Santa Rosa Merlot",
+  "unidades": 4
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 6,
+  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
+  "unidades": 4
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 7,
   "produto": "Vinho Branco Anduco Torrontés",
   "unidades": 3
  },
  {
   "dia": "2026-11-01",
-  "posicao": 4,
-  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
-  "unidades": 2
- },
- {
-  "dia": "2026-11-01",
-  "posicao": 5,
-  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
-  "unidades": 2
- },
- {
-  "dia": "2026-11-01",
-  "posicao": 6,
-  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
+  "posicao": 8,
+  "produto": "Vinho Rosé Finca Santa Rosa",
   "unidades": 2
  }
 ]
