@@ -7,6 +7,12 @@
  },
  {
   "dia": "2026-11-01",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 1,
+  "total": 418.6
+ },
+ {
+  "dia": "2026-11-01",
   "embaixador": "Roberta Valverde",
   "pedidos": 1,
   "total": 359.4
