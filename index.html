@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ranking Black Compre Vinho</title>
+<meta name="description" content="Metas, produtos e embaixadores da Black Compre Vinho, atualizado 3 vezes por dia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍷</text></svg>">
+<style>
+
+  .bk {
+    --w-bg: #14070d; --w-panel: #22101a; --w-panel2: #2c1421; --w-line: rgba(255, 255, 255, .09);
+    --w-fg: #f8eef2; --w-muted: #c9adb9; --w-wine: #8e2445; --w-wine2: #c23a68; --w-gold: #e8bd62; --w-gold2: #f7dc9a;
+    --w-silver: #cfd5dd; --w-bronze: #d08a55; --w-ok: #5fd39a;
+    font-family: var(--font-anthropic-sans); color: var(--w-fg);
+    background: radial-gradient(120% 60% at 0% 0%, #3a0f22 0%, transparent 60%), radial-gradient(90% 50% at 100% 0%, #2a0c3a 0%, transparent 55%), var(--w-bg);
+    border-radius: 18px; padding: clamp(16px, 3vw, 32px); display: grid; gap: 22px; min-width: 0;
+  }
+  .bk p { margin: 0; }
+  .bk-hero { display: grid; gap: 6px; }
+  .bk-eyebrow { font-size: 12px; letter-spacing: .18em; font-weight: 600; color: var(--w-gold); text-transform: uppercase; }
+  .bk-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: clamp(28px, 4.5vw, 42px); line-height: 1.1; margin: 0; color: var(--w-fg); }
+  .bk-title em { font-style: normal; color: var(--w-gold); }
+  .bk-sub { color: var(--w-muted); font-size: 15px; }
+  .bk-chip { display: inline-block; background: rgba(232, 189, 98, .14); color: var(--w-gold2); border: 1px solid rgba(232, 189, 98, .35); border-radius: 999px; padding: 2px 12px; font-size: 13px; font-weight: 600; margin-right: 8px; }
+
+  .bk-tabs { display: inline-flex; gap: 4px; background: rgba(255, 255, 255, .05); border: 1px solid var(--w-line); border-radius: 999px; padding: 4px; justify-self: start; }
+  .bk-tab { font: inherit; font-size: 14px; font-weight: 600; border: 0; border-radius: 999px; padding: 8px 20px; background: transparent; color: var(--w-muted); cursor: pointer; transition: background .2s, color .2s; }
+  .bk-tab:hover { color: var(--w-fg); }
+  .bk-tab[aria-selected="true"] { background: linear-gradient(135deg, var(--w-wine2), var(--w-wine)); color: #fff; box-shadow: 0 4px 14px rgba(194, 58, 104, .35); }
+
+  .bk-page { display: grid; gap: 18px; min-width: 0; }
+
+  .bk-meta { position: relative; overflow: hidden; border-radius: 16px; padding: clamp(18px, 3vw, 28px); display: grid; gap: 16px;
+    background: linear-gradient(135deg, #5e1530 0%, #8e2445 45%, #4a1240 100%); border: 1px solid rgba(232, 189, 98, .3); box-shadow: 0 10px 30px rgba(0, 0, 0, .35); }
+  .bk-meta::after { content: ""; position: absolute; right: -60px; top: -60px; width: 220px; height: 220px; border-radius: 50%; background: radial-gradient(circle, rgba(232, 189, 98, .25), transparent 70%); pointer-events: none; }
+  .bk-meta-top { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; position: relative; z-index: 1; }
+  .bk-label { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; font-weight: 600; color: rgba(255, 255, 255, .75); }
+  .bk-meta .bk-big { font-family: var(--font-anthropic-serif); font-size: clamp(30px, 5vw, 44px); line-height: 1.05; color: #fff; font-variant-numeric: tabular-nums; margin-top: 4px; }
+  .bk-meta-pct { text-align: right; }
+  .bk-meta-pct .bk-big { color: var(--w-gold2); }
+  .bk-track { position: relative; z-index: 1; height: 22px; background: rgba(0, 0, 0, .3); border-radius: 999px; overflow: hidden; border: 1px solid rgba(255, 255, 255, .12); }
+  .bk-fill { height: 100%; width: 0; border-radius: 999px; background: linear-gradient(90deg, #c98a2b, var(--w-gold), var(--w-gold2)); box-shadow: 0 0 18px rgba(232, 189, 98, .6); transition: width 1.2s cubic-bezier(.2, .8, .2, 1); }
+  .bk-fill.bk-ok { background: linear-gradient(90deg, #2fa56f, var(--w-ok)); box-shadow: 0 0 18px rgba(95, 211, 154, .6); }
+  .bk-meta-line { position: relative; z-index: 1; display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 15px; color: rgba(255, 255, 255, .85); font-variant-numeric: tabular-nums; }
+  .bk-meta-line b { color: #fff; font-weight: 700; }
+  .bk-meta-line .bk-falta b { color: var(--w-gold2); }
+  .bk-batida { color: var(--w-ok); font-weight: 700; }
+  .bk-meta-sep { position: relative; z-index: 1; height: 1px; background: rgba(255, 255, 255, .15); margin: 4px 0; }
+  .bk-mid { font-family: var(--font-anthropic-serif); font-size: clamp(22px, 3.4vw, 30px); line-height: 1.1; color: #fff; font-variant-numeric: tabular-nums; margin-top: 4px; }
+  .bk-gold-txt { color: var(--w-gold2); }
+  .bk-track-sm { height: 14px; }
+  .bk-fill-mes { background: linear-gradient(90deg, #b8325e, #f2a7b8); box-shadow: 0 0 14px rgba(242, 167, 184, .45); }
+
+  .bk-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 14px; }
+  .bk-tile { position: relative; background: var(--w-panel); border: 1px solid var(--w-line); border-radius: 14px; padding: 16px 18px 18px; overflow: hidden; min-width: 0; }
+  .bk-tile::before { content: ""; position: absolute; left: 0; top: 0; right: 0; height: 3px; background: var(--bk-accent, var(--w-wine2)); }
+  .bk-tile:nth-child(1) { --bk-accent: var(--w-wine2); }
+  .bk-tile:nth-child(2) { --bk-accent: var(--w-gold); }
+  .bk-tile:nth-child(3) { --bk-accent: #a66bd6; }
+  .bk-tile-head { display: flex; align-items: center; gap: 8px; color: var(--w-muted); font-size: 13px; font-weight: 600; }
+  .bk-ico { width: 28px; height: 28px; border-radius: 8px; display: grid; place-items: center; font-size: 15px; background: rgba(255, 255, 255, .06); }
+  .bk-tile .bk-num { font-family: var(--font-anthropic-serif); font-size: clamp(22px, 3vw, 30px); margin-top: 10px; color: var(--w-fg); font-variant-numeric: tabular-nums; line-height: 1.15; overflow-wrap: anywhere; }
+
+  .bk-card { background: var(--w-panel); border: 1px solid var(--w-line); border-radius: 16px; padding: clamp(14px, 2.5vw, 22px); display: grid; gap: 12px; min-width: 0; }
+  .bk-card h2 { font-size: 18px; font-weight: 600; margin: 0; color: var(--w-fg); }
+  .bk-note { color: var(--w-muted); font-size: 13px; line-height: 1.45; }
+  .bk-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12px; color: var(--w-muted); }
+  .bk-legend span { display: inline-flex; align-items: center; gap: 6px; }
+
+  .bk-wrap { overflow-x: auto; }
+  .bk-table { width: 100%; border-collapse: separate; border-spacing: 0 6px; font-size: 14px; font-variant-numeric: tabular-nums; }
+  .bk-table th { text-align: left; font-weight: 600; color: var(--w-muted); font-size: 12px; letter-spacing: .04em; padding: 4px 10px; white-space: nowrap; }
+  .bk-table td { padding: 10px; background: var(--w-panel2); vertical-align: middle; }
+  .bk-table td:first-child { border-radius: 10px 0 0 10px; }
+  .bk-table td:last-child { border-radius: 0 10px 10px 0; }
+  .bk-table .bk-r { text-align: right; white-space: nowrap; }
+  .bk-table th.bk-c, .bk-table td.bk-c { text-align: center; white-space: nowrap; }
+  .bk-table td.bk-zero { color: rgba(255, 255, 255, .28); }
+  .bk-table td.bk-day { min-width: 48px; border-left: 2px solid var(--w-panel); }
+  .bk-table td.bk-tot { font-weight: 700; color: var(--w-fg); }
+  .bk-table td.bk-val { font-weight: 700; color: var(--w-gold2); }
+  .bk-table tr.bk-gold td { background: linear-gradient(90deg, rgba(232, 189, 98, .16), var(--w-panel2) 40%); }
+  .bk-prod { min-width: 200px; }
+  .bk-pname { display: inline-flex; align-items: center; gap: 10px; font-weight: 600; }
+  .bk-dot { width: 10px; height: 10px; border-radius: 50%; flex: none; display: inline-block; }
+  .bk-rank { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 13px; color: var(--w-muted); background: rgba(255, 255, 255, .06); }
+  .bk-rank.r1 { background: linear-gradient(135deg, var(--w-gold2), #c98a2b); color: #3a2304; box-shadow: 0 0 12px rgba(232, 189, 98, .5); }
+  .bk-rank.r2 { background: linear-gradient(135deg, #f1f4f7, #9aa3ad); color: #23272b; }
+  .bk-rank.r3 { background: linear-gradient(135deg, #f0b48a, #a3602f); color: #2c1406; }
+  .bk-share { height: 4px; border-radius: 999px; background: rgba(255, 255, 255, .08); margin-top: 6px; overflow: hidden; }
+  .bk-share i { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--w-wine2), var(--w-gold)); }
+
+  .bk-podium { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-items: end; }
+  .bk-pod { border-radius: 14px; padding: 16px 12px; text-align: center; display: grid; gap: 6px; justify-items: center; border: 1px solid var(--w-line); background: var(--w-panel2); min-width: 0; }
+  .bk-pod .bk-medal { font-size: 28px; line-height: 1; }
+  .bk-pod .bk-pod-name { font-weight: 700; font-size: 14px; line-height: 1.25; overflow-wrap: anywhere; }
+  .bk-pod .bk-pod-val { font-family: var(--font-anthropic-serif); font-size: clamp(17px, 2.4vw, 22px); color: var(--w-gold2); font-variant-numeric: tabular-nums; }
+  .bk-pod .bk-pod-sub { font-size: 12px; color: var(--w-muted); }
+  .bk-pod.p1 { order: 2; padding-top: 26px; padding-bottom: 26px; background: linear-gradient(180deg, rgba(232, 189, 98, .22), var(--w-panel2)); border-color: rgba(232, 189, 98, .45); box-shadow: 0 8px 24px rgba(232, 189, 98, .15); }
+  .bk-pod.p2 { order: 1; background: linear-gradient(180deg, rgba(207, 213, 221, .14), var(--w-panel2)); }
+  .bk-pod.p3 { order: 3; background: linear-gradient(180deg, rgba(208, 138, 85, .16), var(--w-panel2)); }
+
+  .bk-foot { color: var(--w-muted); font-size: 12px; line-height: 1.5; }
+
+  [data-dash-source-state=refreshing] { opacity: .55; transition: opacity .4s; }
+  [data-dash-source-state=empty] { color: transparent; }
+  @media (prefers-reduced-motion: reduce) { .bk-fill { transition: none; } }
+  @media (max-width: 520px) { .bk-podium { grid-template-columns: 1fr; } .bk-pod.p1, .bk-pod.p2, .bk-pod.p3 { order: 0; } }
+
+  [hidden] { display: none !important; }
+  html, body { margin: 0; background: #0d0408; }
+  body { font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; padding: 16px; min-height: 100vh; box-sizing: border-box; }
+  .bk { --font-anthropic-sans: "Inter", system-ui, sans-serif; --font-anthropic-serif: "DM Serif Display", Georgia, serif; max-width: 1200px; margin: 0 auto; }
+  .bk-upd { color: var(--w-muted); font-size: 12px; }
+  @media (max-width: 520px) { body { padding: 8px; } }
+</style>
+</head>
+<body>
+<div class="bk">
+  <header class="bk-hero">
+    <p class="bk-eyebrow">Black Compre Vinho</p>
+    <h1 class="bk-title">Ranking da <em>Black</em></h1>
+    <p class="bk-sub"><span class="bk-chip" id="bloco-nome">—</span><span id="bloco-datas">—</span> · todas as lojas · só pedidos aprovados</p>
+    <p class="bk-upd" id="atualizado"></p>
+  </header>
+
+  <nav class="bk-tabs" role="tablist">
+    <button class="bk-tab" role="tab" data-page="produtos" aria-selected="true">🍷 Produtos</button>
+    <button class="bk-tab" role="tab" data-page="embaixadores" aria-selected="false">🏆 Embaixadores</button>
+  </nav>
+
+  <section class="bk-page" id="produtos" role="tabpanel">
+    <div class="bk-meta">
+      <div class="bk-meta-top">
+        <div><p class="bk-label">Meta do mês · <span id="mes-nome">—</span></p><p class="bk-big" id="mes-meta">—</p></div>
+        <div class="bk-meta-pct"><p class="bk-label">Alcançado</p><p class="bk-big" id="mes-pct">—</p></div>
+      </div>
+      <div class="bk-track"><div class="bk-fill" id="mes-bar"></div></div>
+      <p class="bk-meta-line"><span>Vendido no mês: <b id="mes-vendido">—</b></span><span id="mes-falta-wrap">Faltam <b id="mes-falta">—</b> para a meta do mês</span><span class="bk-batida" id="mes-batida" hidden>🎉 Meta do mês batida!</span></p>
+      <div class="bk-meta-sep"></div>
+      <div class="bk-meta-top">
+        <div><p class="bk-label">Meta do <span class="bloco-nome-l">—</span> · <span class="bloco-datas-l">—</span></p><p class="bk-mid" id="bl-meta">—</p></div>
+        <div class="bk-meta-pct"><p class="bk-label">Alcançado</p><p class="bk-mid bk-gold-txt" id="bl-pct">—</p></div>
+      </div>
+      <div class="bk-track bk-track-sm"><div class="bk-fill bk-fill-mes" id="bl-bar"></div></div>
+      <p class="bk-meta-line"><span>Vendido no bloco (todos os produtos): <b id="bl-vendido">—</b></span><span id="bl-falta-wrap">Faltam <b id="bl-falta">—</b> para a meta do bloco</span><span class="bk-batida" id="bl-batida" hidden>🎉 Meta do bloco batida!</span></p>
+    </div>
+
+    <div class="bk-tiles">
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">📦</span>Garrafas vendidas no bloco</p><p class="bk-num" id="t-unid">—</p></div>
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">🥇</span>Produto que mais vendeu</p><p class="bk-num" id="t-lider">—</p></div>
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">💰</span>Valor vendido dos produtos do bloco</p><p class="bk-num" id="t-valor">—</p></div>
+    </div>
+
+    <div class="bk-card">
+      <h2>Produtos do bloco: vendidos por dia</h2>
+      <p class="bk-note">Garrafas vendidas em cada dia, total do período e valor (garrafas × preço). Quanto mais forte a cor do dia, mais vendeu.</p>
+      <p class="bk-legend" id="legenda"></p>
+      <div class="bk-wrap">
+        <table class="bk-table">
+          <thead><tr id="prod-head"></tr></thead>
+          <tbody id="prod-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="bk-page" id="embaixadores" role="tabpanel" hidden>
+    <div class="bk-tiles">
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">💰</span>Total vendido no bloco</p><p class="bk-num" id="e-total">—</p></div>
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">🧾</span>Pedidos aprovados</p><p class="bk-num" id="e-pedidos">—</p></div>
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">🙋</span>Embaixadores que venderam</p><p class="bk-num" id="e-qtd">—</p></div>
+    </div>
+    <div class="bk-card">
+      <h2>Pódio</h2>
+      <div class="bk-podium" id="podio"></div>
+      <p class="bk-note" id="podio-vazio" hidden>As vendas ainda não começaram. O pódio aparece aqui assim que entrarem os primeiros pedidos.</p>
+    </div>
+    <div class="bk-card">
+      <h2>Embaixadores que mais venderam</h2>
+      <p class="bk-note">Soma de todos os dias do bloco, do maior valor vendido para o menor.</p>
+      <div class="bk-wrap">
+        <table class="bk-table">
+          <thead><tr><th>#</th><th class="bk-prod">Embaixador</th><th class="bk-r">Pedidos</th><th class="bk-r">Total vendido</th></tr></thead>
+          <tbody id="emb-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

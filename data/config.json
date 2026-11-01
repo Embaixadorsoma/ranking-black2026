@@ -1,0 +1,176 @@
+{
+ "atualizado": null,
+ "mes": {
+  "nome": "novembro",
+  "prefixo": "2026-11",
+  "meta": 1000000
+ },
+ "bloco": {
+  "nome": "1º bloco",
+  "inicio": "2026-11-01",
+  "fim": "2026-11-06",
+  "meta": 200000
+ },
+ "produtos": [
+  {
+   "nome": "Anduco Malbec",
+   "palavras": [
+    "anduco",
+    "malbec"
+   ],
+   "fora": [],
+   "preco": 59.9,
+   "cor": "#e8bd62"
+  },
+  {
+   "nome": "Anduco Chardonnay",
+   "palavras": [
+    "anduco",
+    "chardonnay"
+   ],
+   "fora": [],
+   "preco": 59.9,
+   "cor": "#e8bd62"
+  },
+  {
+   "nome": "Anduco Torrontés",
+   "palavras": [
+    "anduco",
+    "torront"
+   ],
+   "fora": [],
+   "preco": 59.9,
+   "cor": "#e8bd62"
+  },
+  {
+   "nome": "Comienzos Chardonnay",
+   "palavras": [
+    "comienzos",
+    "chardonnay"
+   ],
+   "fora": [],
+   "preco": 32.9,
+   "cor": "#f2a7b8"
+  },
+  {
+   "nome": "Finca Santa Rosa Chardonnay",
+   "palavras": [
+    "finca santa rosa",
+    "chardonnay"
+   ],
+   "fora": [
+    "origen",
+    "375"
+   ],
+   "preco": 29.9,
+   "cor": "#c23a68"
+  },
+  {
+   "nome": "Finca Santa Rosa Rosé",
+   "palavras": [
+    "finca santa rosa",
+    "rose"
+   ],
+   "fora": [
+    "origen",
+    "375"
+   ],
+   "preco": 29.9,
+   "cor": "#c23a68"
+  },
+  {
+   "nome": "Finca Santa Rosa Carménère",
+   "palavras": [
+    "finca santa rosa",
+    "carmenere"
+   ],
+   "fora": [
+    "origen",
+    "375"
+   ],
+   "preco": 29.9,
+   "cor": "#c23a68"
+  },
+  {
+   "nome": "Finca Santa Rosa Merlot",
+   "palavras": [
+    "finca santa rosa",
+    "merlot"
+   ],
+   "fora": [
+    "origen",
+    "375"
+   ],
+   "preco": 29.9,
+   "cor": "#c23a68"
+  },
+  {
+   "nome": "Finca Santa Rosa Cabernet Sauvignon",
+   "palavras": [
+    "finca santa rosa",
+    "cabernet"
+   ],
+   "fora": [
+    "origen",
+    "375"
+   ],
+   "preco": 29.9,
+   "cor": "#c23a68"
+  },
+  {
+   "nome": "Origen Cabernet Sauvignon 375ml",
+   "palavras": [
+    "origen",
+    "cabernet",
+    "375"
+   ],
+   "fora": [],
+   "preco": 25.9,
+   "cor": "#8fb3ff"
+  },
+  {
+   "nome": "Fonte da Galega Tinto",
+   "palavras": [
+    "fonte da galega"
+   ],
+   "fora": [
+    "branco",
+    "rose"
+   ],
+   "preco": 43.39,
+   "cor": "#7fd1b9"
+  },
+  {
+   "nome": "Fonte da Galega Rosé",
+   "palavras": [
+    "fonte da galega",
+    "rose"
+   ],
+   "fora": [],
+   "preco": 40.5,
+   "cor": "#7fd1b9"
+  }
+ ],
+ "marcas": [
+  [
+   "Anduco",
+   "#e8bd62"
+  ],
+  [
+   "Comienzos",
+   "#f2a7b8"
+  ],
+  [
+   "Finca Santa Rosa",
+   "#c23a68"
+  ],
+  [
+   "Origen",
+   "#8fb3ff"
+  ],
+  [
+   "Fonte da Galega",
+   "#7fd1b9"
+  ]
+ ]
+}
