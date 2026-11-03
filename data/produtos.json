@@ -176,6 +176,12 @@
  {
   "dia": "2026-11-03",
   "posicao": 1,
+  "produto": "Vinho Tinto Caberisco Cabernet Sauvignon Reserva 2023",
+  "unidades": 12
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 2,
   "produto": "Plano Total Pass + SOMA Trimestral",
   "unidades": 1
  }
