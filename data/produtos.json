@@ -200,38 +200,62 @@
  {
   "dia": "2026-11-03",
   "posicao": 5,
+  "produto": "Vinho Branco Anduco Chardonnay",
+  "unidades": 7
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 6,
   "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
   "unidades": 6
  },
  {
   "dia": "2026-11-03",
-  "posicao": 5,
-  "produto": "Vinho Branco Anduco Chardonnay",
+  "posicao": 6,
+  "produto": "Vinho Tinto Anduco Malbec",
   "unidades": 6
  },
  {
   "dia": "2026-11-03",
-  "posicao": 7,
+  "posicao": 8,
   "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
   "unidades": 4
  },
  {
   "dia": "2026-11-03",
-  "posicao": 8,
+  "posicao": 9,
   "produto": "Vinho Tinto Finca Santa Rosa Merlot",
   "unidades": 3
  },
  {
   "dia": "2026-11-03",
-  "posicao": 8,
+  "posicao": 9,
   "produto": "Vinho Tinto Finca Santa Rosa Carménère",
   "unidades": 3
  },
  {
   "dia": "2026-11-03",
-  "posicao": 10,
-  "produto": "Vinho Tinto Anduco Malbec",
-  "unidades": 2
+  "posicao": 11,
+  "produto": "Plano Total Pass + SOMA Trimestral",
+  "unidades": 1
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 11,
+  "produto": "Vinho Branco Anduco Torrontés",
+  "unidades": 1
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 11,
+  "produto": "Vinho Tinto Carmem Reserva Frida Kahlo Carménère 2025",
+  "unidades": 1
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 11,
+  "produto": "Vinho Tinto Zorzal Terroir Único Cabernet Franc 2023",
+  "unidades": 1
  },
  {
   "dia": "2026-11-03",
@@ -242,7 +266,7 @@
  {
   "dia": "2026-11-03",
   "posicao": 11,
-  "produto": "Plano Total Pass + SOMA Trimestral",
+  "produto": "Vinho Tinto Zorzal Terroir Único Malbec 2024",
   "unidades": 1
  }
 ]
