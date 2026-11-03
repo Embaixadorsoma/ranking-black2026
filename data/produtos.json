@@ -13,7 +13,7 @@
  },
  {
   "dia": "2026-11-01",
-  "posicao": 2,
+  "posicao": 3,
   "produto": "Espumante Buffon Moscatel Rosé",
   "unidades": 12
  },
@@ -25,13 +25,13 @@
  },
  {
   "dia": "2026-11-01",
-  "posicao": 4,
+  "posicao": 5,
   "produto": "Vinho Branco Anduco Chardonnay",
   "unidades": 5
  },
  {
   "dia": "2026-11-01",
-  "posicao": 4,
+  "posicao": 6,
   "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
   "unidades": 5
  },
@@ -43,7 +43,7 @@
  },
  {
   "dia": "2026-11-01",
-  "posicao": 7,
+  "posicao": 8,
   "produto": "Vinho Tinto Finca Santa Rosa Carménère",
   "unidades": 4
  },
@@ -61,7 +61,7 @@
  },
  {
   "dia": "2026-11-01",
-  "posicao": 10,
+  "posicao": 11,
   "produto": "Vinho Branco Comienzos Chardonnay 2024",
   "unidades": 2
  },
@@ -97,7 +97,7 @@
  },
  {
   "dia": "2026-11-02",
-  "posicao": 5,
+  "posicao": 6,
   "produto": "Vinho Tinto Por Mi Vieja Blend de Tintas 2023",
   "unidades": 4
  },
@@ -109,13 +109,13 @@
  },
  {
   "dia": "2026-11-02",
-  "posicao": 7,
+  "posicao": 8,
   "produto": "Vinho Tinto Caberisco Cabernet Sauvignon Reserva 2023",
   "unidades": 3
  },
  {
   "dia": "2026-11-02",
-  "posicao": 7,
+  "posicao": 9,
   "produto": "Vinho Tinto Fuente del Ciervo By Henrique Fogaça 2024",
   "unidades": 3
  },
@@ -127,7 +127,7 @@
  },
  {
   "dia": "2026-11-02",
-  "posicao": 10,
+  "posicao": 11,
   "produto": "Vinho Tinto Anduco Malbec",
   "unidades": 2
  },
@@ -139,37 +139,37 @@
  },
  {
   "dia": "2026-11-02",
-  "posicao": 12,
+  "posicao": 13,
   "produto": "Vinho Branco Quinta Dos Castelares 2022",
   "unidades": 1
  },
  {
   "dia": "2026-11-02",
-  "posicao": 12,
+  "posicao": 14,
   "produto": "Vinho Tinto Fonte Da Galega",
   "unidades": 1
  },
  {
   "dia": "2026-11-02",
-  "posicao": 12,
+  "posicao": 15,
   "produto": "Vinho Branco Fonte da Galega",
   "unidades": 1
  },
  {
   "dia": "2026-11-02",
-  "posicao": 12,
+  "posicao": 16,
   "produto": "Vinho Verde Vilacetinho Branco 2023",
   "unidades": 1
  },
  {
   "dia": "2026-11-02",
-  "posicao": 12,
+  "posicao": 17,
   "produto": "Vinho Branco Arribas do Douro Cesteira",
   "unidades": 1
  },
  {
   "dia": "2026-11-02",
-  "posicao": 12,
+  "posicao": 18,
   "produto": "Vinho Tinto Arribas do Douro Cesteira",
   "unidades": 1
  },
