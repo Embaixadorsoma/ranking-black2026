@@ -57,6 +57,7 @@
     const r = { nome: p.nome, cor: p.cor, porDia: Object.fromEntries(dias.map((d) => [d, 0])), total: 0 };
     for (const v of produtos) {
       if (!noBloco(v.dia) || !v.produto) continue;
+      if (p.desde && v.dia < p.desde) continue;
       const n = norm(v.produto);
       if (p.palavras.every((w) => n.includes(w)) && !p.fora.some((w) => n.includes(w))) { r.porDia[v.dia] += Number(v.unidades); r.total += Number(v.unidades); }
     }

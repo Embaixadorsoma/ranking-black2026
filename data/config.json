@@ -149,6 +149,287 @@
    "fora": [],
    "preco": 40.5,
    "cor": "#7fd1b9"
+  },
+  {
+   "nome": "Buffon Ciao Prosecco",
+   "palavras": [
+    "ciao",
+    "prosecco"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 75.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Ciao Brut Branco",
+   "palavras": [
+    "ciao",
+    "brut branco"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 75.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Ciao Brut Rosé",
+   "palavras": [
+    "ciao",
+    "rose de noir"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 75.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Bibiana",
+   "palavras": [
+    "bibiana",
+    "brasilidades"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 71.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Champenoise Nature Rosé",
+   "palavras": [
+    "champenoise",
+    "rose"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 134.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Champenoise Extra Brut",
+   "palavras": [
+    "champenoise",
+    "extra brut"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 134.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Champenoise Nature Viognier",
+   "palavras": [
+    "champenoise",
+    "viognier"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 134.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Exóticos Tinto (Petit Verdot)",
+   "palavras": [
+    "champenoise",
+    "petit verdot"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 134.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Fragolino",
+   "palavras": [
+    "fragolino"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 69.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon La Paloma Lorena",
+   "palavras": [
+    "la paloma",
+    "lorena"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 69.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon La Paloma Rosé",
+   "palavras": [
+    "la paloma",
+    "rose"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 69.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon La Paloma Tinto",
+   "palavras": [
+    "la paloma",
+    "blend"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 69.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Tennessee Fumê Blanc",
+   "palavras": [
+    "tennessee",
+    "fum"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 287.2,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Tennessee Chardonnay",
+   "palavras": [
+    "tennessee",
+    "chardonnay"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 287.2,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Tennessee Tannat",
+   "palavras": [
+    "tennessee",
+    "tannat"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 287.2,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Mérica Teroldego e Barbera",
+   "palavras": [
+    "merica",
+    "teroldego"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 168.0,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Mérica Rebo",
+   "palavras": [
+    "merica",
+    "rebo"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 168.0,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Mérica Barbera",
+   "palavras": [
+    "merica",
+    "barbera"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "teroldego"
+   ],
+   "preco": 168.0,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Mérica Glera",
+   "palavras": [
+    "merica",
+    "glera"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 168.0,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
+  },
+  {
+   "nome": "Buffon Moscatel Rosé",
+   "palavras": [
+    "buffon",
+    "moscatel rose"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "trio"
+   ],
+   "preco": 65.37,
+   "cor": "#a8d672",
+   "desde": "2026-11-04"
   }
  ],
  "marcas": [
@@ -171,6 +452,10 @@
   [
    "Fonte da Galega",
    "#7fd1b9"
+  ],
+  [
+   "Buffon (desde 04/11)",
+   "#a8d672"
   ]
  ]
 }
