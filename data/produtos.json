@@ -303,41 +303,125 @@
   "dia": "2026-11-04",
   "posicao": 1,
   "produto": "Vinho Rosé Finca Santa Rosa",
-  "unidades": 8
+  "unidades": 19
  },
  {
   "dia": "2026-11-04",
   "posicao": 2,
-  "produto": "Vinho Tinto Finca Santa Rosa Merlot",
-  "unidades": 6
+  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
+  "unidades": 10
  },
  {
   "dia": "2026-11-04",
   "posicao": 3,
-  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
-  "unidades": 5
+  "produto": "Vinho Rosé Carmem Reserva Frida Kahlo 2025",
+  "unidades": 8
  },
  {
   "dia": "2026-11-04",
-  "posicao": 4,
-  "produto": "Vinho Tinto Caberisco Cabernet Sauvignon Reserva 2023",
-  "unidades": 4
+  "posicao": 3,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 8
  },
  {
   "dia": "2026-11-04",
   "posicao": 5,
   "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
-  "unidades": 3
+  "unidades": 7
  },
  {
   "dia": "2026-11-04",
   "posicao": 5,
-  "produto": "Vinho Branco Comienzos Chardonnay 2024",
-  "unidades": 3
+  "produto": "Vinho Tinto Finca Santa Rosa Merlot",
+  "unidades": 7
  },
  {
   "dia": "2026-11-04",
   "posicao": 7,
+  "produto": "Vinho Tinto Caberisco Cabernet Sauvignon Reserva 2023",
+  "unidades": 4
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 8,
+  "produto": "Pizza Casa SOMA 10 de novembro",
+  "unidades": 3
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 9,
+  "produto": "Vinho Tinto Zorzal Terroir Único Cabernet Franc 2023",
+  "unidades": 2
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 9,
+  "produto": "Vinho Tinto Anduco Malbec",
+  "unidades": 2
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 9,
+  "produto": "Vinho Branco Anduco Chardonnay",
+  "unidades": 2
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 12,
+  "produto": "Vinho Branco Anduco Torrontés",
+  "unidades": 1
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 12,
+  "produto": "Vinho Tinto Andeluna Ninety Plus '90+' Malbec",
+  "unidades": 1
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 12,
+  "produto": "Vinho Rosé Casa do Lago 2024",
+  "unidades": 1
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 12,
+  "produto": "Vinho Tinto Tartufo Nero Piemonte Rosso 2023",
+  "unidades": 1
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 12,
+  "produto": "Vinho Tinto Brunello di Montalcino Molino di Sant'Antimo 2020",
+  "unidades": 1
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 12,
+  "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
+  "unidades": 1
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 12,
+  "produto": "Vinho Tinto Italiano Villa Fabrizia Brunello di Montalcino 750ml",
+  "unidades": 1
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 12,
+  "produto": "Vinho Tinto Casa do Lago 2021",
+  "unidades": 1
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 12,
+  "produto": "Vinho Branco Salentein Reserva Chardonnay 2024",
+  "unidades": 1
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 12,
   "produto": "Vinho Tinto Finca Santa Rosa Carménère",
   "unidades": 1
  }

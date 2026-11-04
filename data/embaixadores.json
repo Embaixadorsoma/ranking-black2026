@@ -151,14 +151,62 @@
  },
  {
   "dia": "2026-11-04",
+  "embaixador": "Luciana Quinello",
+  "pedidos": 4,
+  "total": 1946.78
+ },
+ {
+  "dia": "2026-11-04",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 2,
+  "total": 837.2
+ },
+ {
+  "dia": "2026-11-04",
   "embaixador": "Ródney Berto",
   "pedidos": 1,
   "total": 567.4
  },
  {
   "dia": "2026-11-04",
-  "embaixador": "Amana Castelo Branco",
+  "embaixador": "Fabiana Iolanda do Nascimento",
   "pedidos": 1,
-  "total": 418.6
+  "total": 539.1
+ },
+ {
+  "dia": "2026-11-04",
+  "embaixador": "Vanessa Cristina Lima Francisco",
+  "pedidos": 1,
+  "total": 479.2
+ },
+ {
+  "dia": "2026-11-04",
+  "embaixador": "Vanessa Rincon",
+  "pedidos": 1,
+  "total": 440
+ },
+ {
+  "dia": "2026-11-04",
+  "embaixador": "Roberta Valverde",
+  "pedidos": 1,
+  "total": 395.3
+ },
+ {
+  "dia": "2026-11-04",
+  "embaixador": "Tatiane Fernandes Andrade de Lima",
+  "pedidos": 1,
+  "total": 289.6
+ },
+ {
+  "dia": "2026-11-04",
+  "embaixador": "Joabe Meireles Porto",
+  "pedidos": 2,
+  "total": 279.4
+ },
+ {
+  "dia": "2026-11-04",
+  "embaixador": "Andre Guimaraes Gaiofato",
+  "pedidos": 1,
+  "total": 220
  }
 ]
