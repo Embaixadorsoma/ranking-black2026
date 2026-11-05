@@ -253,8 +253,50 @@
  },
  {
   "dia": "2026-11-05",
+  "embaixador": "Vanessa Rincon",
+  "pedidos": 2,
+  "total": 1326.1
+ },
+ {
+  "dia": "2026-11-05",
   "embaixador": "Jacqueline de Bessa Santos",
   "pedidos": 2,
   "total": 1171.5
+ },
+ {
+  "dia": "2026-11-05",
+  "embaixador": "Patricia Borges dos Santos",
+  "pedidos": 1,
+  "total": 599
+ },
+ {
+  "dia": "2026-11-05",
+  "embaixador": "Renice Rocha dos Santos",
+  "pedidos": 1,
+  "total": 598.2
+ },
+ {
+  "dia": "2026-11-05",
+  "embaixador": "Gleybson Andrade",
+  "pedidos": 1,
+  "total": 539.1
+ },
+ {
+  "dia": "2026-11-05",
+  "embaixador": "Carolina Montenegro",
+  "pedidos": 1,
+  "total": 478.8
+ },
+ {
+  "dia": "2026-11-05",
+  "embaixador": "Luciano Vasconcelos Monferrari",
+  "pedidos": 1,
+  "total": 179.4
+ },
+ {
+  "dia": "2026-11-05",
+  "embaixador": "Carla Cavalcante",
+  "pedidos": 1,
+  "total": 89.7
  }
 ]
