@@ -1,111 +1,15 @@
 [
  {
   "dia": "2026-11-01",
-  "posicao": 1,
-  "produto": "Vinho Tinto Anduco Malbec",
-  "unidades": 13
- },
- {
-  "dia": "2026-11-01",
   "posicao": 2,
   "produto": "Vinho Tinto Crotta Malbec",
   "unidades": 12
- },
- {
-  "dia": "2026-11-01",
-  "posicao": 3,
-  "produto": "Espumante Buffon Moscatel Rosé",
-  "unidades": 12
- },
- {
-  "dia": "2026-11-01",
-  "posicao": 4,
-  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
-  "unidades": 5
- },
- {
-  "dia": "2026-11-01",
-  "posicao": 5,
-  "produto": "Vinho Branco Anduco Chardonnay",
-  "unidades": 5
- },
- {
-  "dia": "2026-11-01",
-  "posicao": 6,
-  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
-  "unidades": 5
- },
- {
-  "dia": "2026-11-01",
-  "posicao": 7,
-  "produto": "Vinho Tinto Finca Santa Rosa Merlot",
-  "unidades": 4
- },
- {
-  "dia": "2026-11-01",
-  "posicao": 8,
-  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
-  "unidades": 4
- },
- {
-  "dia": "2026-11-01",
-  "posicao": 9,
-  "produto": "Vinho Branco Anduco Torrontés",
-  "unidades": 3
- },
- {
-  "dia": "2026-11-01",
-  "posicao": 10,
-  "produto": "Vinho Rosé Finca Santa Rosa",
-  "unidades": 2
- },
- {
-  "dia": "2026-11-01",
-  "posicao": 11,
-  "produto": "Vinho Branco Comienzos Chardonnay 2024",
-  "unidades": 2
- },
- {
-  "dia": "2026-11-02",
-  "posicao": 1,
-  "produto": "Vinho Tinto Finca Santa Rosa Merlot",
-  "unidades": 22
- },
- {
-  "dia": "2026-11-02",
-  "posicao": 2,
-  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
-  "unidades": 16
- },
- {
-  "dia": "2026-11-02",
-  "posicao": 3,
-  "produto": "Vinho Branco Comienzos Chardonnay 2024",
-  "unidades": 8
- },
- {
-  "dia": "2026-11-02",
-  "posicao": 4,
-  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
-  "unidades": 5
- },
- {
-  "dia": "2026-11-02",
-  "posicao": 5,
-  "produto": "Vinho Rosé Finca Santa Rosa",
-  "unidades": 4
  },
  {
   "dia": "2026-11-02",
   "posicao": 6,
   "produto": "Vinho Tinto Por Mi Vieja Blend de Tintas 2023",
   "unidades": 4
- },
- {
-  "dia": "2026-11-02",
-  "posicao": 7,
-  "produto": "Vinho Tinto Origen Cabernet Sauvignon 375ml",
-  "unidades": 3
  },
  {
   "dia": "2026-11-02",
@@ -121,32 +25,8 @@
  },
  {
   "dia": "2026-11-02",
-  "posicao": 10,
-  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
-  "unidades": 2
- },
- {
-  "dia": "2026-11-02",
-  "posicao": 11,
-  "produto": "Vinho Tinto Anduco Malbec",
-  "unidades": 2
- },
- {
-  "dia": "2026-11-02",
-  "posicao": 12,
-  "produto": "Vinho Branco Anduco Chardonnay",
-  "unidades": 1
- },
- {
-  "dia": "2026-11-02",
   "posicao": 13,
   "produto": "Vinho Branco Quinta Dos Castelares 2022",
-  "unidades": 1
- },
- {
-  "dia": "2026-11-02",
-  "posicao": 14,
-  "produto": "Vinho Tinto Fonte Da Galega",
   "unidades": 1
  },
  {
@@ -199,32 +79,14 @@
  },
  {
   "dia": "2026-11-03",
-  "posicao": 5,
-  "produto": "Vinho Rosé Finca Santa Rosa",
-  "unidades": 20
- },
- {
-  "dia": "2026-11-03",
   "posicao": 6,
   "produto": "Vinho Tinto Caberisco Cabernet Sauvignon Reserva 2023",
   "unidades": 18
  },
  {
   "dia": "2026-11-03",
-  "posicao": 7,
-  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
-  "unidades": 16
- },
- {
-  "dia": "2026-11-03",
   "posicao": 8,
   "produto": "Espumante Baron La Croix Brut Rosé",
-  "unidades": 12
- },
- {
-  "dia": "2026-11-03",
-  "posicao": 8,
-  "produto": "Espumante Buffon Champenoise Nature Rosé Pinot Noir e Riesling",
   "unidades": 12
  },
  {
@@ -247,32 +109,8 @@
  },
  {
   "dia": "2026-11-03",
-  "posicao": 12,
-  "produto": "Vinho Branco Anduco Chardonnay",
-  "unidades": 7
- },
- {
-  "dia": "2026-11-03",
   "posicao": 14,
   "produto": "Vinho Tinto Carmem Reserva Frida Kahlo Merlot 2025",
-  "unidades": 6
- },
- {
-  "dia": "2026-11-03",
-  "posicao": 14,
-  "produto": "Vinho Tinto Anduco Malbec",
-  "unidades": 6
- },
- {
-  "dia": "2026-11-03",
-  "posicao": 14,
-  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
-  "unidades": 6
- },
- {
-  "dia": "2026-11-03",
-  "posicao": 14,
-  "produto": "Vinho Branco Comienzos Chardonnay 2024",
   "unidades": 6
  },
  {
@@ -282,58 +120,10 @@
   "unidades": 6
  },
  {
-  "dia": "2026-11-03",
-  "posicao": 19,
-  "produto": "Vinho Tinto Finca Santa Rosa Merlot",
-  "unidades": 3
- },
- {
-  "dia": "2026-11-03",
-  "posicao": 19,
-  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
-  "unidades": 3
- },
- {
-  "dia": "2026-11-03",
-  "posicao": 21,
-  "produto": "Vinho Branco Anduco Torrontés",
-  "unidades": 1
- },
- {
-  "dia": "2026-11-04",
-  "posicao": 1,
-  "produto": "Vinho Branco Comienzos Chardonnay 2024",
-  "unidades": 30
- },
- {
-  "dia": "2026-11-04",
-  "posicao": 2,
-  "produto": "Vinho Rosé Finca Santa Rosa",
-  "unidades": 22
- },
- {
   "dia": "2026-11-04",
   "posicao": 3,
   "produto": "Suco de Uva Tinto Integral Buffon - 300ml",
   "unidades": 12
- },
- {
-  "dia": "2026-11-04",
-  "posicao": 4,
-  "produto": "Vinho Tinto Finca Santa Rosa Merlot",
-  "unidades": 11
- },
- {
-  "dia": "2026-11-04",
-  "posicao": 4,
-  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
-  "unidades": 11
- },
- {
-  "dia": "2026-11-04",
-  "posicao": 4,
-  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
-  "unidades": 11
  },
  {
   "dia": "2026-11-04",
@@ -350,38 +140,8 @@
  {
   "dia": "2026-11-04",
   "posicao": 9,
-  "produto": "Vinho Branco Anduco Torrontés",
-  "unidades": 7
- },
- {
-  "dia": "2026-11-04",
-  "posicao": 9,
   "produto": "Vinho Branco City Noble Sauvignon Blanc",
   "unidades": 7
- },
- {
-  "dia": "2026-11-04",
-  "posicao": 11,
-  "produto": "Espumante Buffon Moscatel Rosé",
-  "unidades": 5
- },
- {
-  "dia": "2026-11-04",
-  "posicao": 11,
-  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
-  "unidades": 5
- },
- {
-  "dia": "2026-11-04",
-  "posicao": 13,
-  "produto": "Vinho Frisante Buffon Brasilidades Bibiana 2026",
-  "unidades": 4
- },
- {
-  "dia": "2026-11-04",
-  "posicao": 13,
-  "produto": "Vinho Tinto Fonte Da Galega",
-  "unidades": 4
  },
  {
   "dia": "2026-11-04",
@@ -415,20 +175,338 @@
  },
  {
   "dia": "2026-11-04",
-  "posicao": 17,
+  "posicao": 0,
   "produto": "Vinho Tinto Anduco Malbec",
-  "unidades": 2
+  "unidades": 2,
+  "sku": "1000_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 0,
+  "produto": "Vinho Tinto Anduco Malbec",
+  "unidades": 6,
+  "sku": "1000_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-02",
+  "posicao": 0,
+  "produto": "Vinho Tinto Anduco Malbec",
+  "unidades": 2,
+  "sku": "1000_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 0,
+  "produto": "Vinho Tinto Anduco Malbec",
+  "unidades": 13,
+  "sku": "1000_sw",
+  "fonte": "relatorio"
  },
  {
   "dia": "2026-11-04",
-  "posicao": 17,
+  "posicao": 0,
   "produto": "Vinho Branco Anduco Chardonnay",
-  "unidades": 2
+  "unidades": 2,
+  "sku": "1002_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 0,
+  "produto": "Vinho Branco Anduco Chardonnay",
+  "unidades": 7,
+  "sku": "1002_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-02",
+  "posicao": 0,
+  "produto": "Vinho Branco Anduco Chardonnay",
+  "unidades": 1,
+  "sku": "1002_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 0,
+  "produto": "Vinho Branco Anduco Chardonnay",
+  "unidades": 5,
+  "sku": "1002_sw",
+  "fonte": "relatorio"
  },
  {
   "dia": "2026-11-04",
-  "posicao": 21,
+  "posicao": 0,
+  "produto": "Vinho Branco Anduco Torrontés",
+  "unidades": 7,
+  "sku": "1004_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 0,
+  "produto": "Vinho Branco Anduco Torrontés",
+  "unidades": 1,
+  "sku": "1004_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 0,
+  "produto": "Vinho Branco Anduco Torrontés",
+  "unidades": 3,
+  "sku": "1004_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 30,
+  "sku": "7794068001576",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 6,
+  "sku": "7794068001576",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-02",
+  "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 8,
+  "sku": "7794068001576",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 2,
+  "sku": "7794068001576",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 0,
+  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
+  "unidades": 11,
+  "sku": "424_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 0,
+  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
+  "unidades": 4,
+  "sku": "424_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-02",
+  "posicao": 0,
+  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
+  "unidades": 2,
+  "sku": "424_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 0,
+  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
+  "unidades": 5,
+  "sku": "424_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 0,
+  "produto": "Vinho Rosé Finca Santa Rosa",
+  "unidades": 22,
+  "sku": "425_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 0,
+  "produto": "Vinho Rosé Finca Santa Rosa",
+  "unidades": 8,
+  "sku": "425_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-02",
+  "posicao": 0,
+  "produto": "Vinho Rosé Finca Santa Rosa",
+  "unidades": 4,
+  "sku": "425_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 0,
+  "produto": "Vinho Rosé Finca Santa Rosa",
+  "unidades": 2,
+  "sku": "425_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
+  "unidades": 11,
+  "sku": "428",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
+  "unidades": 6,
+  "sku": "428",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-02",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
+  "unidades": 16,
+  "sku": "428",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
+  "unidades": 5,
+  "sku": "428",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
+  "unidades": 5,
+  "sku": "427_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
+  "unidades": 3,
+  "sku": "427_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-02",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
+  "unidades": 5,
+  "sku": "427_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
+  "unidades": 4,
+  "sku": "427_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Merlot",
+  "unidades": 11,
+  "sku": "426_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Merlot",
+  "unidades": 3,
+  "sku": "426_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-02",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Merlot",
+  "unidades": 22,
+  "sku": "426_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Merlot",
+  "unidades": 4,
+  "sku": "426_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-02",
+  "posicao": 0,
+  "produto": "Vinho Tinto Origen Cabernet Sauvignon 375ml",
+  "unidades": 3,
+  "sku": "2009",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 0,
+  "produto": "Vinho Tinto Fonte Da Galega",
+  "unidades": 4,
+  "sku": "1019",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-02",
+  "posicao": 0,
+  "produto": "Vinho Tinto Fonte Da Galega",
+  "unidades": 1,
+  "sku": "1019",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 0,
   "produto": "Vinho Rosé Fonte Da Galega",
-  "unidades": 1
+  "unidades": 1,
+  "sku": "1022",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 0,
+  "produto": "Vinho Frisante Buffon Brasilidades Bibiana 2026",
+  "unidades": 4,
+  "sku": "254_Buffon",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 0,
+  "produto": "Espumante Buffon Moscatel Rosé",
+  "unidades": 5,
+  "sku": "buff20",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 0,
+  "produto": "Espumante Buffon Moscatel Rosé",
+  "unidades": 12,
+  "sku": "buff20",
+  "fonte": "relatorio"
  }
 ]
