@@ -152,14 +152,32 @@
  {
   "dia": "2026-11-04",
   "embaixador": "Luciana Quinello",
-  "pedidos": 4,
-  "total": 1946.78
+  "pedidos": 6,
+  "total": 2699.28
+ },
+ {
+  "dia": "2026-11-04",
+  "embaixador": "ANNA RITA DE MOURA LIRA",
+  "pedidos": 2,
+  "total": 1123.6
+ },
+ {
+  "dia": "2026-11-04",
+  "embaixador": "Andre Guimaraes Gaiofato",
+  "pedidos": 3,
+  "total": 1007.1
  },
  {
   "dia": "2026-11-04",
   "embaixador": "Amana Castelo Branco",
   "pedidos": 2,
   "total": 837.2
+ },
+ {
+  "dia": "2026-11-04",
+  "embaixador": "Hugo Figueiredo Tôrres",
+  "pedidos": 1,
+  "total": 752.45
  },
  {
   "dia": "2026-11-04",
@@ -187,6 +205,24 @@
  },
  {
   "dia": "2026-11-04",
+  "embaixador": "André SchrÖEr",
+  "pedidos": 1,
+  "total": 433.8
+ },
+ {
+  "dia": "2026-11-04",
+  "embaixador": "Luciano Vasconcelos Monferrari",
+  "pedidos": 1,
+  "total": 419.2
+ },
+ {
+  "dia": "2026-11-04",
+  "embaixador": "Juliana de Carvalho Monteiro Minicucci",
+  "pedidos": 1,
+  "total": 401.8
+ },
+ {
+  "dia": "2026-11-04",
   "embaixador": "Roberta Valverde",
   "pedidos": 1,
   "total": 395.3
@@ -202,11 +238,5 @@
   "embaixador": "Joabe Meireles Porto",
   "pedidos": 2,
   "total": 279.4
- },
- {
-  "dia": "2026-11-04",
-  "embaixador": "Andre Guimaraes Gaiofato",
-  "pedidos": 1,
-  "total": 220
  }
 ]
