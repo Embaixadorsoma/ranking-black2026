@@ -48,72 +48,6 @@
   "total": 59.9
  },
  {
-  "dia": "2026-11-03",
-  "embaixador": "Patrícia Torres Gandini Bomfá",
-  "pedidos": 1,
-  "total": 4369.14
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Fabio Traldi",
-  "pedidos": 2,
-  "total": 4344.9
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Claudinete Aparecida Barbosa",
-  "pedidos": 1,
-  "total": 2799
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Alexandra Loureiro",
-  "pedidos": 3,
-  "total": 1038.3
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Patricia Borges dos Santos",
-  "pedidos": 1,
-  "total": 717.6
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Luciano Vasconcelos Monferrari",
-  "pedidos": 1,
-  "total": 598.8
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Amana Castelo Branco",
-  "pedidos": 1,
-  "total": 568.1
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Gleybson Andrade",
-  "pedidos": 2,
-  "total": 557
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "ANNA RITA DE MOURA LIRA",
-  "pedidos": 1,
-  "total": 149.5
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Andressa Albernaz",
-  "pedidos": 1,
-  "total": 120
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Fabiana Iolanda do Nascimento",
-  "pedidos": 1,
-  "total": 106.9
- },
- {
   "dia": "2026-11-04",
   "embaixador": "Luciana Quinello",
   "pedidos": 6,
@@ -244,5 +178,83 @@
   "embaixador": "Andre Guimaraes Gaiofato",
   "pedidos": 1,
   "total": 65.8
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Patrícia Torres Gandini Bomfá",
+  "pedidos": 1,
+  "total": 4369.14
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Fabio Traldi",
+  "pedidos": 2,
+  "total": 4344.9
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Claudinete Aparecida Barbosa",
+  "pedidos": 1,
+  "total": 2799
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Alexandra Loureiro",
+  "pedidos": 3,
+  "total": 1038.3
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Patricia Borges dos Santos",
+  "pedidos": 1,
+  "total": 717.6
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Luciano Vasconcelos Monferrari",
+  "pedidos": 1,
+  "total": 598.8
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 1,
+  "total": 568.1
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Gleybson Andrade",
+  "pedidos": 2,
+  "total": 557
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Roberta Cristina Valverde",
+  "pedidos": 1,
+  "total": 419.3
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "ANNA RITA DE MOURA LIRA",
+  "pedidos": 1,
+  "total": 149.5
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Andressa Albernaz",
+  "pedidos": 1,
+  "total": 120
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Fabiana Iolanda do Nascimento",
+  "pedidos": 1,
+  "total": 106.9
+ },
+ {
+  "dia": "2026-11-05",
+  "embaixador": "Jacqueline de Bessa Santos",
+  "pedidos": 2,
+  "total": 1171.5
  }
 ]

@@ -185,7 +185,7 @@
   "dia": "2026-11-03",
   "posicao": 0,
   "produto": "Vinho Tinto Anduco Malbec",
-  "unidades": 6,
+  "unidades": 13,
   "sku": "1000_sw",
   "fonte": "relatorio"
  },
@@ -507,6 +507,14 @@
   "produto": "Espumante Buffon Moscatel Rosé",
   "unidades": 12,
   "sku": "buff20",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-05",
+  "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 1,
+  "sku": "7794068001576",
   "fonte": "relatorio"
  }
 ]
