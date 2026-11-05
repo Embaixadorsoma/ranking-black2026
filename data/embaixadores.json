@@ -1,41 +1,5 @@
 [
  {
-  "dia": "2026-11-01",
-  "embaixador": "ANNA RITA DE MOURA LIRA",
-  "pedidos": 3,
-  "total": 1562.74
- },
- {
-  "dia": "2026-11-01",
-  "embaixador": "Gleybson  Andrade",
-  "pedidos": 1,
-  "total": 599
- },
- {
-  "dia": "2026-11-01",
-  "embaixador": "Amana Castelo Branco",
-  "pedidos": 1,
-  "total": 418.6
- },
- {
-  "dia": "2026-11-01",
-  "embaixador": "Roberta Valverde",
-  "pedidos": 1,
-  "total": 359.4
- },
- {
-  "dia": "2026-11-01",
-  "embaixador": "Carla Cavalcante",
-  "pedidos": 1,
-  "total": 179.4
- },
- {
-  "dia": "2026-11-01",
-  "embaixador": "Andre Guimaraes Gaiofato",
-  "pedidos": 1,
-  "total": 65.8
- },
- {
   "dia": "2026-11-02",
   "embaixador": "Ródney Berto",
   "pedidos": 1,
@@ -103,7 +67,7 @@
  },
  {
   "dia": "2026-11-03",
-  "embaixador": "Roberta Valverde",
+  "embaixador": "Alexandra Loureiro",
   "pedidos": 3,
   "total": 1038.3
  },
@@ -223,7 +187,7 @@
  },
  {
   "dia": "2026-11-04",
-  "embaixador": "Roberta Valverde",
+  "embaixador": "Alexandra Loureiro",
   "pedidos": 1,
   "total": 395.3
  },
@@ -238,5 +202,47 @@
   "embaixador": "Joabe Meireles Porto",
   "pedidos": 2,
   "total": 279.4
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "ANNA RITA DE MOURA LIRA",
+  "pedidos": 3,
+  "total": 1562.74
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "Gleybson Andrade",
+  "pedidos": 1,
+  "total": 599
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 1,
+  "total": 418.6
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "Roberta Cristina Valverde",
+  "pedidos": 1,
+  "total": 359.4
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "Patricia Borges dos Santos",
+  "pedidos": 1,
+  "total": 339.6
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "Carla Cavalcante",
+  "pedidos": 1,
+  "total": 179.4
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "Andre Guimaraes Gaiofato",
+  "pedidos": 1,
+  "total": 65.8
  }
 ]
