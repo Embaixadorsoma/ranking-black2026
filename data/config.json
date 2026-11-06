@@ -1,503 +1,503 @@
 {
-  "atualizado": "2026-11-06T03:02:28Z",
-  "mes": {
-    "nome": "novembro",
-    "prefixo": "2026-11",
-    "meta": 1000000
+ "atualizado": "2026-11-06T10:27:50Z",
+ "mes": {
+  "nome": "novembro",
+  "prefixo": "2026-11",
+  "meta": 1000000
+ },
+ "bloco": {
+  "nome": "2º bloco",
+  "inicio": "2026-11-06",
+  "fim": "2026-11-10",
+  "meta": 300000
+ },
+ "produtos": [
+  {
+   "nome": "Começo Rosé Setúbal",
+   "palavras": [
+    "comeco",
+    "rose"
+   ],
+   "fora": [],
+   "preco": 53.09,
+   "cor": "#f2a7b8",
+   "sku": "277"
   },
-  "bloco": {
-    "nome": "2º bloco",
-    "inicio": "2026-11-06",
-    "fim": "2026-11-10",
-    "meta": 300000
+  {
+   "nome": "Nancul Reserva Cabernet Sauvignon Rosé",
+   "palavras": [
+    "nancul",
+    "rose"
+   ],
+   "fora": [],
+   "preco": 45.92,
+   "cor": "#e8bd62",
+   "sku": "236_lusitano"
   },
-  "produtos": [
-    {
-      "nome": "Começo Rosé Setúbal",
-      "palavras": [
-        "comeco",
-        "rose"
-      ],
-      "fora": [],
-      "preco": 53.09,
-      "cor": "#f2a7b8",
-      "sku": "277"
-    },
-    {
-      "nome": "Nancul Reserva Cabernet Sauvignon Rosé",
-      "palavras": [
-        "nancul",
-        "rose"
-      ],
-      "fora": [],
-      "preco": 45.92,
-      "cor": "#e8bd62",
-      "sku": "236_lusitano"
-    },
-    {
-      "nome": "Casir dos Santos Estate Malbec Rosé",
-      "palavras": [
-        "casir",
-        "rose"
-      ],
-      "fora": [],
-      "preco": 42.0,
-      "cor": "#ff9f7a",
-      "sku": "104"
-    },
-    {
-      "nome": "Martha's DOC Douro Branco",
-      "palavras": [
-        "martha",
-        "doc"
-      ],
-      "fora": [
-        "reserva",
-        "porto"
-      ],
-      "preco": 51.07,
-      "cor": "#7fd1b9",
-      "sku": "269"
-    },
-    {
-      "nome": "Tierraviva Cabernet Sauvignon",
-      "palavras": [
-        "tierra",
-        "viva",
-        "cabernet"
-      ],
-      "fora": [],
-      "preco": 34.9,
-      "cor": "#8fb3ff",
-      "sku": "2007"
-    },
-    {
-      "nome": "Tierraviva Carménère",
-      "palavras": [
-        "tierra",
-        "viva",
-        "carmenere"
-      ],
-      "fora": [],
-      "preco": 34.9,
-      "cor": "#8fb3ff",
-      "sku": "2008"
-    },
-    {
-      "nome": "Huella Cabernet Sauvignon",
-      "palavras": [
-        "huella",
-        "cabernet"
-      ],
-      "fora": [],
-      "preco": 45.9,
-      "cor": "#c23a68",
-      "sku": "2005"
-    },
-    {
-      "nome": "Huella Carménère",
-      "palavras": [
-        "huella",
-        "carmenere"
-      ],
-      "fora": [],
-      "preco": 45.9,
-      "cor": "#c23a68",
-      "sku": "2004"
-    },
-    {
-      "nome": "Huella Sauvignon Blanc",
-      "palavras": [
-        "huella",
-        "sauvignon blanc"
-      ],
-      "fora": [],
-      "preco": 45.9,
-      "cor": "#c23a68",
-      "sku": "2006"
-    },
-    {
-      "nome": "Estelar 57 Only White",
-      "palavras": [
-        "estelar",
-        "only white"
-      ],
-      "fora": [],
-      "preco": 37.32,
-      "cor": "#b48cff",
-      "sku": "612171"
-    },
-    {
-      "nome": "Estelar 57 Only Pink",
-      "palavras": [
-        "estelar",
-        "only pink"
-      ],
-      "fora": [],
-      "preco": 37.32,
-      "cor": "#b48cff",
-      "sku": "612172"
-    },
-    {
-      "nome": "Estelar 57 Red Blend",
-      "palavras": [
-        "estelar",
-        "red blend"
-      ],
-      "fora": [],
-      "preco": 37.32,
-      "cor": "#b48cff",
-      "sku": "612173"
-    },
-    {
-      "nome": "Montmeyrac Rosé",
-      "palavras": [
-        "montmeyrac",
-        "rose"
-      ],
-      "fora": [],
-      "preco": 57.72,
-      "cor": "#f7dc9a",
-      "sku": "611562"
-    },
-    {
-      "nome": "Buffon Ciao Prosecco",
-      "palavras": [
-        "ciao",
-        "prosecco"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 75.9,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "177_ciao"
-    },
-    {
-      "nome": "Buffon Ciao Brut Branco",
-      "palavras": [
-        "ciao",
-        "brut branco"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 75.9,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "126_buffon"
-    },
-    {
-      "nome": "Buffon Ciao Brut Rosé",
-      "palavras": [
-        "ciao",
-        "rose de noir"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 75.9,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "253_buffon"
-    },
-    {
-      "nome": "Buffon Bibiana",
-      "palavras": [
-        "bibiana",
-        "brasilidades"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 71.9,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "254_Buffon"
-    },
-    {
-      "nome": "Buffon Champenoise Nature Rosé",
-      "palavras": [
-        "champenoise",
-        "rose"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 134.9,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "81"
-    },
-    {
-      "nome": "Buffon Champenoise Extra Brut",
-      "palavras": [
-        "champenoise",
-        "extra brut"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 134.9,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "57"
-    },
-    {
-      "nome": "Buffon Champenoise Nature Viognier",
-      "palavras": [
-        "champenoise",
-        "viognier"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 134.9,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "56"
-    },
-    {
-      "nome": "Buffon Exóticos Tinto (Petit Verdot)",
-      "palavras": [
-        "champenoise",
-        "petit verdot"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 134.9,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "58"
-    },
-    {
-      "nome": "Buffon Fragolino",
-      "palavras": [
-        "fragolino"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 69.9,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "91_BUFFON"
-    },
-    {
-      "nome": "Buffon La Paloma Lorena",
-      "palavras": [
-        "la paloma",
-        "lorena"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 69.9,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "BUFF74"
-    },
-    {
-      "nome": "Buffon La Paloma Rosé",
-      "palavras": [
-        "la paloma",
-        "rose"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 69.9,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "BUFF75"
-    },
-    {
-      "nome": "Buffon La Paloma Tinto",
-      "palavras": [
-        "la paloma",
-        "blend"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 69.9,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "65_buffon"
-    },
-    {
-      "nome": "Buffon Tennessee Fumê Blanc",
-      "palavras": [
-        "tennessee",
-        "fum"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 287.2,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "256_buffon"
-    },
-    {
-      "nome": "Buffon Tennessee Chardonnay",
-      "palavras": [
-        "tennessee",
-        "chardonnay"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 287.2,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "111"
-    },
-    {
-      "nome": "Buffon Tennessee Tannat",
-      "palavras": [
-        "tennessee",
-        "tannat"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 287.2,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "257_buffon"
-    },
-    {
-      "nome": "Buffon Mérica Teroldego e Barbera",
-      "palavras": [
-        "merica",
-        "teroldego"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 168.0,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "78"
-    },
-    {
-      "nome": "Buffon Mérica Rebo",
-      "palavras": [
-        "merica",
-        "rebo"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 168.0,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "39"
-    },
-    {
-      "nome": "Buffon Mérica Barbera",
-      "palavras": [
-        "merica",
-        "barbera"
-      ],
-      "fora": [
-        "kit",
-        "garrafas",
-        "teroldego"
-      ],
-      "preco": 168.0,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "76_Buff"
-    },
-    {
-      "nome": "Buffon Mérica Glera",
-      "palavras": [
-        "merica",
-        "glera"
-      ],
-      "fora": [
-        "kit",
-        "garrafas"
-      ],
-      "preco": 168.0,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "77_Buff"
-    },
-    {
-      "nome": "Buffon Moscatel Rosé",
-      "palavras": [
-        "buffon",
-        "moscatel rose"
-      ],
-      "fora": [
-        "kit",
-        "garrafas",
-        "trio"
-      ],
-      "preco": 65.37,
-      "cor": "#a8d672",
-      "desde": "2026-11-04",
-      "sku": "buff20"
-    }
+  {
+   "nome": "Casir dos Santos Estate Malbec Rosé",
+   "palavras": [
+    "casir",
+    "rose"
+   ],
+   "fora": [],
+   "preco": 42.0,
+   "cor": "#ff9f7a",
+   "sku": "104"
+  },
+  {
+   "nome": "Martha's DOC Douro Branco",
+   "palavras": [
+    "martha",
+    "doc"
+   ],
+   "fora": [
+    "reserva",
+    "porto"
+   ],
+   "preco": 51.07,
+   "cor": "#7fd1b9",
+   "sku": "269"
+  },
+  {
+   "nome": "Tierraviva Cabernet Sauvignon",
+   "palavras": [
+    "tierra",
+    "viva",
+    "cabernet"
+   ],
+   "fora": [],
+   "preco": 34.9,
+   "cor": "#8fb3ff",
+   "sku": "2007"
+  },
+  {
+   "nome": "Tierraviva Carménère",
+   "palavras": [
+    "tierra",
+    "viva",
+    "carmenere"
+   ],
+   "fora": [],
+   "preco": 34.9,
+   "cor": "#8fb3ff",
+   "sku": "2008"
+  },
+  {
+   "nome": "Huella Cabernet Sauvignon",
+   "palavras": [
+    "huella",
+    "cabernet"
+   ],
+   "fora": [],
+   "preco": 45.9,
+   "cor": "#c23a68",
+   "sku": "2005"
+  },
+  {
+   "nome": "Huella Carménère",
+   "palavras": [
+    "huella",
+    "carmenere"
+   ],
+   "fora": [],
+   "preco": 45.9,
+   "cor": "#c23a68",
+   "sku": "2004"
+  },
+  {
+   "nome": "Huella Sauvignon Blanc",
+   "palavras": [
+    "huella",
+    "sauvignon blanc"
+   ],
+   "fora": [],
+   "preco": 45.9,
+   "cor": "#c23a68",
+   "sku": "2006"
+  },
+  {
+   "nome": "Estelar 57 Only White",
+   "palavras": [
+    "estelar",
+    "only white"
+   ],
+   "fora": [],
+   "preco": 37.32,
+   "cor": "#b48cff",
+   "sku": "612171"
+  },
+  {
+   "nome": "Estelar 57 Only Pink",
+   "palavras": [
+    "estelar",
+    "only pink"
+   ],
+   "fora": [],
+   "preco": 37.32,
+   "cor": "#b48cff",
+   "sku": "612172"
+  },
+  {
+   "nome": "Estelar 57 Red Blend",
+   "palavras": [
+    "estelar",
+    "red blend"
+   ],
+   "fora": [],
+   "preco": 37.32,
+   "cor": "#b48cff",
+   "sku": "612173"
+  },
+  {
+   "nome": "Montmeyrac Rosé",
+   "palavras": [
+    "montmeyrac",
+    "rose"
+   ],
+   "fora": [],
+   "preco": 57.72,
+   "cor": "#f7dc9a",
+   "sku": "611562"
+  },
+  {
+   "nome": "Buffon Ciao Prosecco",
+   "palavras": [
+    "ciao",
+    "prosecco"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 75.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "177_ciao"
+  },
+  {
+   "nome": "Buffon Ciao Brut Branco",
+   "palavras": [
+    "ciao",
+    "brut branco"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 75.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "126_buffon"
+  },
+  {
+   "nome": "Buffon Ciao Brut Rosé",
+   "palavras": [
+    "ciao",
+    "rose de noir"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 75.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "253_buffon"
+  },
+  {
+   "nome": "Buffon Bibiana",
+   "palavras": [
+    "bibiana",
+    "brasilidades"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 71.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "254_Buffon"
+  },
+  {
+   "nome": "Buffon Champenoise Nature Rosé",
+   "palavras": [
+    "champenoise",
+    "rose"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 134.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "81"
+  },
+  {
+   "nome": "Buffon Champenoise Extra Brut",
+   "palavras": [
+    "champenoise",
+    "extra brut"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 134.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "57"
+  },
+  {
+   "nome": "Buffon Champenoise Nature Viognier",
+   "palavras": [
+    "champenoise",
+    "viognier"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 134.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "56"
+  },
+  {
+   "nome": "Buffon Exóticos Tinto (Petit Verdot)",
+   "palavras": [
+    "champenoise",
+    "petit verdot"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 134.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "58"
+  },
+  {
+   "nome": "Buffon Fragolino",
+   "palavras": [
+    "fragolino"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 69.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "91_BUFFON"
+  },
+  {
+   "nome": "Buffon La Paloma Lorena",
+   "palavras": [
+    "la paloma",
+    "lorena"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 69.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "BUFF74"
+  },
+  {
+   "nome": "Buffon La Paloma Rosé",
+   "palavras": [
+    "la paloma",
+    "rose"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 69.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "BUFF75"
+  },
+  {
+   "nome": "Buffon La Paloma Tinto",
+   "palavras": [
+    "la paloma",
+    "blend"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 69.9,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "65_buffon"
+  },
+  {
+   "nome": "Buffon Tennessee Fumê Blanc",
+   "palavras": [
+    "tennessee",
+    "fum"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 287.2,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "256_buffon"
+  },
+  {
+   "nome": "Buffon Tennessee Chardonnay",
+   "palavras": [
+    "tennessee",
+    "chardonnay"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 287.2,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "111"
+  },
+  {
+   "nome": "Buffon Tennessee Tannat",
+   "palavras": [
+    "tennessee",
+    "tannat"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 287.2,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "257_buffon"
+  },
+  {
+   "nome": "Buffon Mérica Teroldego e Barbera",
+   "palavras": [
+    "merica",
+    "teroldego"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 168.0,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "78"
+  },
+  {
+   "nome": "Buffon Mérica Rebo",
+   "palavras": [
+    "merica",
+    "rebo"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 168.0,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "39"
+  },
+  {
+   "nome": "Buffon Mérica Barbera",
+   "palavras": [
+    "merica",
+    "barbera"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "teroldego"
+   ],
+   "preco": 168.0,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "76_Buff"
+  },
+  {
+   "nome": "Buffon Mérica Glera",
+   "palavras": [
+    "merica",
+    "glera"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 168.0,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "77_Buff"
+  },
+  {
+   "nome": "Buffon Moscatel Rosé",
+   "palavras": [
+    "buffon",
+    "moscatel rose"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "trio"
+   ],
+   "preco": 65.37,
+   "cor": "#a8d672",
+   "desde": "2026-11-04",
+   "sku": "buff20"
+  }
+ ],
+ "marcas": [
+  [
+   "Começo",
+   "#f2a7b8"
   ],
-  "marcas": [
-    [
-      "Começo",
-      "#f2a7b8"
-    ],
-    [
-      "Nancul",
-      "#e8bd62"
-    ],
-    [
-      "Casir dos Santos",
-      "#ff9f7a"
-    ],
-    [
-      "Martha's",
-      "#7fd1b9"
-    ],
-    [
-      "Tierraviva",
-      "#8fb3ff"
-    ],
-    [
-      "Huella",
-      "#c23a68"
-    ],
-    [
-      "Estelar 57",
-      "#b48cff"
-    ],
-    [
-      "Montmeyrac",
-      "#f7dc9a"
-    ],
-    [
-      "Buffon (até 30/11)",
-      "#a8d672"
-    ]
+  [
+   "Nancul",
+   "#e8bd62"
+  ],
+  [
+   "Casir dos Santos",
+   "#ff9f7a"
+  ],
+  [
+   "Martha's",
+   "#7fd1b9"
+  ],
+  [
+   "Tierraviva",
+   "#8fb3ff"
+  ],
+  [
+   "Huella",
+   "#c23a68"
+  ],
+  [
+   "Estelar 57",
+   "#b48cff"
+  ],
+  [
+   "Montmeyrac",
+   "#f7dc9a"
+  ],
+  [
+   "Buffon (até 30/11)",
+   "#a8d672"
   ]
+ ]
 }
