@@ -115,14 +115,9 @@
   html, body { margin: 0; background: #0d0408; }
   body { font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; padding: 16px; min-height: 100vh; box-sizing: border-box; }
   .bk { --font-anthropic-sans: "Inter", system-ui, sans-serif; --font-anthropic-serif: "DM Serif Display", Georgia, serif; max-width: 1200px; margin: 0 auto; }
-  .bk-ant { display: grid; gap: 16px; }
-  .bk-ant-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px 16px; flex-wrap: wrap; }
-  .bk-ant-head h2 { font-family: "DM Serif Display", Georgia, serif; font-weight: 400; font-size: clamp(22px, 3.4vw, 28px); }
-  .bk-ant-tag { font-size: 13px; font-weight: 700; padding: 3px 12px; border-radius: 999px; background: rgba(232, 189, 98, .14); color: var(--w-gold2); border: 1px solid rgba(232, 189, 98, .35); }
-  .bk-ant-tag.bk-ok-tag { background: rgba(95, 211, 154, .14); color: var(--w-ok); border-color: rgba(95, 211, 154, .4); }
-  .bk-ant-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px; }
-  .bk-ant-cols > div { min-width: 0; }
-  .bk-ant h3 { font-size: 15px; font-weight: 600; margin: 0 0 4px; color: var(--w-fg); }
+  .bk-subtabs { display: inline-flex; flex-wrap: wrap; gap: 4px; background: rgba(255, 255, 255, .04); border: 1px solid var(--w-line); border-radius: 18px; padding: 3px; justify-self: start; }
+  .bk-subtab { font: inherit; font-size: 13px; font-weight: 600; border: 0; border-radius: 999px; padding: 6px 16px; background: transparent; color: var(--w-muted); cursor: pointer; }
+  .bk-subtab[aria-selected="true"] { background: rgba(232, 189, 98, .18); color: var(--w-gold2); }
   .bk-upd { color: var(--w-muted); font-size: 12px; }
   @media (max-width: 520px) { body { padding: 8px; } }
 </style>
@@ -132,66 +127,29 @@
   <header class="bk-hero">
     <p class="bk-eyebrow">Black Compre Vinho</p>
     <h1 class="bk-title">Ranking da <em>Black</em></h1>
-    <p class="bk-sub"><span class="bk-chip" id="bloco-nome">—</span><span id="bloco-datas">—</span> · todas as lojas · só pedidos aprovados</p>
+    <p class="bk-sub" id="sub">todas as lojas · só pedidos aprovados</p>
     <p class="bk-upd" id="atualizado"></p>
   </header>
 
-  <nav class="bk-tabs" role="tablist">
-    <button class="bk-tab" role="tab" data-page="produtos" aria-selected="true">🍷 Produtos</button>
-    <button class="bk-tab" role="tab" data-page="embaixadores" aria-selected="false">🏆 Embaixadores</button>
-    <button class="bk-tab" role="tab" data-page="anteriores" aria-selected="false" id="tab-anteriores" hidden>📜 Anteriores</button>
-  </nav>
+  <nav class="bk-tabs" role="tablist" id="abas"></nav>
 
-  <section class="bk-page" id="produtos" role="tabpanel">
-    <div class="bk-meta">
-      <div class="bk-meta-top">
-        <div><p class="bk-label">Meta do mês · <span id="mes-nome">—</span></p><p class="bk-big" id="mes-meta">—</p></div>
-        <div class="bk-meta-pct"><p class="bk-label">Alcançado</p><p class="bk-big" id="mes-pct">—</p></div>
-      </div>
-      <div class="bk-track"><div class="bk-fill" id="mes-bar"></div></div>
-      <p class="bk-meta-line"><span>Vendido no mês: <b id="mes-vendido">—</b></span><span id="mes-falta-wrap">Faltam <b id="mes-falta">—</b> para a meta do mês</span><span class="bk-batida" id="mes-batida" hidden>🎉 Meta do mês batida!</span></p>
-      <div class="bk-meta-sep"></div>
-      <div class="bk-meta-top">
-        <div><p class="bk-label">Meta do <span class="bloco-nome-l">—</span> · <span class="bloco-datas-l">—</span></p><p class="bk-mid" id="bl-meta">—</p></div>
-        <div class="bk-meta-pct"><p class="bk-label">Alcançado</p><p class="bk-mid bk-gold-txt" id="bl-pct">—</p></div>
-      </div>
-      <div class="bk-track bk-track-sm"><div class="bk-fill bk-fill-mes" id="bl-bar"></div></div>
-      <p class="bk-meta-line"><span>Vendido no bloco (todos os produtos): <b id="bl-vendido">—</b></span><span id="bl-falta-wrap">Faltam <b id="bl-falta">—</b> para a meta do bloco</span><span class="bk-batida" id="bl-batida" hidden>🎉 Meta do bloco batida!</span></p>
-    </div>
-
-    <div class="bk-tiles">
-      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">📦</span>Garrafas vendidas no bloco</p><p class="bk-num" id="t-unid">—</p></div>
-      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">🥇</span>Produto que mais vendeu</p><p class="bk-num" id="t-lider">—</p></div>
-      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">💰</span>Valor vendido dos produtos do bloco</p><p class="bk-num" id="t-valor">—</p></div>
-    </div>
-
-    <div class="bk-card">
-      <h2>Produtos do bloco: vendidos por dia</h2>
-      <p class="bk-note">Garrafas vendidas em cada dia, total do período e valor (garrafas × preço). Quanto mais forte a cor do dia, mais vendeu.</p>
-      <p class="bk-legend" id="legenda"></p>
-      <div class="bk-wrap">
-        <table class="bk-table">
-          <thead><tr id="prod-head"></tr></thead>
-          <tbody id="prod-body"></tbody>
-        </table>
-      </div>
-    </div>
-  </section>
+  <div id="paginas"></div>
 
   <section class="bk-page" id="embaixadores" role="tabpanel" hidden>
+    <nav class="bk-subtabs" role="tablist" aria-label="Escolha o bloco" id="emb-abas"></nav>
     <div class="bk-tiles">
       <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">💰</span>Total vendido no bloco</p><p class="bk-num" id="e-total">—</p></div>
       <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">🧾</span>Pedidos aprovados</p><p class="bk-num" id="e-pedidos">—</p></div>
       <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">🙋</span>Embaixadores que venderam</p><p class="bk-num" id="e-qtd">—</p></div>
     </div>
     <div class="bk-card">
-      <h2>Pódio</h2>
+      <h2>Pódio do <span id="e-nome">bloco</span></h2>
       <div class="bk-podium" id="podio"></div>
       <p class="bk-note" id="podio-vazio" hidden>As vendas ainda não começaram. O pódio aparece aqui assim que entrarem os primeiros pedidos.</p>
     </div>
     <div class="bk-card">
       <h2>Embaixadores que mais venderam</h2>
-      <p class="bk-note">Soma de todos os dias do bloco, do maior valor vendido para o menor.</p>
+      <p class="bk-note" id="e-nota">Soma de todos os dias do bloco, do maior valor vendido para o menor.</p>
       <div class="bk-wrap">
         <table class="bk-table">
           <thead><tr><th>#</th><th class="bk-prod">Embaixador</th><th class="bk-r">Pedidos</th><th class="bk-r">Total vendido</th></tr></thead>
@@ -200,9 +158,45 @@
       </div>
     </div>
   </section>
-
-  <section class="bk-page" id="anteriores" role="tabpanel" hidden></section>
 </div>
+
+<template id="tpl-bloco">
+  <section class="bk-page" role="tabpanel" hidden>
+    <div class="bk-meta">
+      <div class="bk-meta-top">
+        <div><p class="bk-label">Meta do mês · <span data-k="mes-nome">—</span></p><p class="bk-big" data-k="mes-meta">—</p></div>
+        <div class="bk-meta-pct"><p class="bk-label">Alcançado</p><p class="bk-big" data-k="mes-pct">—</p></div>
+      </div>
+      <div class="bk-track"><div class="bk-fill" data-k="mes-bar"></div></div>
+      <p class="bk-meta-line"><span>Vendido no mês: <b data-k="mes-vendido">—</b></span><span data-k="mes-falta-wrap">Faltam <b data-k="mes-falta">—</b> para a meta do mês</span><span class="bk-batida" data-k="mes-batida" hidden>🎉 Meta do mês batida!</span></p>
+      <div class="bk-meta-sep"></div>
+      <div class="bk-meta-top">
+        <div><p class="bk-label">Meta do <span data-k="nome">—</span> · <span data-k="datas">—</span></p><p class="bk-mid" data-k="bl-meta">—</p></div>
+        <div class="bk-meta-pct"><p class="bk-label">Alcançado</p><p class="bk-mid bk-gold-txt" data-k="bl-pct">—</p></div>
+      </div>
+      <div class="bk-track bk-track-sm"><div class="bk-fill bk-fill-mes" data-k="bl-bar"></div></div>
+      <p class="bk-meta-line"><span>Vendido no bloco (todos os produtos): <b data-k="bl-vendido">—</b></span><span data-k="bl-falta-wrap">Faltam <b data-k="bl-falta">—</b> para a meta do bloco</span><span class="bk-batida" data-k="bl-batida" hidden>🎉 Meta do bloco batida!</span></p>
+    </div>
+
+    <div class="bk-tiles">
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">📦</span>Garrafas vendidas no bloco</p><p class="bk-num" data-k="t-unid">—</p></div>
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">🥇</span>Produto que mais vendeu</p><p class="bk-num" data-k="t-lider">—</p></div>
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">💰</span>Valor vendido dos produtos do bloco</p><p class="bk-num" data-k="t-valor">—</p></div>
+    </div>
+
+    <div class="bk-card">
+      <h2>Produtos do <span data-k="nome2">bloco</span>: vendidos por dia</h2>
+      <p class="bk-note">Garrafas vendidas em cada dia, total do período e valor (garrafas × preço). Quanto mais forte a cor do dia, mais vendeu.</p>
+      <p class="bk-legend" data-k="legenda"></p>
+      <div class="bk-wrap">
+        <table class="bk-table">
+          <thead><tr data-k="prod-head"></tr></thead>
+          <tbody data-k="prod-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</template>
 <script src="app.js"></script>
 </body>
 </html>
