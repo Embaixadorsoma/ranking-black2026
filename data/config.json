@@ -460,6 +460,95 @@
    "cor": "#a8d672",
    "desde": "2026-11-04",
    "sku": "buff20"
+  },
+  {
+   "nome": "Cal y Canto Roble",
+   "palavras": [
+    "cal y canto",
+    "roble"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 85.5,
+   "cor": "#e0835f",
+   "desde": "2026-11-06",
+   "sku": "0420"
+  },
+  {
+   "nome": "5 Oros Garnacha Vendimia Seleccionada",
+   "palavras": [
+    "5 oros",
+    "garnacha"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 148.4,
+   "cor": "#e0835f",
+   "desde": "2026-11-06",
+   "sku": "0439"
+  },
+  {
+   "nome": "5 Oros Crianza",
+   "palavras": [
+    "5 oros",
+    "crianza"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 169.5,
+   "cor": "#e0835f",
+   "desde": "2026-11-06",
+   "sku": "422"
+  },
+  {
+   "nome": "5 Oros Reserva",
+   "palavras": [
+    "5 oros",
+    "reserva"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 233.0,
+   "cor": "#e0835f",
+   "desde": "2026-11-06",
+   "sku": "423"
+  },
+  {
+   "nome": "Campo Burgo Crianza",
+   "palavras": [
+    "campo burgo",
+    "crianza"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 153.0,
+   "cor": "#e0835f",
+   "desde": "2026-11-06",
+   "sku": "0424"
+  },
+  {
+   "nome": "Hacienda de Susar",
+   "palavras": [
+    "susar"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 354.0,
+   "cor": "#e0835f",
+   "desde": "2026-11-06",
+   "sku": "0440"
   }
  ],
  "marcas": [
@@ -498,6 +587,10 @@
   [
    "Buffon (até 30/11)",
    "#a8d672"
+  ],
+  [
+   "Riojas (06/11 a 30/11)",
+   "#e0835f"
   ]
  ]
 }
