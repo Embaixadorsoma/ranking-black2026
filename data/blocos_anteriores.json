@@ -1,0 +1,487 @@
+[
+ {
+  "nome": "1º bloco",
+  "inicio": "2026-11-01",
+  "fim": "2026-11-06",
+  "meta": 200000,
+  "marcas": [
+   [
+    "Anduco",
+    "#e8bd62"
+   ],
+   [
+    "Comienzos",
+    "#f2a7b8"
+   ],
+   [
+    "Finca Santa Rosa",
+    "#c23a68"
+   ],
+   [
+    "Origen",
+    "#8fb3ff"
+   ],
+   [
+    "Fonte da Galega",
+    "#7fd1b9"
+   ],
+   [
+    "Buffon (desde 04/11)",
+    "#a8d672"
+   ]
+  ],
+  "produtos": [
+   {
+    "nome": "Anduco Malbec",
+    "palavras": [
+     "anduco",
+     "malbec"
+    ],
+    "fora": [],
+    "preco": 59.9,
+    "cor": "#e8bd62",
+    "sku": "1000_sw"
+   },
+   {
+    "nome": "Anduco Chardonnay",
+    "palavras": [
+     "anduco",
+     "chardonnay"
+    ],
+    "fora": [],
+    "preco": 59.9,
+    "cor": "#e8bd62",
+    "sku": "1002_sw"
+   },
+   {
+    "nome": "Anduco Torrontés",
+    "palavras": [
+     "anduco",
+     "torront"
+    ],
+    "fora": [],
+    "preco": 59.9,
+    "cor": "#e8bd62",
+    "sku": "1004_sw"
+   },
+   {
+    "nome": "Comienzos Chardonnay",
+    "palavras": [
+     "comienzos",
+     "chardonnay"
+    ],
+    "fora": [],
+    "preco": 32.9,
+    "cor": "#f2a7b8",
+    "sku": "7794068001576"
+   },
+   {
+    "nome": "Finca Santa Rosa Chardonnay",
+    "palavras": [
+     "finca santa rosa",
+     "chardonnay"
+    ],
+    "fora": [
+     "origen",
+     "375"
+    ],
+    "preco": 29.9,
+    "cor": "#c23a68",
+    "sku": "424_ansic"
+   },
+   {
+    "nome": "Finca Santa Rosa Rosé",
+    "palavras": [
+     "finca santa rosa",
+     "rose"
+    ],
+    "fora": [
+     "origen",
+     "375"
+    ],
+    "preco": 29.9,
+    "cor": "#c23a68",
+    "sku": "425_ansic"
+   },
+   {
+    "nome": "Finca Santa Rosa Carménère",
+    "palavras": [
+     "finca santa rosa",
+     "carmenere"
+    ],
+    "fora": [
+     "origen",
+     "375"
+    ],
+    "preco": 29.9,
+    "cor": "#c23a68",
+    "sku": "427_ansic"
+   },
+   {
+    "nome": "Finca Santa Rosa Merlot",
+    "palavras": [
+     "finca santa rosa",
+     "merlot"
+    ],
+    "fora": [
+     "origen",
+     "375"
+    ],
+    "preco": 29.9,
+    "cor": "#c23a68",
+    "sku": "426_ansic"
+   },
+   {
+    "nome": "Finca Santa Rosa Cabernet Sauvignon",
+    "palavras": [
+     "finca santa rosa",
+     "cabernet"
+    ],
+    "fora": [
+     "origen",
+     "375"
+    ],
+    "preco": 29.9,
+    "cor": "#c23a68",
+    "sku": "428"
+   },
+   {
+    "nome": "Origen Cabernet Sauvignon 375ml",
+    "palavras": [
+     "origen",
+     "cabernet",
+     "375"
+    ],
+    "fora": [],
+    "preco": 25.9,
+    "cor": "#8fb3ff",
+    "sku": "2009"
+   },
+   {
+    "nome": "Fonte da Galega Tinto",
+    "palavras": [
+     "fonte da galega"
+    ],
+    "fora": [
+     "branco",
+     "rose"
+    ],
+    "preco": 43.39,
+    "cor": "#7fd1b9",
+    "sku": "1019"
+   },
+   {
+    "nome": "Fonte da Galega Rosé",
+    "palavras": [
+     "fonte da galega",
+     "rose"
+    ],
+    "fora": [],
+    "preco": 40.5,
+    "cor": "#7fd1b9",
+    "sku": "1022"
+   },
+   {
+    "nome": "Buffon Ciao Prosecco",
+    "palavras": [
+     "ciao",
+     "prosecco"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 75.9,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "177_ciao"
+   },
+   {
+    "nome": "Buffon Ciao Brut Branco",
+    "palavras": [
+     "ciao",
+     "brut branco"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 75.9,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "126_buffon"
+   },
+   {
+    "nome": "Buffon Ciao Brut Rosé",
+    "palavras": [
+     "ciao",
+     "rose de noir"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 75.9,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "253_buffon"
+   },
+   {
+    "nome": "Buffon Bibiana",
+    "palavras": [
+     "bibiana",
+     "brasilidades"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 71.9,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "254_Buffon"
+   },
+   {
+    "nome": "Buffon Champenoise Nature Rosé",
+    "palavras": [
+     "champenoise",
+     "rose"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 134.9,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "81"
+   },
+   {
+    "nome": "Buffon Champenoise Extra Brut",
+    "palavras": [
+     "champenoise",
+     "extra brut"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 134.9,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "57"
+   },
+   {
+    "nome": "Buffon Champenoise Nature Viognier",
+    "palavras": [
+     "champenoise",
+     "viognier"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 134.9,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "56"
+   },
+   {
+    "nome": "Buffon Exóticos Tinto (Petit Verdot)",
+    "palavras": [
+     "champenoise",
+     "petit verdot"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 134.9,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "58"
+   },
+   {
+    "nome": "Buffon Fragolino",
+    "palavras": [
+     "fragolino"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 69.9,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "91_BUFFON"
+   },
+   {
+    "nome": "Buffon La Paloma Lorena",
+    "palavras": [
+     "la paloma",
+     "lorena"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 69.9,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "BUFF74"
+   },
+   {
+    "nome": "Buffon La Paloma Rosé",
+    "palavras": [
+     "la paloma",
+     "rose"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 69.9,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "BUFF75"
+   },
+   {
+    "nome": "Buffon La Paloma Tinto",
+    "palavras": [
+     "la paloma",
+     "blend"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 69.9,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "65_buffon"
+   },
+   {
+    "nome": "Buffon Tennessee Fumê Blanc",
+    "palavras": [
+     "tennessee",
+     "fum"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 287.2,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "256_buffon"
+   },
+   {
+    "nome": "Buffon Tennessee Chardonnay",
+    "palavras": [
+     "tennessee",
+     "chardonnay"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 287.2,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "111"
+   },
+   {
+    "nome": "Buffon Tennessee Tannat",
+    "palavras": [
+     "tennessee",
+     "tannat"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 287.2,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "257_buffon"
+   },
+   {
+    "nome": "Buffon Mérica Teroldego e Barbera",
+    "palavras": [
+     "merica",
+     "teroldego"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 168.0,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "78"
+   },
+   {
+    "nome": "Buffon Mérica Rebo",
+    "palavras": [
+     "merica",
+     "rebo"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 168.0,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "39"
+   },
+   {
+    "nome": "Buffon Mérica Barbera",
+    "palavras": [
+     "merica",
+     "barbera"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "teroldego"
+    ],
+    "preco": 168.0,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "76_Buff"
+   },
+   {
+    "nome": "Buffon Mérica Glera",
+    "palavras": [
+     "merica",
+     "glera"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 168.0,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "77_Buff"
+   },
+   {
+    "nome": "Buffon Moscatel Rosé",
+    "palavras": [
+     "buffon",
+     "moscatel rose"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "trio"
+    ],
+    "preco": 65.37,
+    "cor": "#a8d672",
+    "desde": "2026-11-04",
+    "sku": "buff20"
+   }
+  ]
+ }
+]

@@ -115,6 +115,14 @@
   html, body { margin: 0; background: #0d0408; }
   body { font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; padding: 16px; min-height: 100vh; box-sizing: border-box; }
   .bk { --font-anthropic-sans: "Inter", system-ui, sans-serif; --font-anthropic-serif: "DM Serif Display", Georgia, serif; max-width: 1200px; margin: 0 auto; }
+  .bk-ant { display: grid; gap: 16px; }
+  .bk-ant-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px 16px; flex-wrap: wrap; }
+  .bk-ant-head h2 { font-family: "DM Serif Display", Georgia, serif; font-weight: 400; font-size: clamp(22px, 3.4vw, 28px); }
+  .bk-ant-tag { font-size: 13px; font-weight: 700; padding: 3px 12px; border-radius: 999px; background: rgba(232, 189, 98, .14); color: var(--w-gold2); border: 1px solid rgba(232, 189, 98, .35); }
+  .bk-ant-tag.bk-ok-tag { background: rgba(95, 211, 154, .14); color: var(--w-ok); border-color: rgba(95, 211, 154, .4); }
+  .bk-ant-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px; }
+  .bk-ant-cols > div { min-width: 0; }
+  .bk-ant h3 { font-size: 15px; font-weight: 600; margin: 0 0 4px; color: var(--w-fg); }
   .bk-upd { color: var(--w-muted); font-size: 12px; }
   @media (max-width: 520px) { body { padding: 8px; } }
 </style>
@@ -131,6 +139,7 @@
   <nav class="bk-tabs" role="tablist">
     <button class="bk-tab" role="tab" data-page="produtos" aria-selected="true">🍷 Produtos</button>
     <button class="bk-tab" role="tab" data-page="embaixadores" aria-selected="false">🏆 Embaixadores</button>
+    <button class="bk-tab" role="tab" data-page="anteriores" aria-selected="false" id="tab-anteriores" hidden>📜 Anteriores</button>
   </nav>
 
   <section class="bk-page" id="produtos" role="tabpanel">
@@ -191,6 +200,8 @@
       </div>
     </div>
   </section>
+
+  <section class="bk-page" id="anteriores" role="tabpanel" hidden></section>
 </div>
 <script src="app.js"></script>
 </body>

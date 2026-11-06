@@ -9,17 +9,50 @@
   const ddmm = (d) => d.slice(8, 10) + '/' + d.slice(5, 7);
   const get = (f) => fetch('data/' + f + '?v=' + Date.now()).then((r) => r.json());
 
-  let cfg, vendas, produtos, embaixadores;
+  let cfg, vendas, produtos, embaixadores, anteriores;
   try {
-    [cfg, vendas, produtos, embaixadores] = await Promise.all([get('config.json'), get('vendas_dia.json'), get('produtos.json'), get('embaixadores.json')]);
+    [cfg, vendas, produtos, embaixadores, anteriores] = await Promise.all([get('config.json'), get('vendas_dia.json'), get('produtos.json'), get('embaixadores.json'), get('blocos_anteriores.json').catch(() => [])]);
   } catch (e) {
     $('atualizado').textContent = 'Não foi possível carregar os números agora. Tente recarregar a página.';
     return;
   }
 
-  // dias do bloco
-  const dias = [];
-  for (let d = new Date(cfg.bloco.inicio + 'T12:00:00Z'); d <= new Date(cfg.bloco.fim + 'T12:00:00Z'); d.setUTCDate(d.getUTCDate() + 1)) dias.push(d.toISOString().slice(0, 10));
+  // dias de um bloco
+  const diasDe = (b) => {
+    const out = [];
+    for (let d = new Date(b.inicio + 'T12:00:00Z'); d <= new Date(b.fim + 'T12:00:00Z'); d.setUTCDate(d.getUTCDate() + 1)) out.push(d.toISOString().slice(0, 10));
+    return out;
+  };
+  // garrafas e valor de cada produto de um bloco, por dia
+  const contar = (lista, ds) => {
+    const rows = lista.map((p) => {
+      const r = { nome: p.nome, cor: p.cor, porDia: Object.fromEntries(ds.map((d) => [d, 0])), total: 0 };
+      for (const v of produtos) {
+        if (!ds.includes(v.dia) || !v.produto) continue;
+        if (p.desde && v.dia < p.desde) continue;
+        const n = norm(v.produto);
+        if (p.palavras.every((w) => n.includes(w)) && !p.fora.some((w) => n.includes(w))) { r.porDia[v.dia] += Number(v.unidades); r.total += Number(v.unidades); }
+      }
+      r.valor = Math.round(r.total * p.preco * 100) / 100;
+      return r;
+    }).sort((a, b) => b.total - a.total || b.valor - a.valor);
+    rows.forEach((r, i) => { r.pos = i + 1; });
+    return rows;
+  };
+  // ranking de embaixadores de um bloco
+  const rankEmb = (ds) => {
+    const m = new Map();
+    for (const r of embaixadores) {
+      if (!r.embaixador || !ds.includes(r.dia)) continue;
+      const a = m.get(r.embaixador) || { nome: r.embaixador, pedidos: 0, total: 0 };
+      a.pedidos += Number(r.pedidos); a.total += Number(r.total);
+      m.set(r.embaixador, a);
+    }
+    const out = [...m.values()].sort((a, b) => b.total - a.total);
+    out.forEach((r, i) => { r.total = Math.round(r.total * 100) / 100; r.pos = i + 1; });
+    return out;
+  };
+  const dias = diasDe(cfg.bloco);
   const noBloco = (dia) => dias.includes(dia);
 
   // cabeçalho
@@ -53,18 +86,7 @@
   meta('bl', cfg.bloco.meta, soma(vendas.filter((r) => noBloco(r.dia))));
 
   // produtos do bloco
-  const linhas = cfg.produtos.map((p) => {
-    const r = { nome: p.nome, cor: p.cor, porDia: Object.fromEntries(dias.map((d) => [d, 0])), total: 0 };
-    for (const v of produtos) {
-      if (!noBloco(v.dia) || !v.produto) continue;
-      if (p.desde && v.dia < p.desde) continue;
-      const n = norm(v.produto);
-      if (p.palavras.every((w) => n.includes(w)) && !p.fora.some((w) => n.includes(w))) { r.porDia[v.dia] += Number(v.unidades); r.total += Number(v.unidades); }
-    }
-    r.valor = Math.round(r.total * p.preco * 100) / 100;
-    return r;
-  }).sort((a, b) => b.total - a.total);
-  linhas.forEach((r, i) => { r.pos = i + 1; });
+  const linhas = contar(cfg.produtos, dias);
 
   const totUnid = linhas.reduce((s, r) => s + r.total, 0);
   $('t-unid').textContent = int.format(totUnid);
@@ -97,15 +119,7 @@
   }));
 
   // embaixadores
-  const m = new Map();
-  for (const r of embaixadores) {
-    if (!r.embaixador || !noBloco(r.dia)) continue;
-    const a = m.get(r.embaixador) || { nome: r.embaixador, pedidos: 0, total: 0 };
-    a.pedidos += Number(r.pedidos); a.total += Number(r.total);
-    m.set(r.embaixador, a);
-  }
-  const emb = [...m.values()].sort((a, b) => b.total - a.total);
-  emb.forEach((r, i) => { r.pos = i + 1; });
+  const emb = rankEmb(dias);
   $('e-total').textContent = brl.format(emb.reduce((s, r) => s + r.total, 0));
   $('e-pedidos').textContent = int.format(emb.reduce((s, r) => s + r.pedidos, 0));
   $('e-qtd').textContent = int.format(emb.length);
@@ -123,6 +137,65 @@
     return tr;
   }));
 
+  // blocos anteriores (resumo)
+  const ant = Array.isArray(anteriores) ? anteriores : [];
+  $('tab-anteriores').hidden = ant.length === 0;
+  $('anteriores').replaceChildren(...ant.slice().reverse().map((b) => {
+    const ds = diasDe(b);
+    const vendido = soma(vendas.filter((r) => ds.includes(r.dia)));
+    const p = b.meta > 0 ? vendido / b.meta : 0;
+    const batida = vendido >= b.meta;
+    const prods = contar(b.produtos, ds);
+    const embs = rankEmb(ds);
+    const card = mk('div', 'bk-card bk-ant');
+
+    const head = mk('div', 'bk-ant-head');
+    head.append(mk('h2', '', b.nome + ' · ' + ddmm(b.inicio) + ' a ' + ddmm(b.fim)), mk('span', 'bk-ant-tag' + (batida ? ' bk-ok-tag' : ''), batida ? '🎉 Meta batida' : pct.format(p) + ' da meta'));
+    card.append(head);
+
+    const linha = mk('p', 'bk-meta-line bk-note');
+    const item = (rot, val) => { const s = mk('span'); s.append(document.createTextNode(rot + ': ')); s.append(mk('b', '', val)); return s; };
+    linha.append(item('Meta', brl.format(b.meta)), item('Vendido (todos os produtos)', brl.format(vendido)), batida ? mk('span', 'bk-batida', 'Passou ' + brl.format(vendido - b.meta) + ' da meta') : item('Faltou', brl.format(Math.max(0, b.meta - vendido))));
+    const track = mk('div', 'bk-track bk-track-sm'); const fill = mk('div', 'bk-fill bk-fill-mes' + (batida ? ' bk-ok' : '')); track.append(fill);
+    requestAnimationFrame(() => { fill.style.width = (Math.min(1, p) * 100).toFixed(1) + '%'; });
+    card.append(track, linha);
+
+    const tiles = mk('div', 'bk-tiles');
+    const tile = (ico, rot, val) => { const t = mk('div', 'bk-tile'); const h = mk('p', 'bk-tile-head'); h.append(mk('span', 'bk-ico', ico), document.createTextNode(rot)); t.append(h, mk('p', 'bk-num', val)); return t; };
+    tiles.append(
+      tile('📦', 'Garrafas dos produtos do bloco', int.format(prods.reduce((s, r) => s + r.total, 0))),
+      tile('💰', 'Valor dos produtos do bloco', brl.format(prods.reduce((s, r) => s + r.valor, 0))),
+      tile('🧾', 'Pedidos com embaixador', int.format(embs.reduce((s, r) => s + r.pedidos, 0))),
+    );
+    card.append(tiles);
+
+    const cols = mk('div', 'bk-ant-cols');
+    const tabela = (titulo, cab, rows) => {
+      const box = mk('div'); box.append(mk('h3', '', titulo));
+      const wrap = mk('div', 'bk-wrap'); const t = mk('table', 'bk-table');
+      const th = mk('tr'); cab.forEach(([txt, cls]) => th.append(mk('th', cls, txt)));
+      const thead = mk('thead'); thead.append(th); const tb = mk('tbody'); tb.append(...rows);
+      t.append(thead, tb); wrap.append(t); box.append(wrap); return box;
+    };
+    const top = prods.filter((r) => r.total > 0).slice(0, 5);
+    cols.append(tabela('Produtos que mais venderam', [['#', ''], ['Produto', 'bk-prod'], ['Garrafas', 'bk-r'], ['Valor', 'bk-r']], top.length ? top.map((r) => {
+      const tr = mk('tr', r.pos === 1 ? 'bk-gold' : '');
+      const t0 = mk('td'); t0.append(rank(r.pos, true));
+      const t1 = mk('td'); const nm = mk('span', 'bk-pname'); const dot = mk('i', 'bk-dot'); dot.style.background = r.cor; nm.append(dot, document.createTextNode(r.nome)); t1.append(nm);
+      tr.append(t0, t1, mk('td', 'bk-r bk-tot', int.format(r.total)), mk('td', 'bk-r bk-val', brl.format(r.valor)));
+      return tr;
+    }) : [(() => { const tr = mk('tr'); const td = mk('td', 'bk-zero', 'Nenhuma venda dos produtos do bloco.'); td.colSpan = 4; tr.append(td); return tr; })()]));
+    const topE = embs.slice(0, 5);
+    cols.append(tabela('Embaixadores que mais venderam', [['#', ''], ['Embaixador', 'bk-prod'], ['Pedidos', 'bk-r'], ['Total', 'bk-r']], topE.length ? topE.map((r) => {
+      const tr = mk('tr', r.pos === 1 ? 'bk-gold' : '');
+      const t0 = mk('td'); t0.append(rank(r.pos, true));
+      tr.append(t0, mk('td', '', r.nome), mk('td', 'bk-r', int.format(r.pedidos)), mk('td', 'bk-r bk-val', brl.format(r.total)));
+      return tr;
+    }) : [(() => { const tr = mk('tr'); const td = mk('td', 'bk-zero', 'Nenhuma venda de embaixador.'); td.colSpan = 4; tr.append(td); return tr; })()]));
+    card.append(cols);
+    return card;
+  }));
+
   // abas
   const show = (page) => {
     document.querySelectorAll('.bk-tab').forEach((t) => t.setAttribute('aria-selected', String(t.dataset.page === page)));
@@ -130,4 +203,5 @@
   };
   document.querySelectorAll('.bk-tab').forEach((t) => t.addEventListener('click', () => { show(t.dataset.page); history.replaceState(null, '', '#' + t.dataset.page); }));
   if (location.hash === '#embaixadores') show('embaixadores');
+  if (location.hash === '#anteriores' && ant.length) show('anteriores');
 })();
