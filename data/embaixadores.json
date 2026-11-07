@@ -1,5 +1,47 @@
 [
  {
+  "dia": "2026-11-01",
+  "embaixador": "ANNA RITA DE MOURA LIRA",
+  "pedidos": 3,
+  "total": 1562.74
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "Gleybson Andrade",
+  "pedidos": 1,
+  "total": 599
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 1,
+  "total": 418.6
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "Roberta Cristina Valverde",
+  "pedidos": 1,
+  "total": 359.4
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "Patricia Borges dos Santos",
+  "pedidos": 1,
+  "total": 339.6
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "Carla Cavalcante",
+  "pedidos": 1,
+  "total": 179.4
+ },
+ {
+  "dia": "2026-11-01",
+  "embaixador": "Andre Guimaraes Gaiofato",
+  "pedidos": 1,
+  "total": 65.8
+ },
+ {
   "dia": "2026-11-02",
   "embaixador": "Ródney Berto",
   "pedidos": 1,
@@ -48,10 +90,88 @@
   "total": 59.9
  },
  {
+  "dia": "2026-11-03",
+  "embaixador": "Patrícia Torres Gandini Bomfá",
+  "pedidos": 1,
+  "total": 4369.14
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Fabio Traldi",
+  "pedidos": 2,
+  "total": 4344.9
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Claudinete Aparecida Barbosa",
+  "pedidos": 1,
+  "total": 2799
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Alexandra Loureiro",
+  "pedidos": 3,
+  "total": 1038.3
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Patricia Borges dos Santos",
+  "pedidos": 1,
+  "total": 717.6
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Luciano Vasconcelos Monferrari",
+  "pedidos": 1,
+  "total": 598.8
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Flávia Barchetta",
+  "pedidos": 1,
+  "total": 575
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 1,
+  "total": 568.1
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Gleybson Andrade",
+  "pedidos": 2,
+  "total": 557
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Roberta Cristina Valverde",
+  "pedidos": 1,
+  "total": 419.3
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "ANNA RITA DE MOURA LIRA",
+  "pedidos": 1,
+  "total": 149.5
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Andressa Albernaz",
+  "pedidos": 1,
+  "total": 120
+ },
+ {
+  "dia": "2026-11-03",
+  "embaixador": "Fabiana Iolanda do Nascimento",
+  "pedidos": 1,
+  "total": 106.9
+ },
+ {
   "dia": "2026-11-04",
   "embaixador": "Luciana Quinello",
-  "pedidos": 6,
-  "total": 2699.28
+  "pedidos": 7,
+  "total": 2830.88
  },
  {
   "dia": "2026-11-04",
@@ -138,120 +258,6 @@
   "total": 279.4
  },
  {
-  "dia": "2026-11-01",
-  "embaixador": "ANNA RITA DE MOURA LIRA",
-  "pedidos": 3,
-  "total": 1562.74
- },
- {
-  "dia": "2026-11-01",
-  "embaixador": "Gleybson Andrade",
-  "pedidos": 1,
-  "total": 599
- },
- {
-  "dia": "2026-11-01",
-  "embaixador": "Amana Castelo Branco",
-  "pedidos": 1,
-  "total": 418.6
- },
- {
-  "dia": "2026-11-01",
-  "embaixador": "Roberta Cristina Valverde",
-  "pedidos": 1,
-  "total": 359.4
- },
- {
-  "dia": "2026-11-01",
-  "embaixador": "Patricia Borges dos Santos",
-  "pedidos": 1,
-  "total": 339.6
- },
- {
-  "dia": "2026-11-01",
-  "embaixador": "Carla Cavalcante",
-  "pedidos": 1,
-  "total": 179.4
- },
- {
-  "dia": "2026-11-01",
-  "embaixador": "Andre Guimaraes Gaiofato",
-  "pedidos": 1,
-  "total": 65.8
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Patrícia Torres Gandini Bomfá",
-  "pedidos": 1,
-  "total": 4369.14
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Fabio Traldi",
-  "pedidos": 2,
-  "total": 4344.9
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Claudinete Aparecida Barbosa",
-  "pedidos": 1,
-  "total": 2799
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Alexandra Loureiro",
-  "pedidos": 3,
-  "total": 1038.3
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Patricia Borges dos Santos",
-  "pedidos": 1,
-  "total": 717.6
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Luciano Vasconcelos Monferrari",
-  "pedidos": 1,
-  "total": 598.8
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Amana Castelo Branco",
-  "pedidos": 1,
-  "total": 568.1
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Gleybson Andrade",
-  "pedidos": 2,
-  "total": 557
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Roberta Cristina Valverde",
-  "pedidos": 1,
-  "total": 419.3
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "ANNA RITA DE MOURA LIRA",
-  "pedidos": 1,
-  "total": 149.5
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Andressa Albernaz",
-  "pedidos": 1,
-  "total": 120
- },
- {
-  "dia": "2026-11-03",
-  "embaixador": "Fabiana Iolanda do Nascimento",
-  "pedidos": 1,
-  "total": 106.9
- },
- {
   "dia": "2026-11-05",
   "embaixador": "Vanessa Rincon",
   "pedidos": 2,
@@ -301,6 +307,12 @@
  },
  {
   "dia": "2026-11-05",
+  "embaixador": "Mônica Variani",
+  "pedidos": 1,
+  "total": 419.3
+ },
+ {
+  "dia": "2026-11-05",
   "embaixador": "Silvia Regina Gallo",
   "pedidos": 1,
   "total": 359.4
@@ -325,8 +337,176 @@
  },
  {
   "dia": "2026-11-06",
+  "embaixador": "Tatiane Fernandes Andrade de Lima",
+  "pedidos": 9,
+  "total": 2613.5
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Patricia Borges dos Santos",
+  "pedidos": 2,
+  "total": 2293.1
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Eduardo Henrique da Silva Bastos",
+  "pedidos": 1,
+  "total": 1330.2
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Ródney Berto",
+  "pedidos": 2,
+  "total": 1069.72
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Andre Guimaraes Gaiofato",
+  "pedidos": 1,
+  "total": 942.6
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Flávia Barchetta",
+  "pedidos": 3,
+  "total": 898.6
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "André SchrÖEr",
+  "pedidos": 2,
+  "total": 856
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "ARIANA CRISTINA XAVIER SILVA",
+  "pedidos": 1,
+  "total": 807.3
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Lívia Fialho Mourão",
+  "pedidos": 1,
+  "total": 607.1
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Ivana Raquel A V Guardiano",
+  "pedidos": 1,
+  "total": 539.1
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Bruno Falasqui Cordeiro",
+  "pedidos": 1,
+  "total": 538.2
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Monise Wenzel",
+  "pedidos": 1,
+  "total": 532
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Ricardo Sérgio Neiva Nóbrega",
+  "pedidos": 1,
+  "total": 502.9
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Pablo Rodrigo Such",
+  "pedidos": 1,
+  "total": 469.1
+ },
+ {
+  "dia": "2026-11-06",
   "embaixador": "Vanessa Cristina Lima Francisco",
   "pedidos": 1,
   "total": 428.4
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Marisa Mendes Botaro",
+  "pedidos": 1,
+  "total": 419.4
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Roberta Cristina Valverde",
+  "pedidos": 1,
+  "total": 419.3
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Tatiana Cordeiro Lana Teixeira",
+  "pedidos": 1,
+  "total": 419
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Luciana Quinello",
+  "pedidos": 1,
+  "total": 409.7
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Rosangela Alves Fagundes",
+  "pedidos": 1,
+  "total": 408.56
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Mônica Variani",
+  "pedidos": 1,
+  "total": 407.8
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Carla Cavalcante",
+  "pedidos": 1,
+  "total": 299.4
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 1,
+  "total": 239.7
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "ANNA RITA DE MOURA LIRA",
+  "pedidos": 1,
+  "total": 89.7
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Djalma Barros Goncalves",
+  "pedidos": 1,
+  "total": 69.8
+ },
+ {
+  "dia": "2026-11-07",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 2,
+  "total": 931.1
+ },
+ {
+  "dia": "2026-11-07",
+  "embaixador": "Fabio Traldi",
+  "pedidos": 1,
+  "total": 779.4
+ },
+ {
+  "dia": "2026-11-07",
+  "embaixador": "Ródney Berto",
+  "pedidos": 1,
+  "total": 698.6
+ },
+ {
+  "dia": "2026-11-07",
+  "embaixador": "Vera Barros",
+  "pedidos": 1,
+  "total": 550.8
  }
 ]
