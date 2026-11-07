@@ -13,15 +13,15 @@ html,body{width:1600px;height:1000px;background:#2a0a12}
 .right{flex:.85;padding:110px 120px 100px 40px;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:2}
 .brand{font-family:'Playfair Display',serif;letter-spacing:.38em;font-size:26px;color:#c9a35c;text-transform:uppercase}
 .brand small{display:block;font-family:Inter;letter-spacing:.3em;font-size:15px;color:#e8d3b0;opacity:.75;margin-top:8px}
-h1{font-family:'Playfair Display',serif;font-weight:700;font-size:128px;line-height:.95;margin-top:30px}
+h1{font-family:'Playfair Display',serif;font-weight:700;font-size:120px;line-height:.95;margin-top:30px}
 h1 em{font-style:italic;font-weight:500;color:#c9a35c;display:block;font-size:84px;margin-bottom:6px}
 .tipo{margin-top:34px;display:inline-flex;align-items:center;gap:18px;font-size:30px;font-weight:500}
 .tipo .pill{background:#c9a35c;color:#3a0814;padding:10px 26px;border-radius:40px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:24px}
 .desc{font-size:24px;opacity:.85;margin-top:22px;line-height:1.45;max-width:640px}
 .foot{font-size:18px;opacity:.7;letter-spacing:.04em}
-.box{background:rgba(246,234,216,.96);color:#3a0814;border-radius:16px;padding:46px 48px;box-shadow:0 20px 60px rgba(0,0,0,.35)}
-.field{border-bottom:1.5px solid #c9a35c;padding:16px 0 10px;font-size:20px;color:#7a1a2e;font-weight:600;letter-spacing:.12em;text-transform:uppercase;margin-bottom:22px}
-.field.msg{height:150px;padding-top:14px;border-bottom:none;background:repeating-linear-gradient(transparent 0 38px,#c9a35c55 38px 39.5px);}
+.box{background:rgba(246,234,216,.96);color:#3a0814;border-radius:16px;padding:34px 48px 38px;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.field{border-bottom:1.5px solid #c9a35c;padding:12px 0 8px;font-size:20px;color:#7a1a2e;font-weight:600;letter-spacing:.12em;text-transform:uppercase;margin-bottom:22px}
+.field.msg{height:110px;padding-top:14px;border-bottom:none;background:repeating-linear-gradient(transparent 0 38px,#c9a35c55 38px 39.5px);}
 .code{margin-top:10px;display:flex;justify-content:space-between;align-items:flex-end;border-top:2px dashed #c9a35c;padding-top:24px}
 .code b{font-family:'Playfair Display',serif;font-size:34px;letter-spacing:.04em;white-space:nowrap}
 .code span{font-size:15px;letter-spacing:.2em;text-transform:uppercase;color:#7a1a2e;display:block;margin-bottom:6px;font-weight:600}
@@ -37,7 +37,7 @@ svg.glass{position:absolute;right:46%;bottom:70px;opacity:.12;z-index:1}
  <div class="left">
   <div>
    <div class="brand">Terroir Store<small>camisetas para quem ama vinho</small></div>
-   <h1><em>Vale</em>Brinde</h1>
+   <h1><em>Vale</em>Presente</h1>
    <div class="tipo"><span class="pill" id="pill">Taça</span><span id="tipo">1 camiseta à sua escolha</span></div>
    <p class="desc" id="desc">Escolha a estampa, o tamanho e a cor que combinam com você. Frete grátis para o estado de SP.</p>
   </div>
@@ -48,12 +48,15 @@ svg.glass{position:absolute;right:46%;bottom:70px;opacity:.12;z-index:1}
    <div class="field">Para</div>
    <div class="field">De</div>
    <div class="field msg">Mensagem</div>
-   <div class="code">
-    <div><span>Código</span><b id="code">BRINDE-0001</b></div>
-    <div class="val"><span>Válido até</span><b style="font-size:30px">31/03/2027</b></div>
+   <div class="code" style="flex-direction:column;align-items:stretch;gap:20px">
+    <div><span>Código</span><b id="code">PRESENTE-0001</b></div>
+    <div style="display:flex;justify-content:space-between;align-items:flex-end">
+     <div><span>Comprado em</span><b style="font-size:30px;letter-spacing:.1em">____/____/______</b></div>
+     <div class="val"><span>Validade</span><b style="font-size:30px">30 dias</b></div>
+    </div>
    </div>
   </div>
-  <p class="how"><b>Como resgatar:</b> escolha sua estampa no site e envie o código, a estampa, o tamanho e o endereço pelo nosso WhatsApp ou Instagram.</p>
+  <p class="how"><b>Como resgatar:</b> escolha sua estampa no site e envie o código, a estampa, o tamanho e o endereço pelo nosso WhatsApp ou Instagram. Vale por 30 dias a partir da data da compra.</p>
  </div>
 </div>
 <script>
