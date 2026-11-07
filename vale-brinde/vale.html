@@ -1,0 +1,65 @@
+<!doctype html><html lang="pt-br"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1600px;height:1000px;background:#2a0a12}
+.card{position:relative;width:1600px;height:1000px;overflow:hidden;
+ background:radial-gradient(ellipse at 25% 30%,#7a1a2e 0%,#5a1022 45%,#3a0814 100%);
+ font-family:Inter,sans-serif;color:#f6ead8;display:flex}
+.frame{position:absolute;inset:36px;border:2px solid #c9a35c;border-radius:18px}
+.frame2{position:absolute;inset:48px;border:1px solid rgba(201,163,92,.45);border-radius:12px}
+.stain{position:absolute;border-radius:50%;border:14px solid rgba(20,0,6,.22)}
+.left{flex:1.15;padding:110px 40px 100px 120px;display:flex;flex-direction:column;justify-content:space-between;position:relative;z-index:2}
+.right{flex:.85;padding:110px 120px 100px 40px;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:2}
+.brand{font-family:'Playfair Display',serif;letter-spacing:.38em;font-size:26px;color:#c9a35c;text-transform:uppercase}
+.brand small{display:block;font-family:Inter;letter-spacing:.3em;font-size:15px;color:#e8d3b0;opacity:.75;margin-top:8px}
+h1{font-family:'Playfair Display',serif;font-weight:700;font-size:128px;line-height:.95;margin-top:30px}
+h1 em{font-style:italic;font-weight:500;color:#c9a35c;display:block;font-size:84px;margin-bottom:6px}
+.tipo{margin-top:34px;display:inline-flex;align-items:center;gap:18px;font-size:30px;font-weight:500}
+.tipo .pill{background:#c9a35c;color:#3a0814;padding:10px 26px;border-radius:40px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:24px}
+.desc{font-size:24px;opacity:.85;margin-top:22px;line-height:1.45;max-width:640px}
+.foot{font-size:18px;opacity:.7;letter-spacing:.04em}
+.box{background:rgba(246,234,216,.96);color:#3a0814;border-radius:16px;padding:46px 48px;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.field{border-bottom:1.5px solid #c9a35c;padding:16px 0 10px;font-size:20px;color:#7a1a2e;font-weight:600;letter-spacing:.12em;text-transform:uppercase;margin-bottom:22px}
+.field.msg{height:150px;padding-top:14px;border-bottom:none;background:repeating-linear-gradient(transparent 0 38px,#c9a35c55 38px 39.5px);}
+.code{margin-top:10px;display:flex;justify-content:space-between;align-items:flex-end;border-top:2px dashed #c9a35c;padding-top:24px}
+.code b{font-family:'Playfair Display',serif;font-size:34px;letter-spacing:.04em;white-space:nowrap}
+.code span{font-size:15px;letter-spacing:.2em;text-transform:uppercase;color:#7a1a2e;display:block;margin-bottom:6px;font-weight:600}
+.val{text-align:right}
+.how{margin-top:30px;font-size:19px;line-height:1.55;opacity:.9}
+.how b{color:#c9a35c}
+svg.glass{position:absolute;right:46%;bottom:70px;opacity:.12;z-index:1}
+</style></head><body>
+<div class="card">
+ <div class="stain" style="width:520px;height:520px;left:-160px;top:-170px"></div>
+ <div class="stain" style="width:300px;height:300px;left:760px;top:690px;border-width:10px"></div>
+ <div class="frame"></div><div class="frame2"></div>
+ <div class="left">
+  <div>
+   <div class="brand">Terroir Store<small>camisetas para quem ama vinho</small></div>
+   <h1><em>Vale</em>Brinde</h1>
+   <div class="tipo"><span class="pill" id="pill">Taça</span><span id="tipo">1 camiseta à sua escolha</span></div>
+   <p class="desc" id="desc">Escolha a estampa, o tamanho e a cor que combinam com você. Frete grátis para o estado de SP.</p>
+  </div>
+  <div class="foot">🍷 Feliz Natal &amp; boas safras · @camisetaterroirstore</div>
+ </div>
+ <div class="right">
+  <div class="box">
+   <div class="field">Para</div>
+   <div class="field">De</div>
+   <div class="field msg">Mensagem</div>
+   <div class="code">
+    <div><span>Código</span><b id="code">BRINDE-0001</b></div>
+    <div class="val"><span>Válido até</span><b style="font-size:30px">31/03/2027</b></div>
+   </div>
+  </div>
+  <p class="how"><b>Como resgatar:</b> escolha sua estampa no site e envie o código, a estampa, o tamanho e o endereço pelo nosso WhatsApp ou Instagram.</p>
+ </div>
+</div>
+<script>
+const p=new URLSearchParams(location.search);const v=p.get('v')||'taca';
+const D={taca:['Taça','1 camiseta à sua escolha','Escolha a estampa, o tamanho e a cor que combinam com você. Frete grátis para o estado de SP.'],
+reserva:['Reserva','1 camiseta de algodão peruano','O toque mais macio da casa, com a estampa que você escolher. Frete grátis para o estado de SP.'],
+dupla:['Dupla','2 camisetas à sua escolha','Duas estampas, dois brindes. Escolha tamanhos e cores à vontade. Frete grátis para o estado de SP.']}[v];
+pill.textContent=D[0];tipo.textContent=D[1];desc.textContent=D[2];
+</script></body></html>
