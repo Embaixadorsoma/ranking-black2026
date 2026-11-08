@@ -804,5 +804,13 @@
   "unidades": 1,
   "sku": "428",
   "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-07",
+  "posicao": 0,
+  "produto": "Vinho Tinto Hacienda de Susar Rioja 2022",
+  "unidades": 2,
+  "sku": "0440",
+  "fonte": "relatorio"
  }
 ]
