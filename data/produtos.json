@@ -812,5 +812,21 @@
   "unidades": 2,
   "sku": "0440",
   "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-08",
+  "posicao": 0,
+  "produto": "Vinho Tinto Tierraviva Carménère",
+  "unidades": 1,
+  "sku": "2008",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-08",
+  "posicao": 0,
+  "produto": "Vinho Tinto Cal y Canto Roble 2021",
+  "unidades": 6,
+  "sku": "0420",
+  "fonte": "relatorio"
  }
 ]
