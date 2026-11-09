@@ -523,6 +523,18 @@
  },
  {
   "dia": "2026-11-08",
+  "embaixador": "Monise Wenzel",
+  "pedidos": 3,
+  "total": 1215.22
+ },
+ {
+  "dia": "2026-11-08",
+  "embaixador": "Carolina Montenegro",
+  "pedidos": 1,
+  "total": 717.6
+ },
+ {
+  "dia": "2026-11-08",
   "embaixador": "Ródney Berto",
   "pedidos": 1,
   "total": 513
@@ -532,6 +544,18 @@
   "embaixador": "Carla Cavalcante",
   "pedidos": 1,
   "total": 441
+ },
+ {
+  "dia": "2026-11-08",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 1,
+  "total": 405
+ },
+ {
+  "dia": "2026-11-08",
+  "embaixador": "Daniel Rueda Ivanov",
+  "pedidos": 1,
+  "total": 89.7
  },
  {
   "dia": "2026-11-08",

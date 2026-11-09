@@ -828,5 +828,45 @@
   "unidades": 6,
   "sku": "0420",
   "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-08",
+  "posicao": 0,
+  "produto": "Vinho Rosé Começo Península de Setúbal 2021",
+  "unidades": 8,
+  "sku": "277",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-08",
+  "posicao": 0,
+  "produto": "Vinho Branco Huella Sauvignon Blanc",
+  "unidades": 12,
+  "sku": "2006",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-08",
+  "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 2,
+  "sku": "7794068001576",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-08",
+  "posicao": 0,
+  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
+  "unidades": 10,
+  "sku": "424_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-08",
+  "posicao": 0,
+  "produto": "Vinho Rosé Finca Santa Rosa",
+  "unidades": 14,
+  "sku": "425_ansic",
+  "fonte": "relatorio"
  }
 ]
