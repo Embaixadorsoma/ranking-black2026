@@ -5,13 +5,235 @@
   "prefixo": "2026-11",
   "meta": 1000000
  },
- "bloco": {
-  "nome": "2º bloco",
-  "inicio": "2026-11-06",
-  "fim": "2026-11-10",
-  "meta": 300000
+ "ranking": {
+  "nome": "Ranking do mês",
+  "inicio": "2026-11-01",
+  "fim": "2026-11-30",
+  "top": 10
  },
  "produtos": [
+  {
+   "nome": "Anduco Malbec",
+   "palavras": [
+    "anduco",
+    "malbec"
+   ],
+   "fora": [],
+   "preco": 59.9,
+   "cor": "#e8bd62",
+   "sku": "1000_sw",
+   "desde": "2026-11-01",
+   "fora_dias": [
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+   ]
+  },
+  {
+   "nome": "Anduco Chardonnay",
+   "palavras": [
+    "anduco",
+    "chardonnay"
+   ],
+   "fora": [],
+   "preco": 59.9,
+   "cor": "#e8bd62",
+   "sku": "1002_sw",
+   "desde": "2026-11-01",
+   "fora_dias": [
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+   ]
+  },
+  {
+   "nome": "Anduco Torrontés",
+   "palavras": [
+    "anduco",
+    "torront"
+   ],
+   "fora": [],
+   "preco": 59.9,
+   "cor": "#e8bd62",
+   "sku": "1004_sw",
+   "desde": "2026-11-01",
+   "fora_dias": [
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+   ]
+  },
+  {
+   "nome": "Comienzos Chardonnay",
+   "palavras": [
+    "comienzos",
+    "chardonnay"
+   ],
+   "fora": [],
+   "preco": 32.9,
+   "cor": "#f2a7b8",
+   "sku": "7794068001576",
+   "desde": "2026-11-01",
+   "fora_dias": [
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+   ]
+  },
+  {
+   "nome": "Finca Santa Rosa Chardonnay",
+   "palavras": [
+    "finca santa rosa",
+    "chardonnay"
+   ],
+   "fora": [
+    "origen",
+    "375"
+   ],
+   "preco": 29.9,
+   "cor": "#c23a68",
+   "sku": "424_ansic",
+   "desde": "2026-11-01",
+   "fora_dias": [
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+   ]
+  },
+  {
+   "nome": "Finca Santa Rosa Rosé",
+   "palavras": [
+    "finca santa rosa",
+    "rose"
+   ],
+   "fora": [
+    "origen",
+    "375"
+   ],
+   "preco": 29.9,
+   "cor": "#c23a68",
+   "sku": "425_ansic",
+   "desde": "2026-11-01",
+   "fora_dias": [
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+   ]
+  },
+  {
+   "nome": "Finca Santa Rosa Carménère",
+   "palavras": [
+    "finca santa rosa",
+    "carmenere"
+   ],
+   "fora": [
+    "origen",
+    "375"
+   ],
+   "preco": 29.9,
+   "cor": "#c23a68",
+   "sku": "427_ansic",
+   "desde": "2026-11-01",
+   "fora_dias": [
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+   ]
+  },
+  {
+   "nome": "Finca Santa Rosa Merlot",
+   "palavras": [
+    "finca santa rosa",
+    "merlot"
+   ],
+   "fora": [
+    "origen",
+    "375"
+   ],
+   "preco": 29.9,
+   "cor": "#c23a68",
+   "sku": "426_ansic",
+   "desde": "2026-11-01",
+   "fora_dias": [
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+   ]
+  },
+  {
+   "nome": "Finca Santa Rosa Cabernet Sauvignon",
+   "palavras": [
+    "finca santa rosa",
+    "cabernet"
+   ],
+   "fora": [
+    "origen",
+    "375"
+   ],
+   "preco": 29.9,
+   "cor": "#c23a68",
+   "sku": "428",
+   "desde": "2026-11-01",
+   "fora_dias": [
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+   ]
+  },
+  {
+   "nome": "Origen Cabernet Sauvignon 375ml",
+   "palavras": [
+    "origen",
+    "cabernet",
+    "375"
+   ],
+   "fora": [],
+   "preco": 25.9,
+   "cor": "#8fb3ff",
+   "sku": "2009",
+   "desde": "2026-11-01",
+   "fora_dias": [
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+   ]
+  },
+  {
+   "nome": "Fonte da Galega Tinto",
+   "palavras": [
+    "fonte da galega"
+   ],
+   "fora": [
+    "branco",
+    "rose"
+   ],
+   "preco": 43.39,
+   "cor": "#7fd1b9",
+   "sku": "1019",
+   "desde": "2026-11-01",
+   "fora_dias": [
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+   ]
+  },
+  {
+   "nome": "Fonte da Galega Rosé",
+   "palavras": [
+    "fonte da galega",
+    "rose"
+   ],
+   "fora": [],
+   "preco": 40.5,
+   "cor": "#7fd1b9",
+   "sku": "1022",
+   "desde": "2026-11-01",
+   "fora_dias": [
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+   ]
+  },
   {
    "nome": "Começo Rosé Setúbal",
    "palavras": [
@@ -21,7 +243,8 @@
    "fora": [],
    "preco": 53.09,
    "cor": "#f2a7b8",
-   "sku": "277"
+   "sku": "277",
+   "desde": "2026-11-06"
   },
   {
    "nome": "Nancul Reserva Cabernet Sauvignon Rosé",
@@ -32,7 +255,8 @@
    "fora": [],
    "preco": 45.92,
    "cor": "#e8bd62",
-   "sku": "236_lusitano"
+   "sku": "236_lusitano",
+   "desde": "2026-11-06"
   },
   {
    "nome": "Casir dos Santos Estate Malbec Rosé",
@@ -43,7 +267,8 @@
    "fora": [],
    "preco": 42.0,
    "cor": "#ff9f7a",
-   "sku": "104"
+   "sku": "104",
+   "desde": "2026-11-06"
   },
   {
    "nome": "Martha's DOC Douro Branco",
@@ -57,7 +282,8 @@
    ],
    "preco": 51.07,
    "cor": "#7fd1b9",
-   "sku": "269"
+   "sku": "269",
+   "desde": "2026-11-06"
   },
   {
    "nome": "Tierraviva Cabernet Sauvignon",
@@ -69,7 +295,8 @@
    "fora": [],
    "preco": 34.9,
    "cor": "#8fb3ff",
-   "sku": "2007"
+   "sku": "2007",
+   "desde": "2026-11-06"
   },
   {
    "nome": "Tierraviva Carménère",
@@ -81,7 +308,8 @@
    "fora": [],
    "preco": 34.9,
    "cor": "#8fb3ff",
-   "sku": "2008"
+   "sku": "2008",
+   "desde": "2026-11-06"
   },
   {
    "nome": "Huella Cabernet Sauvignon",
@@ -92,7 +320,8 @@
    "fora": [],
    "preco": 45.9,
    "cor": "#c23a68",
-   "sku": "2005"
+   "sku": "2005",
+   "desde": "2026-11-06"
   },
   {
    "nome": "Huella Carménère",
@@ -103,7 +332,8 @@
    "fora": [],
    "preco": 45.9,
    "cor": "#c23a68",
-   "sku": "2004"
+   "sku": "2004",
+   "desde": "2026-11-06"
   },
   {
    "nome": "Huella Sauvignon Blanc",
@@ -114,7 +344,8 @@
    "fora": [],
    "preco": 45.9,
    "cor": "#c23a68",
-   "sku": "2006"
+   "sku": "2006",
+   "desde": "2026-11-06"
   },
   {
    "nome": "Estelar 57 Only White",
@@ -125,7 +356,8 @@
    "fora": [],
    "preco": 37.32,
    "cor": "#b48cff",
-   "sku": "612171"
+   "sku": "612171",
+   "desde": "2026-11-06"
   },
   {
    "nome": "Estelar 57 Only Pink",
@@ -136,7 +368,8 @@
    "fora": [],
    "preco": 37.32,
    "cor": "#b48cff",
-   "sku": "612172"
+   "sku": "612172",
+   "desde": "2026-11-06"
   },
   {
    "nome": "Estelar 57 Red Blend",
@@ -147,7 +380,8 @@
    "fora": [],
    "preco": 37.32,
    "cor": "#b48cff",
-   "sku": "612173"
+   "sku": "612173",
+   "desde": "2026-11-06"
   },
   {
    "nome": "Montmeyrac Rosé",
@@ -158,7 +392,396 @@
    "fora": [],
    "preco": 57.72,
    "cor": "#f7dc9a",
-   "sku": "611562"
+   "sku": "611562",
+   "desde": "2026-11-06"
+  },
+  {
+   "nome": "Lauca Reserva Cabernet Sauvignon",
+   "palavras": [
+    "lauca reserva",
+    "cabernet"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe",
+    "gran",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "60%"
+   ],
+   "preco": 69.9,
+   "cor": "#e8bd62",
+   "sku": "5003",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Lauca Reserva Carménère",
+   "palavras": [
+    "lauca reserva",
+    "carmenere"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe",
+    "gran",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "60%"
+   ],
+   "preco": 69.9,
+   "cor": "#e8bd62",
+   "sku": "5004",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Lauca Reserva Pinot Noir",
+   "palavras": [
+    "lauca reserva",
+    "pinot noir"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe",
+    "gran",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "60%"
+   ],
+   "preco": 69.9,
+   "cor": "#e8bd62",
+   "sku": "5005",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Lauca Reserva Chardonnay",
+   "palavras": [
+    "lauca reserva",
+    "chardonnay"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe",
+    "gran",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "60%"
+   ],
+   "preco": 69.9,
+   "cor": "#e8bd62",
+   "sku": "5006",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Lauca Syrah",
+   "palavras": [
+    "lauca syrah"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe"
+   ],
+   "preco": 49.9,
+   "cor": "#e8bd62",
+   "sku": "5009",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Tons de Duorum 375ml",
+   "palavras": [
+    "tons de duorum",
+    "375"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe",
+    "375ml."
+   ],
+   "preco": 55.16,
+   "cor": "#7fd1b9",
+   "sku": "612200",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Jacob's Creek Shiraz Cabernet",
+   "palavras": [
+    "jacob",
+    "shiraz",
+    "cabernet"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe"
+   ],
+   "preco": 80.66,
+   "cor": "#8fb3ff",
+   "sku": "605240",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Jacob's Creek Shiraz",
+   "palavras": [
+    "jacob",
+    "shiraz"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe",
+    "cabernet"
+   ],
+   "preco": 80.66,
+   "cor": "#8fb3ff",
+   "sku": "611390",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Osado Tinto (Malbec)",
+   "palavras": [
+    "osado malbec"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe",
+    "blanco"
+   ],
+   "preco": 59.9,
+   "cor": "#f2a7b8",
+   "sku": "876_ansic",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Osado Branco (Malbec Blanco)",
+   "palavras": [
+    "osado malbec blanco"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe"
+   ],
+   "preco": 59.9,
+   "cor": "#f2a7b8",
+   "sku": "877",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Monte Ducay Branco",
+   "palavras": [
+    "branco monte ducay"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe"
+   ],
+   "preco": 60.9,
+   "cor": "#ff9f7a",
+   "sku": "9007",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Castillo Ducay Branco",
+   "palavras": [
+    "branco castillo ducay"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe"
+   ],
+   "preco": 61.14,
+   "cor": "#ff9f7a",
+   "sku": "9010",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Castillo Ducay Tinto",
+   "palavras": [
+    "tinto castillo ducay"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe",
+    "crianza"
+   ],
+   "preco": 56.52,
+   "cor": "#ff9f7a",
+   "sku": "9008",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Budeguer 4000 Blue Blend Reserva",
+   "palavras": [
+    "budeguer",
+    "blend"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe"
+   ],
+   "preco": 133.5,
+   "cor": "#b48cff",
+   "sku": "455",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Budeguer 4000 Malbec Reserva",
+   "palavras": [
+    "budeguer",
+    "malbec"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe"
+   ],
+   "preco": 133.5,
+   "cor": "#b48cff",
+   "sku": "456_winemania",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Budeguer 4000 Cabernet Franc Reserva",
+   "palavras": [
+    "budeguer",
+    "cabernet franc"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe"
+   ],
+   "preco": 133.5,
+   "cor": "#b48cff",
+   "sku": "457_winemania",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Ariete Sentiero Morellino di Scansano",
+   "palavras": [
+    "ariete",
+    "sentiero"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe"
+   ],
+   "preco": 195.0,
+   "cor": "#f7dc9a",
+   "sku": "345",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Ariete Arrivo Morellino di Scansano",
+   "palavras": [
+    "ariete",
+    "arrivo"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe"
+   ],
+   "preco": 262.5,
+   "cor": "#f7dc9a",
+   "sku": "346",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Nancul Reserve Collection Cabernet Sauvignon",
+   "palavras": [
+    "nancul",
+    "collection",
+    "cabernet"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe"
+   ],
+   "preco": 67.2,
+   "cor": "#c23a68",
+   "sku": "226",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Nancul Reserve Elegant Shiraz",
+   "palavras": [
+    "nancul",
+    "shiraz"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa",
+    "compre",
+    "ganhe"
+   ],
+   "preco": 60.48,
+   "cor": "#c23a68",
+   "sku": "285_lusitano",
+   "desde": "2026-11-10"
   },
   {
    "nome": "Buffon Ciao Prosecco",
@@ -551,46 +1174,269 @@
    "sku": "0440"
   }
  ],
- "marcas": [
-  [
-   "Começo",
-   "#f2a7b8"
+ "black_11_11": {
+  "nome": "Black 11/11",
+  "inicio": "2026-11-11",
+  "fim": "2026-11-11",
+  "marcas": [
+   [
+    "Chablis",
+    "#e8bd62"
+   ],
+   [
+    "Bordeaux (Thunevin, Croix Cardinale, Grand-Puy Ducasse)",
+    "#8fb3ff"
+   ],
+   [
+    "Valdoeiro",
+    "#7fd1b9"
+   ],
+   [
+    "Bertani",
+    "#f7dc9a"
+   ],
+   [
+    "St. Thomas",
+    "#b48cff"
+   ],
+   [
+    "Epílogo",
+    "#ff9f7a"
+   ],
+   [
+    "Winemania (Pisces, Aquarius, Cangrejo, Ariete)",
+    "#c23a68"
+   ],
+   [
+    "Quinta dos Castelares",
+    "#d9a6c9"
+   ]
   ],
-  [
-   "Nancul",
-   "#e8bd62"
-  ],
-  [
-   "Casir dos Santos",
-   "#ff9f7a"
-  ],
-  [
-   "Martha's",
-   "#7fd1b9"
-  ],
-  [
-   "Tierraviva",
-   "#8fb3ff"
-  ],
-  [
-   "Huella",
-   "#c23a68"
-  ],
-  [
-   "Estelar 57",
-   "#b48cff"
-  ],
-  [
-   "Montmeyrac",
-   "#f7dc9a"
-  ],
-  [
-   "Buffon (até 30/11)",
-   "#a8d672"
-  ],
-  [
-   "Riojas (06/11 a 30/11)",
-   "#e0835f"
+  "produtos": [
+   {
+    "nome": "Chablis Comte de Bernadotte",
+    "palavras": [
+     "bernadotte",
+     "chablis"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "caixa"
+    ],
+    "preco": 289.0,
+    "cor": "#e8bd62",
+    "sku": "3003_sw"
+   },
+   {
+    "nome": "Domaine Thunevin Calvet Hugo 2017",
+    "palavras": [
+     "thunevin",
+     "hugo"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "caixa"
+    ],
+    "preco": 701.17,
+    "cor": "#8fb3ff",
+    "sku": "612138"
+   },
+   {
+    "nome": "Quinta do Valdoeiro Syrah 2015",
+    "palavras": [
+     "valdoeiro",
+     "syrah"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "caixa",
+     "messias",
+     "bairrada"
+    ],
+    "preco": 226.87,
+    "cor": "#7fd1b9",
+    "sku": "610423"
+   },
+   {
+    "nome": "Château Croix Cardinale St-Émilion",
+    "palavras": [
+     "croix cardinale"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "caixa"
+    ],
+    "preco": 718.17,
+    "cor": "#8fb3ff",
+    "sku": "612131"
+   },
+   {
+    "nome": "Bertani Secco",
+    "palavras": [
+     "bertani",
+     "secco"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "caixa"
+    ],
+    "preco": 388.37,
+    "cor": "#f7dc9a",
+    "sku": "612166"
+   },
+   {
+    "nome": "Château St. Thomas 2014",
+    "palavras": [
+     "thomas 750ml"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "caixa"
+    ],
+    "preco": 433.42,
+    "cor": "#b48cff",
+    "sku": "615081"
+   },
+   {
+    "nome": "Prélude à Grand-Puy Ducasse 2017",
+    "palavras": [
+     "prelude",
+     "puy ducasse"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "caixa"
+    ],
+    "preco": 518.42,
+    "cor": "#8fb3ff",
+    "sku": "612120"
+   },
+   {
+    "nome": "Château St. Thomas Le Merlot A",
+    "palavras": [
+     "thomas",
+     "merlot a"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "caixa"
+    ],
+    "preco": 1087.92,
+    "cor": "#b48cff",
+    "sku": "615082"
+   },
+   {
+    "nome": "Epílogo (Don Raul)",
+    "palavras": [
+     "epilogo"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "caixa"
+    ],
+    "preco": 219.9,
+    "cor": "#ff9f7a",
+    "sku": "7898663710120"
+   },
+   {
+    "nome": "Pisces Rojo Cabernet Franc",
+    "palavras": [
+     "pisces rojo",
+     "cabernet franc"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "caixa",
+     "2 pisces"
+    ],
+    "preco": 394.5,
+    "cor": "#c23a68",
+    "sku": "295"
+   },
+   {
+    "nome": "Pisces Malbec Gran Reserva",
+    "palavras": [
+     "pisces",
+     "malbec gran reserva"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "caixa"
+    ],
+    "preco": 394.5,
+    "cor": "#c23a68",
+    "sku": "314"
+   },
+   {
+    "nome": "Gran Aquarius",
+    "palavras": [
+     "gran aquarius"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "caixa"
+    ],
+    "preco": 264.0,
+    "cor": "#c23a68",
+    "sku": "334"
+   },
+   {
+    "nome": "Cangrejo Barrel Selection",
+    "palavras": [
+     "cangrejo",
+     "barrel"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "caixa"
+    ],
+    "preco": 394.5,
+    "cor": "#c23a68",
+    "sku": "327"
+   },
+   {
+    "nome": "Ariete Supertoscano IGT",
+    "palavras": [
+     "ariete",
+     "supertoscano"
+    ],
+    "fora": [
+     "kit",
+     "garrafas",
+     "caixa"
+    ],
+    "preco": 292.5,
+    "cor": "#c23a68",
+    "sku": "349"
+   },
+   {
+    "nome": "Quinta dos Castelares Grande Reserva Magnum 1,5L",
+    "palavras": [
+     "castelares",
+     "grande reserva",
+     "magnum"
+    ],
+    "fora": [
+     "kit",
+     "garrafas"
+    ],
+    "preco": 504.65,
+    "cor": "#d9a6c9",
+    "sku": "1006"
+   }
   ]
- ]
+ }
 }

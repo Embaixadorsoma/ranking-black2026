@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ranking Black Compre Vinho</title>
-<meta name="description" content="Metas, produtos e embaixadores da Black Compre Vinho, atualizado 3 vezes por dia.">
+<meta name="description" content="Ranking do mês da Black Compre Vinho: os 10 vinhos mais vendidos e os 10 embaixadores que mais venderam, atualizado 3 vezes por dia.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -134,33 +134,9 @@
   <nav class="bk-tabs" role="tablist" id="abas"></nav>
 
   <div id="paginas"></div>
-
-  <section class="bk-page" id="embaixadores" role="tabpanel" hidden>
-    <nav class="bk-subtabs" role="tablist" aria-label="Escolha o bloco" id="emb-abas"></nav>
-    <div class="bk-tiles">
-      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">💰</span>Total vendido no bloco</p><p class="bk-num" id="e-total">—</p></div>
-      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">🧾</span>Pedidos aprovados</p><p class="bk-num" id="e-pedidos">—</p></div>
-      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">🙋</span>Embaixadores que venderam</p><p class="bk-num" id="e-qtd">—</p></div>
-    </div>
-    <div class="bk-card">
-      <h2>Pódio do <span id="e-nome">bloco</span></h2>
-      <div class="bk-podium" id="podio"></div>
-      <p class="bk-note" id="podio-vazio" hidden>As vendas ainda não começaram. O pódio aparece aqui assim que entrarem os primeiros pedidos.</p>
-    </div>
-    <div class="bk-card">
-      <h2>Embaixadores que mais venderam</h2>
-      <p class="bk-note" id="e-nota">Soma de todos os dias do bloco, do maior valor vendido para o menor.</p>
-      <div class="bk-wrap">
-        <table class="bk-table">
-          <thead><tr><th>#</th><th class="bk-prod">Embaixador</th><th class="bk-r">Pedidos</th><th class="bk-r">Total vendido</th></tr></thead>
-          <tbody id="emb-body"></tbody>
-        </table>
-      </div>
-    </div>
-  </section>
 </div>
 
-<template id="tpl-bloco">
+<template id="tpl-pagina">
   <section class="bk-page" role="tabpanel" hidden>
     <div class="bk-meta">
       <div class="bk-meta-top">
@@ -169,29 +145,57 @@
       </div>
       <div class="bk-track"><div class="bk-fill" data-k="mes-bar"></div></div>
       <p class="bk-meta-line"><span>Vendido no mês: <b data-k="mes-vendido">—</b></span><span data-k="mes-falta-wrap">Faltam <b data-k="mes-falta">—</b> para a meta do mês</span><span class="bk-batida" data-k="mes-batida" hidden>🎉 Meta do mês batida!</span></p>
-      <div class="bk-meta-sep"></div>
-      <div class="bk-meta-top">
-        <div><p class="bk-label">Meta do <span data-k="nome">—</span> · <span data-k="datas">—</span></p><p class="bk-mid" data-k="bl-meta">—</p></div>
-        <div class="bk-meta-pct"><p class="bk-label">Alcançado</p><p class="bk-mid bk-gold-txt" data-k="bl-pct">—</p></div>
+      <div data-k="dia-wrap">
+        <div class="bk-meta-sep"></div>
+        <div class="bk-meta-top">
+          <div><p class="bk-label">Vendido no dia (todos os produtos)</p><p class="bk-mid" data-k="dia-vendido">—</p></div>
+        </div>
       </div>
-      <div class="bk-track bk-track-sm"><div class="bk-fill bk-fill-mes" data-k="bl-bar"></div></div>
-      <p class="bk-meta-line"><span>Vendido no bloco (todos os produtos): <b data-k="bl-vendido">—</b></span><span data-k="bl-falta-wrap">Faltam <b data-k="bl-falta">—</b> para a meta do bloco</span><span class="bk-batida" data-k="bl-batida" hidden>🎉 Meta do bloco batida!</span></p>
     </div>
 
     <div class="bk-tiles">
-      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">📦</span>Garrafas vendidas no bloco</p><p class="bk-num" data-k="t-unid">—</p></div>
-      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">🥇</span>Produto que mais vendeu</p><p class="bk-num" data-k="t-lider">—</p></div>
-      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">💰</span>Valor vendido dos produtos do bloco</p><p class="bk-num" data-k="t-valor">—</p></div>
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">📦</span><span data-k="t-unid-lbl">Garrafas</span></p><p class="bk-num" data-k="t-unid">—</p></div>
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">🥇</span>Vinho que mais vendeu</p><p class="bk-num" data-k="t-lider">—</p></div>
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">💰</span><span data-k="t-valor-lbl">Valor</span></p><p class="bk-num" data-k="t-valor">—</p></div>
     </div>
 
     <div class="bk-card">
-      <h2>Produtos do <span data-k="nome2">bloco</span>: vendidos por dia</h2>
-      <p class="bk-note">Garrafas vendidas em cada dia, total do período e valor (garrafas × preço). Quanto mais forte a cor do dia, mais vendeu.</p>
+      <h2 data-k="pv-titulo">Pódio dos vinhos</h2>
+      <div class="bk-podium" data-k="podio-vinhos"></div>
+      <p class="bk-note" data-k="podio-vinhos-vazio" hidden>O pódio aparece aqui assim que entrarem as primeiras vendas.</p>
+    </div>
+
+    <div class="bk-card">
+      <h2 data-k="prod-titulo">Vinhos mais vendidos</h2>
+      <p class="bk-note" data-k="prod-nota"></p>
       <p class="bk-legend" data-k="legenda"></p>
       <div class="bk-wrap">
         <table class="bk-table">
-          <thead><tr data-k="prod-head"></tr></thead>
+          <thead><tr><th>#</th><th class="bk-prod">Vinho</th><th class="bk-r">Garrafas</th><th class="bk-r">Valor</th></tr></thead>
           <tbody data-k="prod-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="bk-tiles">
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">💰</span>Total vendido pelos embaixadores</p><p class="bk-num" data-k="e-total">—</p></div>
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">🧾</span>Pedidos aprovados</p><p class="bk-num" data-k="e-pedidos">—</p></div>
+      <div class="bk-tile"><p class="bk-tile-head"><span class="bk-ico">🙋</span>Embaixadores que venderam</p><p class="bk-num" data-k="e-qtd">—</p></div>
+    </div>
+
+    <div class="bk-card">
+      <h2 data-k="pe-titulo">Pódio dos embaixadores</h2>
+      <div class="bk-podium" data-k="podio"></div>
+      <p class="bk-note" data-k="podio-vazio" hidden>O pódio aparece aqui assim que entrarem os primeiros pedidos.</p>
+    </div>
+
+    <div class="bk-card">
+      <h2 data-k="emb-titulo">Embaixadores que mais venderam</h2>
+      <p class="bk-note" data-k="emb-nota"></p>
+      <div class="bk-wrap">
+        <table class="bk-table">
+          <thead><tr><th>#</th><th class="bk-prod">Embaixador</th><th class="bk-r">Pedidos</th><th class="bk-r">Total vendido</th></tr></thead>
+          <tbody data-k="emb-body"></tbody>
         </table>
       </div>
     </div>
