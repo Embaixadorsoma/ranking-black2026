@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-09T11:25:59Z",
+ "atualizado": "2026-11-10T10:17:07Z",
  "mes": {
   "nome": "novembro",
   "prefixo": "2026-11",
@@ -1172,86 +1172,6 @@
    "cor": "#e0835f",
    "desde": "2026-11-06",
    "sku": "0440"
-  },
-  {
-   "nome": "Peccato Di Vino Cabernet Sauvignon",
-   "palavras": [
-    "peccato",
-    "cabernet sauvignon"
-   ],
-   "fora": [
-    "kit",
-    "garrafas",
-    "reserva"
-   ],
-   "preco": 29.9,
-   "cor": "#9fd3f0",
-   "sku": "410",
-   "desde": "2026-11-10"
-  },
-  {
-   "nome": "Peccato Di Vino Chardonnay",
-   "palavras": [
-    "peccato",
-    "chardonnay"
-   ],
-   "fora": [
-    "kit",
-    "garrafas",
-    "reserva"
-   ],
-   "preco": 29.9,
-   "cor": "#9fd3f0",
-   "sku": "411",
-   "desde": "2026-11-10"
-  },
-  {
-   "nome": "Peccato Di Vino Sauvignon Blanc",
-   "palavras": [
-    "peccato",
-    "sauvignon blanc"
-   ],
-   "fora": [
-    "kit",
-    "garrafas",
-    "reserva"
-   ],
-   "preco": 29.9,
-   "cor": "#9fd3f0",
-   "sku": "417_ansic",
-   "desde": "2026-11-10"
-  },
-  {
-   "nome": "Peccato Di Vino Pinot Grigio",
-   "palavras": [
-    "peccato",
-    "pinot grigio"
-   ],
-   "fora": [
-    "kit",
-    "garrafas",
-    "reserva"
-   ],
-   "preco": 29.9,
-   "cor": "#9fd3f0",
-   "sku": "420",
-   "desde": "2026-11-10"
-  },
-  {
-   "nome": "Peccato Di Vino Carménère",
-   "palavras": [
-    "peccato",
-    "carmenere"
-   ],
-   "fora": [
-    "kit",
-    "garrafas",
-    "reserva"
-   ],
-   "preco": 29.9,
-   "cor": "#9fd3f0",
-   "sku": "419_ansic",
-   "desde": "2026-11-10"
   }
  ],
  "black_11_11": {
@@ -1280,7 +1200,7 @@
     "#b48cff"
    ],
    [
-    "Epílogo e Monte Noble (Don Raul)",
+    "Epílogo",
     "#ff9f7a"
    ],
    [
@@ -1516,36 +1436,6 @@
     "preco": 504.65,
     "cor": "#d9a6c9",
     "sku": "1006"
-   },
-   {
-    "nome": "Monte Noble Cabernet Sauvignon (Don Raul)",
-    "palavras": [
-     "monte noble",
-     "cabernet"
-    ],
-    "fora": [
-     "kit",
-     "garrafas",
-     "misto"
-    ],
-    "preco": 79.9,
-    "cor": "#ff9f7a",
-    "sku": "7898663710212"
-   },
-   {
-    "nome": "Monte Noble Carménère (Don Raul)",
-    "palavras": [
-     "monte noble",
-     "carmenere"
-    ],
-    "fora": [
-     "kit",
-     "garrafas",
-     "misto"
-    ],
-    "preco": 79.9,
-    "cor": "#ff9f7a",
-    "sku": "7898663710212carm"
    }
   ]
  }

@@ -338,8 +338,8 @@
  {
   "dia": "2026-11-06",
   "embaixador": "Tatiane Fernandes Andrade de Lima",
-  "pedidos": 9,
-  "total": 2613.5
+  "pedidos": 10,
+  "total": 2833.5
  },
  {
   "dia": "2026-11-06",
@@ -352,6 +352,12 @@
   "embaixador": "Eduardo Henrique da Silva Bastos",
   "pedidos": 1,
   "total": 1330.2
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Maria Cecília Picinin Vuolo Mioto",
+  "pedidos": 1,
+  "total": 1275.8
  },
  {
   "dia": "2026-11-06",
@@ -385,6 +391,12 @@
  },
  {
   "dia": "2026-11-06",
+  "embaixador": "Monise Wenzel",
+  "pedidos": 2,
+  "total": 711.4
+ },
+ {
+  "dia": "2026-11-06",
   "embaixador": "Lívia Fialho Mourão",
   "pedidos": 1,
   "total": 607.1
@@ -403,12 +415,6 @@
  },
  {
   "dia": "2026-11-06",
-  "embaixador": "Monise Wenzel",
-  "pedidos": 1,
-  "total": 532
- },
- {
-  "dia": "2026-11-06",
   "embaixador": "Ricardo Sérgio Neiva Nóbrega",
   "pedidos": 1,
   "total": 502.9
@@ -418,6 +424,12 @@
   "embaixador": "Pablo Rodrigo Such",
   "pedidos": 1,
   "total": 469.1
+ },
+ {
+  "dia": "2026-11-06",
+  "embaixador": "Jacqueline de Bessa Santos",
+  "pedidos": 1,
+  "total": 459.5
  },
  {
   "dia": "2026-11-06",
@@ -484,12 +496,6 @@
   "embaixador": "Djalma Barros Goncalves",
   "pedidos": 1,
   "total": 69.8
- },
- {
-  "dia": "2026-11-06",
-  "embaixador": "Jacqueline de Bessa Santos",
-  "pedidos": 1,
-  "total": 459.5
  },
  {
   "dia": "2026-11-07",
@@ -562,5 +568,59 @@
   "embaixador": "Danielle Aparecida Reis",
   "pedidos": 1,
   "total": 34.9
+ },
+ {
+  "dia": "2026-11-09",
+  "embaixador": "Luciana Quinello",
+  "pedidos": 3,
+  "total": 1556.1
+ },
+ {
+  "dia": "2026-11-09",
+  "embaixador": "Edmilson Marchioni Filho",
+  "pedidos": 2,
+  "total": 1436.4
+ },
+ {
+  "dia": "2026-11-09",
+  "embaixador": "Ricardo Sérgio Neiva Nóbrega",
+  "pedidos": 1,
+  "total": 998
+ },
+ {
+  "dia": "2026-11-09",
+  "embaixador": "Vanessa Rincon",
+  "pedidos": 3,
+  "total": 863
+ },
+ {
+  "dia": "2026-11-09",
+  "embaixador": "Tatiana Cordeiro Lana Teixeira",
+  "pedidos": 2,
+  "total": 721.54
+ },
+ {
+  "dia": "2026-11-09",
+  "embaixador": "Ródney Berto",
+  "pedidos": 1,
+  "total": 558.6
+ },
+ {
+  "dia": "2026-11-09",
+  "embaixador": "Mônica Variani",
+  "pedidos": 1,
+  "total": 478.8
+ },
+ {
+  "dia": "2026-11-09",
+  "embaixador": "Hugo Figueiredo Tôrres",
+  "pedidos": 1,
+  "total": 259
+ },
+ {
+  "dia": "2026-11-09",
+  "embaixador": "Marina Bittencourt Priolli",
+  "pedidos": 1,
+  "total": 220
  }
 ]
