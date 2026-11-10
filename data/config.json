@@ -1252,6 +1252,516 @@
    "cor": "#9fd3f0",
    "sku": "419_ansic",
    "desde": "2026-11-10"
+  },
+  {
+   "nome": "Peccato Di Vino Rosé",
+   "palavras": [
+    "peccato",
+    "rose"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "reserva"
+   ],
+   "preco": 29.9,
+   "cor": "#9fd3f0",
+   "sku": "418_ansic",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Andeluna Ninety Plus Malbec",
+   "palavras": [
+    "ninety plus"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 89.9,
+   "cor": "#c23a68",
+   "sku": "1017_sw",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Vignes DOC Rosé",
+   "palavras": [
+    "vignes doc"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "2019"
+   ],
+   "preco": 59.9,
+   "cor": "#c23a68",
+   "sku": "3001",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Villa Des Croix Sauvignon Blanc",
+   "palavras": [
+    "villa des croix",
+    "sauvignon blanc"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 89.9,
+   "cor": "#c23a68",
+   "sku": "3004_sw",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Flor do Alqueve Tinto",
+   "palavras": [
+    "flor do alqueve",
+    "tinto",
+    "2022"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "pinhal"
+   ],
+   "preco": 79.9,
+   "cor": "#c23a68",
+   "sku": "4000_sw",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Flor do Alqueve Branco",
+   "palavras": [
+    "flor do alqueve",
+    "branco",
+    "2021"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "pinhal"
+   ],
+   "preco": 79.9,
+   "cor": "#c23a68",
+   "sku": "4001_sw",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Flor do Alqueve Rosé",
+   "palavras": [
+    "flor do alqueve",
+    "rose",
+    "2020"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "pinhal"
+   ],
+   "preco": 79.9,
+   "cor": "#c23a68",
+   "sku": "4002_sw",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Holminhos Tinto",
+   "palavras": [
+    "holminhos",
+    "tinto",
+    "2019"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "reserva"
+   ],
+   "preco": 81.79,
+   "cor": "#c23a68",
+   "sku": "3005",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Holminhos Branco",
+   "palavras": [
+    "holminhos",
+    "branco",
+    "2021"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "reserva"
+   ],
+   "preco": 84.64,
+   "cor": "#c23a68",
+   "sku": "3004",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Quinta dos Castelares Rosé Pinot Noir",
+   "palavras": [
+    "castelares",
+    "rose",
+    "pinot noir"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "espumante"
+   ],
+   "preco": 104.67,
+   "cor": "#d9a6c9",
+   "sku": "1009",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Quinta dos Castelares Rosé Touriga Nacional",
+   "palavras": [
+    "castelares",
+    "rose",
+    "touriga"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "espumante"
+   ],
+   "preco": 78.5,
+   "cor": "#d9a6c9",
+   "sku": "1005",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Quinta dos Castelares Moscatel Galego",
+   "palavras": [
+    "castelares",
+    "moscatel galego"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 115.02,
+   "cor": "#d9a6c9",
+   "sku": "1014",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Quinta dos Castelares Reserva Branco",
+   "palavras": [
+    "castelares",
+    "branco",
+    "reserva 2022"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "magnum"
+   ],
+   "preco": 133.33,
+   "cor": "#d9a6c9",
+   "sku": "1015",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Villa Fulvia Pinot Noir",
+   "palavras": [
+    "villa fulvia",
+    "pinot nero"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 66.83,
+   "cor": "#c23a68",
+   "sku": "2304",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Villa Fulvia Primitivo di Manduria",
+   "palavras": [
+    "villa fulvia",
+    "primitivo"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 111.09,
+   "cor": "#c23a68",
+   "sku": "2306",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Vilacetinho Superior",
+   "palavras": [
+    "vilacetinho superior"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 104.67,
+   "cor": "#c23a68",
+   "sku": "1103",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Vilacetinho Grande Escolha",
+   "palavras": [
+    "vilacetinho grande escolha"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 84.54,
+   "cor": "#c23a68",
+   "sku": "1109",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Cesteira Branco",
+   "palavras": [
+    "cesteira",
+    "branco"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 47.95,
+   "cor": "#c23a68",
+   "sku": "4070",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Flor do Côa Branco",
+   "palavras": [
+    "flor do coa",
+    "branco",
+    "2023"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "reserva"
+   ],
+   "preco": 73.15,
+   "cor": "#c23a68",
+   "sku": "0656",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Pisces Cabernet Sauvignon Reserva",
+   "palavras": [
+    "pisces",
+    "cabernet sauvignon reserva"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 177.75,
+   "cor": "#c23a68",
+   "sku": "312",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Pisces Malbec Bonarda Reserva",
+   "palavras": [
+    "pisces",
+    "malbec bonarda"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 177.75,
+   "cor": "#c23a68",
+   "sku": "313",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Espumante Aquarius Nature 24 Meses",
+   "palavras": [
+    "aquarius nature"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 141.6,
+   "cor": "#c23a68",
+   "sku": "266",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Aquarius Cabernet Franc",
+   "palavras": [
+    "aquarius",
+    "cabernet franc"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "gran aquarius"
+   ],
+   "preco": 117.75,
+   "cor": "#c23a68",
+   "sku": "304",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Cangrejo Cabernet Sauvignon Gran Reserva",
+   "palavras": [
+    "cangrejo",
+    "cabernet sauvignon gran reserva"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 205.5,
+   "cor": "#c23a68",
+   "sku": "326",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Palazzo Rosso Roero Arneis",
+   "palavras": [
+    "roero arneis"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 172.5,
+   "cor": "#c23a68",
+   "sku": "341",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Monte Ducay Crianza Tinto",
+   "palavras": [
+    "monte ducay",
+    "crianza"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 72.22,
+   "cor": "#c23a68",
+   "sku": "9002",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Vivi Rosé Extra-Brut 24 Meses",
+   "palavras": [
+    "vivi",
+    "24 meses"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 142.5,
+   "cor": "#c23a68",
+   "sku": "369",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Vivi Rosé Extra-Brut 36 Meses",
+   "palavras": [
+    "vivi",
+    "36 meses"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 157.5,
+   "cor": "#c23a68",
+   "sku": "393",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Vivi Rosé Extra-Brut 48 Meses",
+   "palavras": [
+    "vivi",
+    "48 meses"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 159.6,
+   "cor": "#c23a68",
+   "sku": "413_WINEMANIA",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Amore Vintage Brut 36 Meses",
+   "palavras": [
+    "amore",
+    "36 meses"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 157.5,
+   "cor": "#c23a68",
+   "sku": "465_wm",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Ariete Incontro Morellino di Scansano",
+   "palavras": [
+    "ariete",
+    "incontro"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 142.5,
+   "cor": "#c23a68",
+   "sku": "344",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Ariete Limite Vermentino",
+   "palavras": [
+    "ariete",
+    "limite"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 172.5,
+   "cor": "#c23a68",
+   "sku": "347",
+   "desde": "2026-11-10"
+  },
+  {
+   "nome": "Ariete Chianti Superiore Governo",
+   "palavras": [
+    "ariete",
+    "chianti"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 195.0,
+   "cor": "#c23a68",
+   "sku": "348",
+   "desde": "2026-11-10"
   }
  ],
  "black_11_11": {
