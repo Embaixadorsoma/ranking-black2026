@@ -589,6 +589,12 @@
  },
  {
   "dia": "2026-11-09",
+  "embaixador": "Mônica Variani",
+  "pedidos": 2,
+  "total": 957.6
+ },
+ {
+  "dia": "2026-11-09",
   "embaixador": "Vanessa Rincon",
   "pedidos": 3,
   "total": 863
@@ -607,12 +613,6 @@
  },
  {
   "dia": "2026-11-09",
-  "embaixador": "Mônica Variani",
-  "pedidos": 1,
-  "total": 478.8
- },
- {
-  "dia": "2026-11-09",
   "embaixador": "Hugo Figueiredo Tôrres",
   "pedidos": 1,
   "total": 259
@@ -622,5 +622,71 @@
   "embaixador": "Marina Bittencourt Priolli",
   "pedidos": 1,
   "total": 220
+ },
+ {
+  "dia": "2026-11-10",
+  "embaixador": "Hugo Figueiredo Tôrres",
+  "pedidos": 2,
+  "total": 2523.8
+ },
+ {
+  "dia": "2026-11-10",
+  "embaixador": "Maria Cecília Picinin Vuolo Mioto",
+  "pedidos": 1,
+  "total": 2459.17
+ },
+ {
+  "dia": "2026-11-10",
+  "embaixador": "Vanessa Rincon",
+  "pedidos": 2,
+  "total": 858.2
+ },
+ {
+  "dia": "2026-11-10",
+  "embaixador": "Lygia Pera Padula Vianna",
+  "pedidos": 1,
+  "total": 598.5
+ },
+ {
+  "dia": "2026-11-10",
+  "embaixador": "Luciana Quinello",
+  "pedidos": 3,
+  "total": 568.2
+ },
+ {
+  "dia": "2026-11-10",
+  "embaixador": "André SchrÖEr",
+  "pedidos": 1,
+  "total": 455.4
+ },
+ {
+  "dia": "2026-11-10",
+  "embaixador": "Tatiane Fernandes Andrade de Lima",
+  "pedidos": 4,
+  "total": 410.6
+ },
+ {
+  "dia": "2026-11-10",
+  "embaixador": "Livian Ribeiro",
+  "pedidos": 1,
+  "total": 368.8
+ },
+ {
+  "dia": "2026-11-10",
+  "embaixador": "Carla Cavalcante",
+  "pedidos": 1,
+  "total": 339
+ },
+ {
+  "dia": "2026-11-10",
+  "embaixador": "Monise Wenzel",
+  "pedidos": 1,
+  "total": 299.4
+ },
+ {
+  "dia": "2026-11-10",
+  "embaixador": "Debora Carolina De Lira Carvalho",
+  "pedidos": 2,
+  "total": 113.22
  }
 ]
