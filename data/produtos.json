@@ -818,9 +818,9 @@
  {
   "dia": "2026-11-10",
   "posicao": 0,
-  "produto": "Vinho Tinto 5 Oros Crianza 2021",
-  "unidades": 2,
-  "sku": "422",
+  "produto": "Vinho Rosé Chileno Santa Carolina Estelar 57 Only Pink 750ml",
+  "unidades": 1,
+  "sku": "612172",
   "fonte": "relatorio"
  },
  {
@@ -850,14 +850,6 @@
  {
   "dia": "2026-11-10",
   "posicao": 0,
-  "produto": "Vinho Rosé Chileno Santa Carolina Estelar 57 Only Pink 750ml",
-  "unidades": 1,
-  "sku": "612172",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-10",
-  "posicao": 0,
   "produto": "Vinho Tinto Nancul Reserve Elegant Shiraz 2020",
   "unidades": 2,
   "sku": "285_lusitano",
@@ -875,7 +867,7 @@
   "dia": "2026-11-10",
   "posicao": 0,
   "produto": "Espumante Buffon Ciao Brut Branco - Método Ancestral",
-  "unidades": 2,
+  "unidades": 3,
   "sku": "126_buffon",
   "fonte": "relatorio"
  },
@@ -885,6 +877,14 @@
   "produto": "Espumante Buffon Ciao Brut Rosé de Noir - Método Ancestral",
   "unidades": 3,
   "sku": "253_buffon",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-10",
+  "posicao": 0,
+  "produto": "Espumante Buffon Champenoise Nature Rosé Pinot Noir e Riesling",
+  "unidades": 1,
+  "sku": "81",
   "fonte": "relatorio"
  },
  {
@@ -904,10 +904,66 @@
   "fonte": "relatorio"
  },
  {
+  "dia": "2026-11-10",
+  "posicao": 0,
+  "produto": "Vinho Tinto 5 Oros Crianza 2021",
+  "unidades": 2,
+  "sku": "422",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Branco Anduco Torrontés",
+  "unidades": 3,
+  "sku": "1004_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Branco Martha's DOC DOURO 2020",
+  "unidades": 6,
+  "sku": "269",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Nancul Reserve Elegant Shiraz 2020",
+  "unidades": 14,
+  "sku": "285_lusitano",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
+  "unidades": 1,
+  "sku": "411",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Sauvignon Blanc D.O. Valle Central 2025",
+  "unidades": 1,
+  "sku": "417_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Branco Comte de Bernadotte Chablis 2023",
+  "unidades": 2,
+  "sku": "3003_sw",
+  "fonte": "relatorio"
+ },
+ {
   "dia": "2026-11-11",
   "posicao": 0,
   "produto": "Vinho Tinto Don Raul Monte Noble Cabernet Sauvignon 2023",
-  "unidades": 1,
+  "unidades": 2,
   "sku": "7898663710212",
   "fonte": "relatorio"
  },
@@ -915,7 +971,7 @@
   "dia": "2026-11-11",
   "posicao": 0,
   "produto": "Vinho Tinto Don Raul Monte Noble Carménère 2023",
-  "unidades": 1,
+  "unidades": 2,
   "sku": "7898663710212carm",
   "fonte": "relatorio"
  }
