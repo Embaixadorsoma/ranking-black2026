@@ -655,6 +655,12 @@
  },
  {
   "dia": "2026-11-10",
+  "embaixador": "Monise Wenzel",
+  "pedidos": 2,
+  "total": 510.2
+ },
+ {
+  "dia": "2026-11-10",
   "embaixador": "André SchrÖEr",
   "pedidos": 1,
   "total": 455.4
@@ -679,20 +685,44 @@
  },
  {
   "dia": "2026-11-10",
-  "embaixador": "Monise Wenzel",
-  "pedidos": 1,
-  "total": 299.4
- },
- {
-  "dia": "2026-11-10",
   "embaixador": "Debora Carolina De Lira Carvalho",
   "pedidos": 2,
   "total": 113.22
  },
  {
   "dia": "2026-11-11",
+  "embaixador": "Lívia Fialho Mourão",
+  "pedidos": 1,
+  "total": 1612.8
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Monise Wenzel",
+  "pedidos": 1,
+  "total": 578
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "ANNA RITA DE MOURA LIRA",
+  "pedidos": 2,
+  "total": 379.3
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Daniela Mitsue Yamaguti",
+  "pedidos": 1,
+  "total": 339.3
+ },
+ {
+  "dia": "2026-11-11",
   "embaixador": "Amana Castelo Branco",
   "pedidos": 1,
   "total": 159.8
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Gleybson Andrade",
+  "pedidos": 1,
+  "total": 79.9
  }
 ]
