@@ -922,14 +922,6 @@
  {
   "dia": "2026-11-11",
   "posicao": 0,
-  "produto": "Vinho Tinto Ariete Supertoscano IGT 2015",
-  "unidades": 3,
-  "sku": "349",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-11",
-  "posicao": 0,
   "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
   "unidades": 4,
   "sku": "410",
@@ -1026,6 +1018,14 @@
  {
   "dia": "2026-11-11",
   "posicao": 0,
+  "produto": "Vinho Tinto Ariete Supertoscano IGT 2015",
+  "unidades": 3,
+  "sku": "349",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
   "produto": "Vinho Branco Anduco Torrontés",
   "unidades": 3,
   "sku": "1004_sw",
@@ -1117,6 +1117,46 @@
   "produto": "Vinho Tinto Don Raul Monte Noble Carménère 2023",
   "unidades": 13,
   "sku": "7898663710212carm",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-12",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
+  "unidades": 2,
+  "sku": "428",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-12",
+  "posicao": 0,
+  "produto": "Vinho Tinto Huella Carménère",
+  "unidades": 1,
+  "sku": "2004",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-12",
+  "posicao": 0,
+  "produto": "Vinho Branco Huella Sauvignon Blanc",
+  "unidades": 2,
+  "sku": "2006",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-12",
+  "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 6,
+  "sku": "7794068001576",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-12",
+  "posicao": 0,
+  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
+  "unidades": 9,
+  "sku": "424_ansic",
   "fonte": "relatorio"
  }
 ]

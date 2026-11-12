@@ -637,6 +637,12 @@
  },
  {
   "dia": "2026-11-10",
+  "embaixador": "Carla Cavalcante",
+  "pedidos": 2,
+  "total": 2073
+ },
+ {
+  "dia": "2026-11-10",
   "embaixador": "Vanessa Rincon",
   "pedidos": 2,
   "total": 858.2
@@ -676,12 +682,6 @@
   "embaixador": "Livian Ribeiro",
   "pedidos": 1,
   "total": 368.8
- },
- {
-  "dia": "2026-11-10",
-  "embaixador": "Carla Cavalcante",
-  "pedidos": 1,
-  "total": 339
  },
  {
   "dia": "2026-11-10",
@@ -832,5 +832,17 @@
   "embaixador": "Gleybson Andrade",
   "pedidos": 1,
   "total": 79.9
+ },
+ {
+  "dia": "2026-11-12",
+  "embaixador": "Luciana Quinello",
+  "pedidos": 5,
+  "total": 3369.7
+ },
+ {
+  "dia": "2026-11-12",
+  "embaixador": "Hugo Figueiredo Tôrres",
+  "pedidos": 1,
+  "total": 319.6
  }
 ]
