@@ -2,6 +2,14 @@
  {
   "dia": "2026-11-01",
   "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
+  "unidades": 5,
+  "sku": "428",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-01",
+  "posicao": 0,
   "produto": "Vinho Tinto Anduco Malbec",
   "unidades": 13,
   "sku": "1000_sw",
@@ -58,14 +66,6 @@
  {
   "dia": "2026-11-01",
   "posicao": 0,
-  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
-  "unidades": 5,
-  "sku": "428",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-01",
-  "posicao": 0,
   "produto": "Vinho Tinto Finca Santa Rosa Merlot",
   "unidades": 4,
   "sku": "426_ansic",
@@ -77,6 +77,38 @@
   "produto": "Espumante Buffon Moscatel Rosé",
   "unidades": 12,
   "sku": "buff20",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-02",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
+  "unidades": 16,
+  "sku": "428",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-02",
+  "posicao": 0,
+  "produto": "Vinho Tinto Fonte Da Galega",
+  "unidades": 1,
+  "sku": "1019",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-02",
+  "posicao": 0,
+  "produto": "Vinho Tinto Origen Cabernet Sauvignon 375ml",
+  "unidades": 3,
+  "sku": "2009",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-02",
+  "posicao": 0,
+  "produto": "Vinho Branco Arribas do Douro Cesteira",
+  "unidades": 1,
+  "sku": "4070",
   "fonte": "relatorio"
  },
  {
@@ -130,41 +162,33 @@
  {
   "dia": "2026-11-02",
   "posicao": 0,
-  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
-  "unidades": 16,
-  "sku": "428",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-02",
-  "posicao": 0,
-  "produto": "Vinho Tinto Fonte Da Galega",
-  "unidades": 1,
-  "sku": "1019",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-02",
-  "posicao": 0,
-  "produto": "Vinho Tinto Origen Cabernet Sauvignon 375ml",
-  "unidades": 3,
-  "sku": "2009",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-02",
-  "posicao": 0,
-  "produto": "Vinho Branco Arribas do Douro Cesteira",
-  "unidades": 1,
-  "sku": "4070",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-02",
-  "posicao": 0,
   "produto": "Vinho Tinto Finca Santa Rosa Merlot",
   "unidades": 22,
   "sku": "426_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 0,
+  "produto": "Espumante Buffon Champenoise Nature Rosé Pinot Noir e Riesling",
+  "unidades": 12,
+  "sku": "81",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
+  "unidades": 24,
+  "sku": "411",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-03",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
+  "unidades": 6,
+  "sku": "428",
   "fonte": "relatorio"
  },
  {
@@ -226,33 +250,41 @@
  {
   "dia": "2026-11-03",
   "posicao": 0,
-  "produto": "Espumante Buffon Champenoise Nature Rosé Pinot Noir e Riesling",
-  "unidades": 12,
-  "sku": "81",
+  "produto": "Vinho Tinto Finca Santa Rosa Merlot",
+  "unidades": 3,
+  "sku": "426_ansic",
   "fonte": "relatorio"
  },
  {
-  "dia": "2026-11-03",
+  "dia": "2026-11-04",
   "posicao": 0,
-  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
-  "unidades": 24,
-  "sku": "411",
+  "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
+  "unidades": 1,
+  "sku": "420",
   "fonte": "relatorio"
  },
  {
-  "dia": "2026-11-03",
+  "dia": "2026-11-04",
   "posicao": 0,
   "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
-  "unidades": 6,
+  "unidades": 11,
   "sku": "428",
   "fonte": "relatorio"
  },
  {
-  "dia": "2026-11-03",
+  "dia": "2026-11-04",
   "posicao": 0,
-  "produto": "Vinho Tinto Finca Santa Rosa Merlot",
-  "unidades": 3,
-  "sku": "426_ansic",
+  "produto": "Vinho Tinto Fonte Da Galega",
+  "unidades": 4,
+  "sku": "1019",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-04",
+  "posicao": 0,
+  "produto": "Vinho Rosé Fonte Da Galega",
+  "unidades": 1,
+  "sku": "1022",
   "fonte": "relatorio"
  },
  {
@@ -314,38 +346,6 @@
  {
   "dia": "2026-11-04",
   "posicao": 0,
-  "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
-  "unidades": 1,
-  "sku": "420",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-04",
-  "posicao": 0,
-  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
-  "unidades": 11,
-  "sku": "428",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-04",
-  "posicao": 0,
-  "produto": "Vinho Tinto Fonte Da Galega",
-  "unidades": 4,
-  "sku": "1019",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-04",
-  "posicao": 0,
-  "produto": "Vinho Rosé Fonte Da Galega",
-  "unidades": 1,
-  "sku": "1022",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-04",
-  "posicao": 0,
   "produto": "Vinho Tinto Finca Santa Rosa Merlot",
   "unidades": 11,
   "sku": "426_ansic",
@@ -381,6 +381,22 @@
   "produto": "Vinho Tinto Andeluna Ninety Plus '90+' Malbec",
   "unidades": 1,
   "sku": "1017_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-05",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
+  "unidades": 1,
+  "sku": "411",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-05",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
+  "unidades": 3,
+  "sku": "428",
   "fonte": "relatorio"
  },
  {
@@ -442,22 +458,6 @@
  {
   "dia": "2026-11-05",
   "posicao": 0,
-  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
-  "unidades": 1,
-  "sku": "411",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-05",
-  "posicao": 0,
-  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
-  "unidades": 3,
-  "sku": "428",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-05",
-  "posicao": 0,
   "produto": "Vinho Tinto Finca Santa Rosa Merlot",
   "unidades": 4,
   "sku": "426_ansic",
@@ -493,62 +493,6 @@
   "produto": "Vinho Tinto Peccato Di Vino Carménère D.O. Valle Central 2024",
   "unidades": 2,
   "sku": "419_ansic",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-06",
-  "posicao": 0,
-  "produto": "Vinho Tinto Anduco Malbec",
-  "unidades": 43,
-  "sku": "1000_sw",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-06",
-  "posicao": 0,
-  "produto": "Vinho Branco Anduco Chardonnay",
-  "unidades": 11,
-  "sku": "1002_sw",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-06",
-  "posicao": 0,
-  "produto": "Vinho Branco Anduco Torrontés",
-  "unidades": 8,
-  "sku": "1004_sw",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-06",
-  "posicao": 0,
-  "produto": "Vinho Branco Comienzos Chardonnay 2024",
-  "unidades": 29,
-  "sku": "7794068001576",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-06",
-  "posicao": 0,
-  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
-  "unidades": 13,
-  "sku": "424_ansic",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-06",
-  "posicao": 0,
-  "produto": "Vinho Rosé Finca Santa Rosa",
-  "unidades": 17,
-  "sku": "425_ansic",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-06",
-  "posicao": 0,
-  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
-  "unidades": 19,
-  "sku": "427_ansic",
   "fonte": "relatorio"
  },
  {
@@ -634,6 +578,62 @@
  {
   "dia": "2026-11-06",
   "posicao": 0,
+  "produto": "Vinho Tinto Anduco Malbec",
+  "unidades": 43,
+  "sku": "1000_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-06",
+  "posicao": 0,
+  "produto": "Vinho Branco Anduco Chardonnay",
+  "unidades": 11,
+  "sku": "1002_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-06",
+  "posicao": 0,
+  "produto": "Vinho Branco Anduco Torrontés",
+  "unidades": 8,
+  "sku": "1004_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-06",
+  "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 29,
+  "sku": "7794068001576",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-06",
+  "posicao": 0,
+  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
+  "unidades": 13,
+  "sku": "424_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-06",
+  "posicao": 0,
+  "produto": "Vinho Rosé Finca Santa Rosa",
+  "unidades": 17,
+  "sku": "425_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-06",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
+  "unidades": 19,
+  "sku": "427_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-06",
+  "posicao": 0,
   "produto": "Vinho Tinto Finca Santa Rosa Merlot",
   "unidades": 15,
   "sku": "426_ansic",
@@ -645,22 +645,6 @@
   "produto": "Vinho Tinto Campo Burgo Crianza 2021",
   "unidades": 4,
   "sku": "0424",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-07",
-  "posicao": 0,
-  "produto": "Vinho Branco Comienzos Chardonnay 2024",
-  "unidades": 1,
-  "sku": "7794068001576",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-07",
-  "posicao": 0,
-  "produto": "Vinho Rosé Finca Santa Rosa",
-  "unidades": 2,
-  "sku": "425_ansic",
   "fonte": "relatorio"
  },
  {
@@ -690,6 +674,22 @@
  {
   "dia": "2026-11-07",
   "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 1,
+  "sku": "7794068001576",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-07",
+  "posicao": 0,
+  "produto": "Vinho Rosé Finca Santa Rosa",
+  "unidades": 2,
+  "sku": "425_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-07",
+  "posicao": 0,
   "produto": "Vinho Tinto Hacienda de Susar Rioja 2022",
   "unidades": 2,
   "sku": "0440",
@@ -701,30 +701,6 @@
   "produto": "Vinho Rosé Peccato Di Vino D.O. Valle Central 2024",
   "unidades": 2,
   "sku": "418_ansic",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-08",
-  "posicao": 0,
-  "produto": "Vinho Branco Comienzos Chardonnay 2024",
-  "unidades": 2,
-  "sku": "7794068001576",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-08",
-  "posicao": 0,
-  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
-  "unidades": 10,
-  "sku": "424_ansic",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-08",
-  "posicao": 0,
-  "produto": "Vinho Rosé Finca Santa Rosa",
-  "unidades": 14,
-  "sku": "425_ansic",
   "fonte": "relatorio"
  },
  {
@@ -749,6 +725,30 @@
   "produto": "Vinho Tinto Tierraviva Carménère",
   "unidades": 1,
   "sku": "2008",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-08",
+  "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 2,
+  "sku": "7794068001576",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-08",
+  "posicao": 0,
+  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
+  "unidades": 10,
+  "sku": "424_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-08",
+  "posicao": 0,
+  "produto": "Vinho Rosé Finca Santa Rosa",
+  "unidades": 14,
+  "sku": "425_ansic",
   "fonte": "relatorio"
  },
  {
@@ -818,9 +818,17 @@
  {
   "dia": "2026-11-10",
   "posicao": 0,
-  "produto": "Vinho Rosé Chileno Santa Carolina Estelar 57 Only Pink 750ml",
+  "produto": "Espumante Buffon Champenoise Nature Rosé Pinot Noir e Riesling",
   "unidades": 1,
-  "sku": "612172",
+  "sku": "81",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-10",
+  "posicao": 0,
+  "produto": "Vinho Tinto 5 Oros Crianza 2021",
+  "unidades": 2,
+  "sku": "422",
   "fonte": "relatorio"
  },
  {
@@ -845,6 +853,14 @@
   "produto": "Vinho Tinto Chileno Lauca Syrah",
   "unidades": 8,
   "sku": "5009",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-10",
+  "posicao": 0,
+  "produto": "Vinho Rosé Chileno Santa Carolina Estelar 57 Only Pink 750ml",
+  "unidades": 1,
+  "sku": "612172",
   "fonte": "relatorio"
  },
  {
@@ -882,14 +898,6 @@
  {
   "dia": "2026-11-10",
   "posicao": 0,
-  "produto": "Espumante Buffon Champenoise Nature Rosé Pinot Noir e Riesling",
-  "unidades": 1,
-  "sku": "81",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-10",
-  "posicao": 0,
   "produto": "Vinho Rosé Exótico Buffon Fragolino 100% Uva Isabel",
   "unidades": 1,
   "sku": "91_BUFFON",
@@ -904,11 +912,115 @@
   "fonte": "relatorio"
  },
  {
-  "dia": "2026-11-10",
+  "dia": "2026-11-11",
   "posicao": 0,
-  "produto": "Vinho Tinto 5 Oros Crianza 2021",
+  "produto": "Vinho Branco Martha's DOC DOURO 2020",
+  "unidades": 6,
+  "sku": "269",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Ariete Supertoscano IGT 2015",
+  "unidades": 3,
+  "sku": "349",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
+  "unidades": 4,
+  "sku": "410",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
+  "unidades": 8,
+  "sku": "411",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto 5 Oros Reserva 2018",
+  "unidades": 1,
+  "sku": "423",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
+  "unidades": 1,
+  "sku": "428",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Branco Salentein Osado Malbec Blanco",
+  "unidades": 3,
+  "sku": "877",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Huella Carménère",
+  "unidades": 12,
+  "sku": "2004",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Branco Huella Sauvignon Blanc",
+  "unidades": 9,
+  "sku": "2006",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Origen Cabernet Sauvignon 375ml",
+  "unidades": 1,
+  "sku": "2009",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Chileno Lauca Reserva Cabernet Sauvignon",
+  "unidades": 3,
+  "sku": "5003",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Chileno Lauca Reserva Carménère",
   "unidades": 2,
-  "sku": "422",
+  "sku": "5004",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Chileno Lauca Reserva Pinot Noir",
+  "unidades": 1,
+  "sku": "5005",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Chileno Lauca Syrah",
+  "unidades": 1,
+  "sku": "5009",
   "fonte": "relatorio"
  },
  {
@@ -922,9 +1034,17 @@
  {
   "dia": "2026-11-11",
   "posicao": 0,
-  "produto": "Vinho Branco Martha's DOC DOURO 2020",
-  "unidades": 6,
-  "sku": "269",
+  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
+  "unidades": 1,
+  "sku": "427_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Salentein Osado  Malbec",
+  "unidades": 1,
+  "sku": "876_ansic",
   "fonte": "relatorio"
  },
  {
@@ -938,9 +1058,9 @@
  {
   "dia": "2026-11-11",
   "posicao": 0,
-  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
-  "unidades": 1,
-  "sku": "411",
+  "produto": "Vinho Tinto Campo Burgo Crianza 2021",
+  "unidades": 3,
+  "sku": "0424",
   "fonte": "relatorio"
  },
  {
@@ -954,16 +1074,40 @@
  {
   "dia": "2026-11-11",
   "posicao": 0,
-  "produto": "Vinho Branco Comte de Bernadotte Chablis 2023",
+  "produto": "Vinho Rosé Peccato Di Vino D.O. Valle Central 2024",
   "unidades": 2,
+  "sku": "418_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Andeluna Ninety Plus '90+' Malbec",
+  "unidades": 1,
+  "sku": "1017_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Branco Comte de Bernadotte Chablis 2023",
+  "unidades": 31,
   "sku": "3003_sw",
   "fonte": "relatorio"
  },
  {
   "dia": "2026-11-11",
   "posicao": 0,
-  "produto": "Vinho Tinto Don Raul Monte Noble Cabernet Sauvignon 2023",
+  "produto": "Vinho Tinto Don Raul - Epilogo 2015 Edição Limitada",
   "unidades": 2,
+  "sku": "7898663710120",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Don Raul Monte Noble Cabernet Sauvignon 2023",
+  "unidades": 22,
   "sku": "7898663710212",
   "fonte": "relatorio"
  },
@@ -971,7 +1115,7 @@
   "dia": "2026-11-11",
   "posicao": 0,
   "produto": "Vinho Tinto Don Raul Monte Noble Carménère 2023",
-  "unidades": 2,
+  "unidades": 13,
   "sku": "7898663710212carm",
   "fonte": "relatorio"
  }

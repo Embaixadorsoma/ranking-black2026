@@ -685,9 +685,39 @@
  },
  {
   "dia": "2026-11-10",
+  "embaixador": "Tânia Ferreira da Silva",
+  "pedidos": 3,
+  "total": 214.4
+ },
+ {
+  "dia": "2026-11-10",
   "embaixador": "Debora Carolina De Lira Carvalho",
   "pedidos": 2,
   "total": 113.22
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "PRISCILA GARIBALDA",
+  "pedidos": 5,
+  "total": 5780
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Patricia Borges dos Santos",
+  "pedidos": 2,
+  "total": 4369.8
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Ródney Berto",
+  "pedidos": 2,
+  "total": 1865.3
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Vanessa Da Silva GonÇAlves",
+  "pedidos": 2,
+  "total": 1744.5
  },
  {
   "dia": "2026-11-11",
@@ -697,9 +727,75 @@
  },
  {
   "dia": "2026-11-11",
+  "embaixador": "Hugo Figueiredo Tôrres",
+  "pedidos": 4,
+  "total": 1528.7
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 6,
+  "total": 1337.2
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Marcelo de Souza Meyer",
+  "pedidos": 2,
+  "total": 1245.9
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Luciana Quinello",
+  "pedidos": 2,
+  "total": 1218.4
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Marina Bittencourt Priolli",
+  "pedidos": 1,
+  "total": 963.9
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Flávia Barchetta",
+  "pedidos": 2,
+  "total": 847.9
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Eduardo Henrique da Silva Bastos",
+  "pedidos": 1,
+  "total": 719.1
+ },
+ {
+  "dia": "2026-11-11",
   "embaixador": "Monise Wenzel",
   "pedidos": 1,
   "total": 578
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Andre Guimaraes Gaiofato",
+  "pedidos": 2,
+  "total": 512.6
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Edmilson Marchioni Filho",
+  "pedidos": 1,
+  "total": 479.4
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Marcella Pereira da Cunha Neto",
+  "pedidos": 2,
+  "total": 399.5
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Yanna Leonardo Duarte",
+  "pedidos": 1,
+  "total": 399
  },
  {
   "dia": "2026-11-11",
@@ -715,9 +811,27 @@
  },
  {
   "dia": "2026-11-11",
-  "embaixador": "Amana Castelo Branco",
+  "embaixador": "Tatiana Cordeiro Lana Teixeira",
+  "pedidos": 2,
+  "total": 199.6
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Renice Rocha dos Santos",
+  "pedidos": 1,
+  "total": 178.8
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Marina Alessandra",
   "pedidos": 1,
   "total": 159.8
+ },
+ {
+  "dia": "2026-11-11",
+  "embaixador": "Bonificação",
+  "pedidos": 1,
+  "total": 119.6
  },
  {
   "dia": "2026-11-11",
