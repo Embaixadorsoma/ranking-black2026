@@ -40,7 +40,7 @@ Pagamento confirmado, obrigada! 🥂
 
 Aqui está o seu **Vale Presente**, código **[PRESENTE-0000]**, válido até **[data de vencimento]**.
 
-É só entregar ou encaminhar esta mensagem para quem vai ganhar. Para resgatar, a pessoa escolhe a estampa no site [link do site] e manda aqui no WhatsApp:
+É só entregar ou encaminhar esta mensagem para quem vai ganhar. Para resgatar, a pessoa escolhe a estampa no site www.camisetaterroirstore.com.br e manda aqui no WhatsApp:
 • o código do vale
 • a estampa, a cor e o tamanho
 • o endereço completo com CEP
@@ -79,10 +79,10 @@ Acompanhe aqui: [link]
 ## Perguntas frequentes
 
 **"Mora fora de SP, como fica o frete?"**
-O frete grátis é para o estado de SP. Para outros estados, a diferença do frete é de R$ [valor]. Pode ser paga na hora do resgate.
+O frete grátis é para o estado de SP. Para outros estados, o frete depende do CEP: me manda o CEP de quem vai receber que eu te passo o valor da diferença. Ela pode ser paga na hora do resgate.
 
 **"E se a pessoa escolher uma camiseta mais cara?"**
-Sem problema! Ela só paga a diferença. Por exemplo, quem tem o Vale Taça e quer a de algodão peruano paga R$ [diferença].
+Sem problema! Ela só paga a diferença. Quem tem o Vale Taça e quer a camiseta de algodão peruano paga **R$ 30,00** a mais (preço de Black, até 30/11). Depois da Black, a diferença passa a ser **R$ 40,00**.
 
 **"Posso trocar o tamanho?"**
 Pode trocar o tamanho uma vez. É só chamar a gente aqui.
