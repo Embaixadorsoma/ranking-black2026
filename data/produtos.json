@@ -1178,6 +1178,22 @@
  {
   "dia": "2026-11-13",
   "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
+  "unidades": 1,
+  "sku": "411",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
+  "unidades": 7,
+  "sku": "420",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
   "produto": "Vinho Tinto Huella Carménère",
   "unidades": 1,
   "sku": "2004",
@@ -1211,7 +1227,7 @@
   "dia": "2026-11-13",
   "posicao": 0,
   "produto": "Vinho Tinto Anduco Malbec",
-  "unidades": 1,
+  "unidades": 11,
   "sku": "1000_sw",
   "fonte": "relatorio"
  },
@@ -1226,9 +1242,73 @@
  {
   "dia": "2026-11-13",
   "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
+  "unidades": 1,
+  "sku": "427_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Merlot",
+  "unidades": 2,
+  "sku": "426_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Tinto Salentein Osado  Malbec",
+  "unidades": 8,
+  "sku": "876_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Frisante Buffon Brasilidades Bibiana 2026",
+  "unidades": 6,
+  "sku": "254_Buffon",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Rosé Exótico Buffon Fragolino 100% Uva Isabel",
+  "unidades": 1,
+  "sku": "91_BUFFON",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Branco La Paloma Lorena - Buffon",
+  "unidades": 1,
+  "sku": "BUFF74",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Tinto La Paloma Blend de Tintas 2025",
+  "unidades": 1,
+  "sku": "65_buffon",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
   "produto": "Espumante Buffon Moscatel Rosé",
   "unidades": 12,
   "sku": "buff20",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Tinto Cal y Canto Roble 2021",
+  "unidades": 6,
+  "sku": "0420",
   "fonte": "relatorio"
  },
  {
