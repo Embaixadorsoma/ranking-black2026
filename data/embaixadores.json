@@ -679,6 +679,12 @@
  },
  {
   "dia": "2026-11-10",
+  "embaixador": "Alexandra Loureiro",
+  "pedidos": 1,
+  "total": 378.9
+ },
+ {
+  "dia": "2026-11-10",
   "embaixador": "Livian Ribeiro",
   "pedidos": 1,
   "total": 368.8
@@ -841,8 +847,26 @@
  },
  {
   "dia": "2026-11-12",
+  "embaixador": "Ródney Berto",
+  "pedidos": 1,
+  "total": 579
+ },
+ {
+  "dia": "2026-11-12",
   "embaixador": "Hugo Figueiredo Tôrres",
   "pedidos": 1,
   "total": 319.6
+ },
+ {
+  "dia": "2026-11-12",
+  "embaixador": "Monise Wenzel",
+  "pedidos": 1,
+  "total": 297
+ },
+ {
+  "dia": "2026-11-13",
+  "embaixador": "Claudinete Aparecida Barbosa",
+  "pedidos": 1,
+  "total": 478.8
  }
 ]

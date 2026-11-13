@@ -912,11 +912,27 @@
   "fonte": "relatorio"
  },
  {
+  "dia": "2026-11-10",
+  "posicao": 0,
+  "produto": "Vinho Tinto Andeluna Ninety Plus '90+' Malbec",
+  "unidades": 1,
+  "sku": "1017_sw",
+  "fonte": "relatorio"
+ },
+ {
   "dia": "2026-11-11",
   "posicao": 0,
   "produto": "Vinho Branco Martha's DOC DOURO 2020",
   "unidades": 6,
   "sku": "269",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Ariete Supertoscano IGT 2015",
+  "unidades": 3,
+  "sku": "349",
   "fonte": "relatorio"
  },
  {
@@ -1013,14 +1029,6 @@
   "produto": "Vinho Tinto Chileno Lauca Syrah",
   "unidades": 1,
   "sku": "5009",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-11",
-  "posicao": 0,
-  "produto": "Vinho Tinto Ariete Supertoscano IGT 2015",
-  "unidades": 3,
-  "sku": "349",
   "fonte": "relatorio"
  },
  {
@@ -1141,6 +1149,14 @@
   "produto": "Vinho Branco Huella Sauvignon Blanc",
   "unidades": 2,
   "sku": "2006",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-12",
+  "posicao": 0,
+  "produto": "Vinho Rosé Vignes D'OC",
+  "unidades": 9,
+  "sku": "3001",
   "fonte": "relatorio"
  },
  {
