@@ -1174,5 +1174,69 @@
   "unidades": 9,
   "sku": "424_ansic",
   "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Tinto Huella Carménère",
+  "unidades": 1,
+  "sku": "2004",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Tinto Tierraviva Carménère",
+  "unidades": 1,
+  "sku": "2008",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Rosé Vignes DOC (Vignes D'OC)",
+  "unidades": 1,
+  "sku": "3001",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Tinto Chileno Lauca Syrah",
+  "unidades": 2,
+  "sku": "5009",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Tinto Anduco Malbec",
+  "unidades": 1,
+  "sku": "1000_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Branco Anduco Chardonnay",
+  "unidades": 2,
+  "sku": "1002_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Espumante Buffon Moscatel Rosé",
+  "unidades": 12,
+  "sku": "buff20",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Tinto Andeluna Ninety Plus '90+' Malbec",
+  "unidades": 2,
+  "sku": "1017_sw",
+  "fonte": "relatorio"
  }
 ]

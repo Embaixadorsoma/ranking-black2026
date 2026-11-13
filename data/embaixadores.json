@@ -865,8 +865,44 @@
  },
  {
   "dia": "2026-11-13",
+  "embaixador": "Monise Wenzel",
+  "pedidos": 1,
+  "total": 1734
+ },
+ {
+  "dia": "2026-11-13",
+  "embaixador": "Edmilson Marchioni Filho",
+  "pedidos": 1,
+  "total": 1045.8
+ },
+ {
+  "dia": "2026-11-13",
+  "embaixador": "Ródney Berto",
+  "pedidos": 1,
+  "total": 784.44
+ },
+ {
+  "dia": "2026-11-13",
+  "embaixador": "Luciana Quinello",
+  "pedidos": 1,
+  "total": 629.4
+ },
+ {
+  "dia": "2026-11-13",
   "embaixador": "Claudinete Aparecida Barbosa",
   "pedidos": 1,
   "total": 478.8
+ },
+ {
+  "dia": "2026-11-13",
+  "embaixador": "Daniela Bohm",
+  "pedidos": 1,
+  "total": 400.2
+ },
+ {
+  "dia": "2026-11-13",
+  "embaixador": "Marina Alessandra",
+  "pedidos": 1,
+  "total": 99
  }
 ]
