@@ -1178,8 +1178,16 @@
  {
   "dia": "2026-11-13",
   "posicao": 0,
-  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
+  "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
   "unidades": 1,
+  "sku": "410",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
+  "unidades": 2,
   "sku": "411",
   "fonte": "relatorio"
  },
@@ -1187,7 +1195,7 @@
   "dia": "2026-11-13",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
-  "unidades": 7,
+  "unidades": 8,
   "sku": "420",
   "fonte": "relatorio"
  },
@@ -1309,6 +1317,22 @@
   "produto": "Vinho Tinto Cal y Canto Roble 2021",
   "unidades": 6,
   "sku": "0420",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Tinto Peccato Di Vino Carménère D.O. Valle Central 2024",
+  "unidades": 1,
+  "sku": "419_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Rosé Peccato Di Vino D.O. Valle Central 2024",
+  "unidades": 2,
+  "sku": "418_ansic",
   "fonte": "relatorio"
  },
  {
