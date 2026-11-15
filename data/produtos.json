@@ -1342,5 +1342,117 @@
   "unidades": 2,
   "sku": "1017_sw",
   "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-14",
+  "posicao": 0,
+  "produto": "Vinho Tinto Buffon Rebo Mérica 2024",
+  "unidades": 1,
+  "sku": "39",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-14",
+  "posicao": 0,
+  "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
+  "unidades": 15,
+  "sku": "410",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-14",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
+  "unidades": 15,
+  "sku": "411",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-14",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
+  "unidades": 7,
+  "sku": "420",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-14",
+  "posicao": 0,
+  "produto": "Vinho Branco Salentein Osado Malbec Blanco",
+  "unidades": 7,
+  "sku": "877",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-14",
+  "posicao": 0,
+  "produto": "Vinho Tinto Villa Fulvia Primitivo di Manduria DOC 2022",
+  "unidades": 3,
+  "sku": "2306",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-14",
+  "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 8,
+  "sku": "7794068001576",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-14",
+  "posicao": 0,
+  "produto": "Vinho Tinto Salentein Osado  Malbec",
+  "unidades": 3,
+  "sku": "876_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-14",
+  "posicao": 0,
+  "produto": "Espumante Buffon Ciao Brut Branco - Método Ancestral",
+  "unidades": 8,
+  "sku": "126_buffon",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-14",
+  "posicao": 0,
+  "produto": "Vinho Frisante Buffon Brasilidades Bibiana 2026",
+  "unidades": 6,
+  "sku": "254_Buffon",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-14",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Sauvignon Blanc D.O. Valle Central 2025",
+  "unidades": 6,
+  "sku": "417_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-14",
+  "posicao": 0,
+  "produto": "Vinho Tinto Peccato Di Vino Carménère D.O. Valle Central 2024",
+  "unidades": 6,
+  "sku": "419_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-14",
+  "posicao": 0,
+  "produto": "Vinho Rosé Peccato Di Vino D.O. Valle Central 2024",
+  "unidades": 9,
+  "sku": "418_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-14",
+  "posicao": 0,
+  "produto": "Vinho Tinto Andeluna Ninety Plus '90+' Malbec",
+  "unidades": 3,
+  "sku": "1017_sw",
+  "fonte": "relatorio"
  }
 ]
