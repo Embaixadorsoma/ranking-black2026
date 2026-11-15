@@ -955,9 +955,21 @@
  },
  {
   "dia": "2026-11-14",
+  "embaixador": "Carla Cavalcante",
+  "pedidos": 1,
+  "total": 1257.9
+ },
+ {
+  "dia": "2026-11-14",
   "embaixador": "Ródney Berto",
   "pedidos": 1,
   "total": 1062.1
+ },
+ {
+  "dia": "2026-11-14",
+  "embaixador": "Lívia Fialho Mourão",
+  "pedidos": 1,
+  "total": 657.8
  },
  {
   "dia": "2026-11-14",
@@ -1000,5 +1012,17 @@
   "embaixador": "Thais Rodrigues Aranha De Azevedo",
   "pedidos": 1,
   "total": 299.4
+ },
+ {
+  "dia": "2026-11-15",
+  "embaixador": "Edmilson Marchioni Filho",
+  "pedidos": 2,
+  "total": 740.1
+ },
+ {
+  "dia": "2026-11-15",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 2,
+  "total": 666.34
  }
 ]
