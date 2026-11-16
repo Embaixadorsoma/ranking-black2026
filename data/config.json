@@ -1794,6 +1794,130 @@
    "cor": "#7fd1b9",
    "sku": "188",
    "desde": "2026-11-16"
+  },
+  {
+   "nome": "Quinta dos Castelares Grande Reserva Magnum 1,5L",
+   "palavras": [
+    "castelares",
+    "grande reserva",
+    "magnum"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 504.65,
+   "cor": "#d9a6c9",
+   "sku": "1006",
+   "desde": "2026-11-16"
+  },
+  {
+   "nome": "Quinta dos Castelares Reserva Magnum 1,5L",
+   "palavras": [
+    "castelares",
+    "reserva 2021",
+    "magnum"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 333.56,
+   "cor": "#d9a6c9",
+   "sku": "1013",
+   "desde": "2026-11-16"
+  },
+  {
+   "nome": "Quinta dos Castelares Magnum 1,5L",
+   "palavras": [
+    "castelares",
+    "2022 magnum"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 175.41,
+   "cor": "#d9a6c9",
+   "sku": "1020",
+   "desde": "2026-11-16"
+  },
+  {
+   "nome": "Flor do Tua Superior 17 Magnum 1,5L",
+   "palavras": [
+    "flor do tua",
+    "superior 17",
+    "magnum"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 429.89,
+   "cor": "#e8bd62",
+   "sku": "0601",
+   "desde": "2026-11-16"
+  },
+  {
+   "nome": "Flor do Tua Reserva Magnum 1,5L",
+   "palavras": [
+    "flor do tua",
+    "reserva",
+    "magnum"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 254.65,
+   "cor": "#e8bd62",
+   "sku": "0613",
+   "desde": "2026-11-16"
+  },
+  {
+   "nome": "Flor do Tua Magnum 1,5L",
+   "palavras": [
+    "flor do tua",
+    "2020 magnum"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 149.53,
+   "cor": "#e8bd62",
+   "sku": "0615",
+   "desde": "2026-11-16"
+  },
+  {
+   "nome": "Arribas do Douro Superior Magnum 1,5L",
+   "palavras": [
+    "arribas do douro superior",
+    "1,5l"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 245.86,
+   "cor": "#7fd1b9",
+   "sku": "4052",
+   "desde": "2026-11-16"
+  },
+  {
+   "nome": "Arribas do Douro Reserva Magnum 1,5L",
+   "palavras": [
+    "arribas do douro reserva",
+    "1,5l"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 294.74,
+   "cor": "#7fd1b9",
+   "sku": "4051",
+   "desde": "2026-11-16"
   }
  ],
  "black_11_11": {
