@@ -1411,7 +1411,7 @@
   "dia": "2026-11-14",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
-  "unidades": 20,
+  "unidades": 22,
   "sku": "411",
   "fonte": "relatorio"
  },
@@ -1419,7 +1419,7 @@
   "dia": "2026-11-14",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Sauvignon Blanc D.O. Valle Central 2025",
-  "unidades": 6,
+  "unidades": 8,
   "sku": "417_ansic",
   "fonte": "relatorio"
  },
@@ -1490,6 +1490,14 @@
  {
   "dia": "2026-11-15",
   "posicao": 0,
+  "produto": "Espumante Buffon Ciao Brut Branco - Método Ancestral",
+  "unidades": 1,
+  "sku": "126_buffon",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-15",
+  "posicao": 0,
   "produto": "Vinho Tinto Huella Carménère",
   "unidades": 1,
   "sku": "2004",
@@ -1517,6 +1525,14 @@
   "produto": "Vinho Tinto Tierraviva Carménère",
   "unidades": 1,
   "sku": "2008",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-15",
+  "posicao": 0,
+  "produto": "Espumante Buffon Ciao Brut Rosé de Noir - Método Ancestral",
+  "unidades": 1,
+  "sku": "253_buffon",
   "fonte": "relatorio"
  },
  {
@@ -1586,6 +1602,14 @@
  {
   "dia": "2026-11-15",
   "posicao": 0,
+  "produto": "Espumante Buffon Champenoise Nature Rosé Pinot Noir e Riesling",
+  "unidades": 2,
+  "sku": "81",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-15",
+  "posicao": 0,
   "produto": "Vinho Tinto Salentein Osado  Malbec",
   "unidades": 2,
   "sku": "876_ansic",
@@ -1597,6 +1621,142 @@
   "produto": "Vinho Branco Salentein Osado Malbec Blanco",
   "unidades": 2,
   "sku": "877",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Vinho Tinto Andeluna Ninety Plus '90+' Malbec",
+  "unidades": 2,
+  "sku": "1017_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Espumante Buffon Ciao Brut Branco - Método Ancestral",
+  "unidades": 40,
+  "sku": "126_buffon",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Espumante Buffon Ciao Prosecco - Método Ancestral",
+  "unidades": 8,
+  "sku": "177_ciao",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Espumante Buffon Ciao Brut Rosé de Noir - Método Ancestral",
+  "unidades": 1,
+  "sku": "253_buffon",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Vinho Tinto Flor do Alqueve Tejo 2022",
+  "unidades": 2,
+  "sku": "4000_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
+  "unidades": 3,
+  "sku": "410",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
+  "unidades": 13,
+  "sku": "411",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Sauvignon Blanc D.O. Valle Central 2025",
+  "unidades": 7,
+  "sku": "417_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Vinho Rosé Peccato Di Vino D.O. Valle Central 2024",
+  "unidades": 5,
+  "sku": "418_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Vinho Tinto Peccato Di Vino Carménère D.O. Valle Central 2024",
+  "unidades": 12,
+  "sku": "419_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
+  "unidades": 12,
+  "sku": "420",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
+  "unidades": 24,
+  "sku": "424_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
+  "unidades": 30,
+  "sku": "427_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
+  "unidades": 30,
+  "sku": "428",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Vinho Tinto Chileno Lauca Reserva Pinot Noir",
+  "unidades": 1,
+  "sku": "5005",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Espumante Buffon Champenoise Nature Rosé Pinot Noir e Riesling",
+  "unidades": 3,
+  "sku": "81",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Vinho Tinto Salentein Osado  Malbec",
+  "unidades": 6,
+  "sku": "876_ansic",
   "fonte": "relatorio"
  }
 ]

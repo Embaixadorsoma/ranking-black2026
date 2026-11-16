@@ -943,15 +943,15 @@
  },
  {
   "dia": "2026-11-14",
-  "embaixador": "Luciana Quinello",
-  "pedidos": 2,
-  "total": 2272.2
+  "embaixador": "Vanessa Rincon",
+  "pedidos": 6,
+  "total": 2406.77
  },
  {
   "dia": "2026-11-14",
-  "embaixador": "Vanessa Rincon",
-  "pedidos": 5,
-  "total": 1987.77
+  "embaixador": "Luciana Quinello",
+  "pedidos": 2,
+  "total": 2272.2
  },
  {
   "dia": "2026-11-14",
@@ -1033,6 +1033,12 @@
  },
  {
   "dia": "2026-11-15",
+  "embaixador": "Monise Wenzel",
+  "pedidos": 2,
+  "total": 955.6
+ },
+ {
+  "dia": "2026-11-15",
   "embaixador": "Edmilson Marchioni Filho",
   "pedidos": 2,
   "total": 740.1
@@ -1060,5 +1066,59 @@
   "embaixador": "Rhuam Augusto Avanço Galeti",
   "pedidos": 1,
   "total": 179.4
+ },
+ {
+  "dia": "2026-11-16",
+  "embaixador": "Monise Wenzel",
+  "pedidos": 1,
+  "total": 3440.7
+ },
+ {
+  "dia": "2026-11-16",
+  "embaixador": "Alexandre Ferreira Barros",
+  "pedidos": 2,
+  "total": 2990.4
+ },
+ {
+  "dia": "2026-11-16",
+  "embaixador": "Ródney Berto",
+  "pedidos": 1,
+  "total": 2034.8
+ },
+ {
+  "dia": "2026-11-16",
+  "embaixador": "Carla Cavalcante",
+  "pedidos": 2,
+  "total": 745.8
+ },
+ {
+  "dia": "2026-11-16",
+  "embaixador": "Vanessa Rincon",
+  "pedidos": 2,
+  "total": 609.3
+ },
+ {
+  "dia": "2026-11-16",
+  "embaixador": "Alexandra Loureiro",
+  "pedidos": 1,
+  "total": 607.2
+ },
+ {
+  "dia": "2026-11-16",
+  "embaixador": "Maria Neuma Nunes Alexandre",
+  "pedidos": 1,
+  "total": 440
+ },
+ {
+  "dia": "2026-11-16",
+  "embaixador": "Ivana Raquel A V Guardiano",
+  "pedidos": 1,
+  "total": 409.3
+ },
+ {
+  "dia": "2026-11-16",
+  "embaixador": "Eduardo Henrique da Silva Bastos",
+  "pedidos": 3,
+  "total": 205.7
  }
 ]
