@@ -1764,6 +1764,36 @@
    "cor": "#c23a68",
    "sku": "348",
    "desde": "2026-11-10"
+  },
+  {
+   "nome": "Personalità Moscato Giallo",
+   "palavras": [
+    "personalit",
+    "moscato giallo"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 94.0,
+   "cor": "#7fd1b9",
+   "sku": "187",
+   "desde": "2026-11-16"
+  },
+  {
+   "nome": "Personalità Viognier",
+   "palavras": [
+    "personalit",
+    "viognier"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 94.0,
+   "cor": "#7fd1b9",
+   "sku": "188",
+   "desde": "2026-11-16"
   }
  ],
  "black_11_11": {
