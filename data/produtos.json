@@ -1,5 +1,45 @@
 [
  {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Branco Comte de Bernadotte Chablis 2023",
+  "unidades": 31,
+  "sku": "3003_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Ariete Supertoscano IGT 2015",
+  "unidades": 3,
+  "sku": "349",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Don Raul - Epilogo 2015 Edição Limitada",
+  "unidades": 2,
+  "sku": "7898663710120",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Don Raul Monte Noble Cabernet Sauvignon 2023",
+  "unidades": 22,
+  "sku": "7898663710212",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Don Raul Monte Noble Carménère 2023",
+  "unidades": 13,
+  "sku": "7898663710212carm",
+  "fonte": "relatorio"
+ },
+ {
   "dia": "2026-11-01",
   "posicao": 0,
   "produto": "Vinho Tinto Anduco Malbec",
@@ -986,22 +1026,6 @@
  {
   "dia": "2026-11-11",
   "posicao": 0,
-  "produto": "Vinho Branco Comte de Bernadotte Chablis 2023",
-  "unidades": 31,
-  "sku": "3003_sw",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-11",
-  "posicao": 0,
-  "produto": "Vinho Tinto Ariete Supertoscano IGT 2015",
-  "unidades": 3,
-  "sku": "349",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-11",
-  "posicao": 0,
   "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
   "unidades": 4,
   "sku": "410",
@@ -1090,30 +1114,6 @@
  {
   "dia": "2026-11-11",
   "posicao": 0,
-  "produto": "Vinho Tinto Don Raul - Epilogo 2015 Edição Limitada",
-  "unidades": 2,
-  "sku": "7898663710120",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-11",
-  "posicao": 0,
-  "produto": "Vinho Tinto Don Raul Monte Noble Cabernet Sauvignon 2023",
-  "unidades": 22,
-  "sku": "7898663710212",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-11",
-  "posicao": 0,
-  "produto": "Vinho Tinto Don Raul Monte Noble Carménère 2023",
-  "unidades": 13,
-  "sku": "7898663710212carm",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-11",
-  "posicao": 0,
   "produto": "Vinho Tinto Salentein Osado  Malbec",
   "unidades": 1,
   "sku": "876_ansic",
@@ -1197,6 +1197,14 @@
   "produto": "Vinho Branco Anduco Chardonnay",
   "unidades": 2,
   "sku": "1002_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-13",
+  "posicao": 0,
+  "produto": "Vinho Tinto Quinta Dos Castelares Grande Reserva 2019 Magnum 1,5L - Caixa de Madeira",
+  "unidades": 3,
+  "sku": "1006",
   "fonte": "relatorio"
  },
  {
@@ -1667,7 +1675,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
-  "unidades": 3,
+  "unidades": 6,
   "sku": "410",
   "fonte": "relatorio"
  },
@@ -1675,7 +1683,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
-  "unidades": 13,
+  "unidades": 16,
   "sku": "411",
   "fonte": "relatorio"
  },
@@ -1683,7 +1691,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Sauvignon Blanc D.O. Valle Central 2025",
-  "unidades": 7,
+  "unidades": 10,
   "sku": "417_ansic",
   "fonte": "relatorio"
  },
@@ -1691,7 +1699,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Rosé Peccato Di Vino D.O. Valle Central 2024",
-  "unidades": 5,
+  "unidades": 12,
   "sku": "418_ansic",
   "fonte": "relatorio"
  },
@@ -1699,7 +1707,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Tinto Peccato Di Vino Carménère D.O. Valle Central 2024",
-  "unidades": 12,
+  "unidades": 16,
   "sku": "419_ansic",
   "fonte": "relatorio"
  },
@@ -1707,7 +1715,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
-  "unidades": 12,
+  "unidades": 13,
   "sku": "420",
   "fonte": "relatorio"
  },
@@ -1756,6 +1764,46 @@
   "posicao": 0,
   "produto": "Vinho Tinto Salentein Osado  Malbec",
   "unidades": 6,
+  "sku": "876_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-16",
+  "posicao": 0,
+  "produto": "Vinho Branco Salentein Osado Malbec Blanco",
+  "unidades": 1,
+  "sku": "877",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Frisante Buffon Brasilidades Bibiana 2026",
+  "unidades": 2,
+  "sku": "254_Buffon",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
+  "unidades": 1,
+  "sku": "424_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 10,
+  "sku": "7794068001576",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Tinto Salentein Osado  Malbec",
+  "unidades": 3,
   "sku": "876_ansic",
   "fonte": "relatorio"
  }

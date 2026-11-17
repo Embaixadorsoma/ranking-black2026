@@ -1082,14 +1082,20 @@
  {
   "dia": "2026-11-16",
   "embaixador": "Ródney Berto",
-  "pedidos": 1,
-  "total": 2034.8
+  "pedidos": 2,
+  "total": 2483.3
  },
  {
   "dia": "2026-11-16",
   "embaixador": "Carla Cavalcante",
   "pedidos": 2,
   "total": 745.8
+ },
+ {
+  "dia": "2026-11-16",
+  "embaixador": "Tatiana Cordeiro Lana Teixeira",
+  "pedidos": 2,
+  "total": 678.5
  },
  {
   "dia": "2026-11-16",
@@ -1105,6 +1111,12 @@
  },
  {
   "dia": "2026-11-16",
+  "embaixador": "Marilia Pereira da Cunha Neto",
+  "pedidos": 1,
+  "total": 459.6
+ },
+ {
+  "dia": "2026-11-16",
   "embaixador": "Maria Neuma Nunes Alexandre",
   "pedidos": 1,
   "total": 440
@@ -1117,8 +1129,44 @@
  },
  {
   "dia": "2026-11-16",
+  "embaixador": "ANNA RITA DE MOURA LIRA",
+  "pedidos": 1,
+  "total": 297
+ },
+ {
+  "dia": "2026-11-16",
+  "embaixador": "Claudinete Aparecida Barbosa",
+  "pedidos": 1,
+  "total": 224.4
+ },
+ {
+  "dia": "2026-11-16",
   "embaixador": "Eduardo Henrique da Silva Bastos",
   "pedidos": 3,
   "total": 205.7
+ },
+ {
+  "dia": "2026-11-16",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 2,
+  "total": 199.8
+ },
+ {
+  "dia": "2026-11-17",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 3,
+  "total": 556.82
+ },
+ {
+  "dia": "2026-11-17",
+  "embaixador": "Monise Wenzel",
+  "pedidos": 1,
+  "total": 496.8
+ },
+ {
+  "dia": "2026-11-17",
+  "embaixador": "Luciana Quinello",
+  "pedidos": 1,
+  "total": 401
  }
 ]
