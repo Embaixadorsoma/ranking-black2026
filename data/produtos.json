@@ -1547,7 +1547,7 @@
   "dia": "2026-11-15",
   "posicao": 0,
   "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
-  "unidades": 15,
+  "unidades": 17,
   "sku": "410",
   "fonte": "relatorio"
  },
@@ -1555,7 +1555,7 @@
   "dia": "2026-11-15",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
-  "unidades": 12,
+  "unidades": 19,
   "sku": "411",
   "fonte": "relatorio"
  },
@@ -1563,7 +1563,7 @@
   "dia": "2026-11-15",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Sauvignon Blanc D.O. Valle Central 2025",
-  "unidades": 9,
+  "unidades": 16,
   "sku": "417_ansic",
   "fonte": "relatorio"
  },
@@ -1579,7 +1579,7 @@
   "dia": "2026-11-15",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
-  "unidades": 19,
+  "unidades": 24,
   "sku": "420",
   "fonte": "relatorio"
  },
@@ -1619,7 +1619,7 @@
   "dia": "2026-11-15",
   "posicao": 0,
   "produto": "Vinho Tinto Salentein Osado  Malbec",
-  "unidades": 2,
+  "unidades": 3,
   "sku": "876_ansic",
   "fonte": "relatorio"
  },
@@ -1627,7 +1627,7 @@
   "dia": "2026-11-15",
   "posicao": 0,
   "produto": "Vinho Branco Salentein Osado Malbec Blanco",
-  "unidades": 2,
+  "unidades": 4,
   "sku": "877",
   "fonte": "relatorio"
  },
