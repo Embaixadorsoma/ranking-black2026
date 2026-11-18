@@ -1279,6 +1279,12 @@
  },
  {
   "dia": "2026-11-18",
+  "embaixador": "Alexandra Loureiro",
+  "pedidos": 2,
+  "total": 6472.02
+ },
+ {
+  "dia": "2026-11-18",
   "embaixador": "PRISCILA GARIBALDA",
   "pedidos": 1,
   "total": 1198.8
@@ -1288,6 +1294,12 @@
   "embaixador": "Amana Castelo Branco",
   "pedidos": 1,
   "total": 1198.5
+ },
+ {
+  "dia": "2026-11-18",
+  "embaixador": "Adriana Mafra Vieira",
+  "pedidos": 2,
+  "total": 1147.5
  },
  {
   "dia": "2026-11-18",
@@ -1315,6 +1327,12 @@
  },
  {
   "dia": "2026-11-18",
+  "embaixador": "Sem Comissao",
+  "pedidos": 1,
+  "total": 356.93
+ },
+ {
+  "dia": "2026-11-18",
   "embaixador": "Gleybson Andrade",
   "pedidos": 1,
   "total": 153
@@ -1324,5 +1342,11 @@
   "embaixador": "Thais Rodrigues Aranha De Azevedo",
   "pedidos": 1,
   "total": 111.8
+ },
+ {
+  "dia": "2026-11-18",
+  "embaixador": "Luciana Quinello",
+  "pedidos": 1,
+  "total": 98.7
  }
 ]
