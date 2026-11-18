@@ -1918,6 +1918,86 @@
    "cor": "#7fd1b9",
    "sku": "4051",
    "desde": "2026-11-16"
+  },
+  {
+   "nome": "Nancul Origin Gran Reserva",
+   "palavras": [
+    "nancul",
+    "origin"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa"
+   ],
+   "preco": 243.0,
+   "cor": "#c23a68",
+   "sku": "252_lusitano",
+   "desde": "2026-11-18"
+  },
+  {
+   "nome": "Toca Irreverente Rosé",
+   "palavras": [
+    "irreverente",
+    "rose"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "misto"
+   ],
+   "preco": 53.7,
+   "cor": "#f2a7b8",
+   "sku": "287_lusitano",
+   "desde": "2026-11-18"
+  },
+  {
+   "nome": "Quinta do Paral Colheita Branco",
+   "palavras": [
+    "paral",
+    "branco"
+   ],
+   "fora": [
+    "reserva",
+    "kit",
+    "garrafas"
+   ],
+   "preco": 89.16,
+   "cor": "#7fd1b9",
+   "sku": "119",
+   "desde": "2026-11-18"
+  },
+  {
+   "nome": "Quinta do Paral Reserva Branco",
+   "palavras": [
+    "paral",
+    "reserva",
+    "branco"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 224.0,
+   "cor": "#7fd1b9",
+   "sku": "121_lus",
+   "desde": "2026-11-18"
+  },
+  {
+   "nome": "Quinta do Paral Reserva Tinto",
+   "palavras": [
+    "paral",
+    "reserva",
+    "tinto"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 268.8,
+   "cor": "#c23a68",
+   "sku": "122",
+   "desde": "2026-11-18"
   }
  ],
  "black_11_11": {
