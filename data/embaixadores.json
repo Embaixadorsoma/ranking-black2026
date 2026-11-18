@@ -1135,6 +1135,12 @@
  },
  {
   "dia": "2026-11-16",
+  "embaixador": "Patricia Borges dos Santos",
+  "pedidos": 1,
+  "total": 418.7
+ },
+ {
+  "dia": "2026-11-16",
   "embaixador": "Ivana Raquel A V Guardiano",
   "pedidos": 1,
   "total": 409.3
@@ -1183,9 +1189,21 @@
  },
  {
   "dia": "2026-11-17",
+  "embaixador": "PRISCILA GARIBALDA",
+  "pedidos": 3,
+  "total": 2317.6
+ },
+ {
+  "dia": "2026-11-17",
   "embaixador": "Andrea Godoy",
   "pedidos": 1,
   "total": 1188
+ },
+ {
+  "dia": "2026-11-17",
+  "embaixador": "Claudinete Aparecida Barbosa",
+  "pedidos": 3,
+  "total": 957.6
  },
  {
   "dia": "2026-11-17",
@@ -1219,12 +1237,6 @@
  },
  {
   "dia": "2026-11-17",
-  "embaixador": "Claudinete Aparecida Barbosa",
-  "pedidos": 2,
-  "total": 539
- },
- {
-  "dia": "2026-11-17",
   "embaixador": "Tatiana Cordeiro Lana Teixeira",
   "pedidos": 1,
   "total": 538.2
@@ -1255,12 +1267,6 @@
  },
  {
   "dia": "2026-11-17",
-  "embaixador": "PRISCILA GARIBALDA",
-  "pedidos": 1,
-  "total": 319.6
- },
- {
-  "dia": "2026-11-17",
   "embaixador": "Vanessa Rincon",
   "pedidos": 1,
   "total": 179.4
@@ -1273,8 +1279,50 @@
  },
  {
   "dia": "2026-11-18",
+  "embaixador": "PRISCILA GARIBALDA",
+  "pedidos": 1,
+  "total": 1198.8
+ },
+ {
+  "dia": "2026-11-18",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 1,
+  "total": 1198.5
+ },
+ {
+  "dia": "2026-11-18",
+  "embaixador": "Ivana Raquel A V Guardiano",
+  "pedidos": 2,
+  "total": 818.7
+ },
+ {
+  "dia": "2026-11-18",
+  "embaixador": "Carla Cavalcante",
+  "pedidos": 2,
+  "total": 568.3
+ },
+ {
+  "dia": "2026-11-18",
   "embaixador": "Ródney Berto",
   "pedidos": 1,
   "total": 534
+ },
+ {
+  "dia": "2026-11-18",
+  "embaixador": "Tatiana Cordeiro Lana Teixeira",
+  "pedidos": 1,
+  "total": 458.7
+ },
+ {
+  "dia": "2026-11-18",
+  "embaixador": "Gleybson Andrade",
+  "pedidos": 1,
+  "total": 153
+ },
+ {
+  "dia": "2026-11-18",
+  "embaixador": "Thais Rodrigues Aranha De Azevedo",
+  "pedidos": 1,
+  "total": 111.8
  }
 ]

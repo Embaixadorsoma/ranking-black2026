@@ -18,14 +18,6 @@
  {
   "dia": "2026-11-11",
   "posicao": 0,
-  "produto": "Vinho Tinto Don Raul - Epilogo 2015 Edição Limitada",
-  "unidades": 2,
-  "sku": "7898663710120",
-  "fonte": "relatorio"
- },
- {
-  "dia": "2026-11-11",
-  "posicao": 0,
   "produto": "Vinho Tinto Don Raul Monte Noble Cabernet Sauvignon 2023",
   "unidades": 22,
   "sku": "7898663710212",
@@ -688,6 +680,14 @@
   "fonte": "relatorio"
  },
  {
+  "dia": "2026-11-06",
+  "posicao": 0,
+  "produto": "Vinho Tinto Zorzal Gran Terroir Pinot Noir 2020",
+  "unidades": 1,
+  "sku": "7798148940960",
+  "fonte": "relatorio"
+ },
+ {
   "dia": "2026-11-07",
   "posicao": 0,
   "produto": "Vinho Tinto Hacienda de Susar Rioja 2022",
@@ -946,6 +946,14 @@
  {
   "dia": "2026-11-10",
   "posicao": 0,
+  "produto": "Vinho Tinto Don Raul - Epilogo 2015 Edição Limitada",
+  "unidades": 1,
+  "sku": "7898663710120",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-10",
+  "posicao": 0,
   "produto": "Espumante Buffon Champenoise Nature Rosé Pinot Noir e Riesling",
   "unidades": 1,
   "sku": "81",
@@ -1109,6 +1117,14 @@
   "produto": "Vinho Tinto Chileno Lauca Syrah",
   "unidades": 1,
   "sku": "5009",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-11",
+  "posicao": 0,
+  "produto": "Vinho Tinto Don Raul - Epilogo 2015 Edição Limitada",
+  "unidades": 2,
+  "sku": "7898663710120",
   "fonte": "relatorio"
  },
  {
@@ -1699,7 +1715,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
-  "unidades": 8,
+  "unidades": 10,
   "sku": "410",
   "fonte": "relatorio"
  },
@@ -1707,7 +1723,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
-  "unidades": 20,
+  "unidades": 22,
   "sku": "411",
   "fonte": "relatorio"
  },
@@ -1715,7 +1731,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Sauvignon Blanc D.O. Valle Central 2025",
-  "unidades": 10,
+  "unidades": 12,
   "sku": "417_ansic",
   "fonte": "relatorio"
  },
@@ -1723,7 +1739,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Rosé Peccato Di Vino D.O. Valle Central 2024",
-  "unidades": 21,
+  "unidades": 23,
   "sku": "418_ansic",
   "fonte": "relatorio"
  },
@@ -1731,7 +1747,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Tinto Peccato Di Vino Carménère D.O. Valle Central 2024",
-  "unidades": 16,
+  "unidades": 18,
   "sku": "419_ansic",
   "fonte": "relatorio"
  },
@@ -1739,7 +1755,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
-  "unidades": 18,
+  "unidades": 20,
   "sku": "420",
   "fonte": "relatorio"
  },
@@ -1787,7 +1803,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Tinto Salentein Osado  Malbec",
-  "unidades": 6,
+  "unidades": 7,
   "sku": "876_ansic",
   "fonte": "relatorio"
  },
@@ -1851,7 +1867,7 @@
   "dia": "2026-11-17",
   "posicao": 0,
   "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
-  "unidades": 3,
+  "unidades": 5,
   "sku": "410",
   "fonte": "relatorio"
  },
@@ -1859,7 +1875,7 @@
   "dia": "2026-11-17",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
-  "unidades": 15,
+  "unidades": 17,
   "sku": "411",
   "fonte": "relatorio"
  },
@@ -1867,7 +1883,7 @@
   "dia": "2026-11-17",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Sauvignon Blanc D.O. Valle Central 2025",
-  "unidades": 4,
+  "unidades": 6,
   "sku": "417_ansic",
   "fonte": "relatorio"
  },
@@ -1875,7 +1891,7 @@
   "dia": "2026-11-17",
   "posicao": 0,
   "produto": "Vinho Rosé Peccato Di Vino D.O. Valle Central 2024",
-  "unidades": 7,
+  "unidades": 11,
   "sku": "418_ansic",
   "fonte": "relatorio"
  },
@@ -1883,7 +1899,7 @@
   "dia": "2026-11-17",
   "posicao": 0,
   "produto": "Vinho Tinto Peccato Di Vino Carménère D.O. Valle Central 2024",
-  "unidades": 6,
+  "unidades": 8,
   "sku": "419_ansic",
   "fonte": "relatorio"
  },
@@ -1891,7 +1907,7 @@
   "dia": "2026-11-17",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
-  "unidades": 4,
+  "unidades": 6,
   "sku": "420",
   "fonte": "relatorio"
  },
@@ -1917,6 +1933,70 @@
   "produto": "Vinho Tinto Salentein Osado  Malbec",
   "unidades": 3,
   "sku": "876_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-18",
+  "posicao": 0,
+  "produto": "Vinho Tinto Campo Burgo Crianza 2021",
+  "unidades": 1,
+  "sku": "0424",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-18",
+  "posicao": 0,
+  "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
+  "unidades": 2,
+  "sku": "410",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-18",
+  "posicao": 0,
+  "produto": "Vinho Rosé Peccato Di Vino D.O. Valle Central 2024",
+  "unidades": 1,
+  "sku": "418_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-18",
+  "posicao": 0,
+  "produto": "Vinho Branco Finca Santa Rosa Chardonnay",
+  "unidades": 10,
+  "sku": "424_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-18",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Carménère",
+  "unidades": 5,
+  "sku": "427_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-18",
+  "posicao": 0,
+  "produto": "Vinho Tinto Finca Santa Rosa Cabernet Sauvignon",
+  "unidades": 1,
+  "sku": "428",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-18",
+  "posicao": 0,
+  "produto": "Vinho Tinto Salentein Osado  Malbec",
+  "unidades": 2,
+  "sku": "876_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-18",
+  "posicao": 0,
+  "produto": "Vinho Branco Salentein Osado Malbec Blanco",
+  "unidades": 2,
+  "sku": "877",
   "fonte": "relatorio"
  }
 ]
