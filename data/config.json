@@ -1998,6 +1998,123 @@
    "cor": "#c23a68",
    "sku": "122",
    "desde": "2026-11-18"
+  },
+  {
+   "nome": "Epílogo (Don Raul)",
+   "palavras": [
+    "epilogo"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 219.9,
+   "cor": "#ff9f7a",
+   "sku": "7898663710120",
+   "desde": "2026-11-18"
+  },
+  {
+   "nome": "L'Opaline La Demoiselle Rosé",
+   "palavras": [
+    "opaline",
+    "demoiselle"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 99.9,
+   "cor": "#f2a7b8",
+   "sku": "3002_sw",
+   "desde": "2026-11-26"
+  },
+  {
+   "nome": "Lauca Gran Reserva Cabernet Sauvignon",
+   "palavras": [
+    "lauca gran reserva"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 129.9,
+   "cor": "#e8bd62",
+   "sku": "5014",
+   "desde": "2026-11-26"
+  },
+  {
+   "nome": "Zorzal Gran Terroir Malbec",
+   "palavras": [
+    "gran terroir",
+    "malbec"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 109.9,
+   "cor": "#8fb3ff",
+   "sku": "7798148940908",
+   "desde": "2026-11-26"
+  },
+  {
+   "nome": "Zorzal Gran Terroir Pinot Noir",
+   "palavras": [
+    "gran terroir",
+    "pinot noir"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 109.9,
+   "cor": "#8fb3ff",
+   "sku": "7798148940960",
+   "desde": "2026-11-26"
+  },
+  {
+   "nome": "Zorzal Gran Terroir Cabernet Franc",
+   "palavras": [
+    "gran terroir",
+    "cabernet franc"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 109.9,
+   "cor": "#8fb3ff",
+   "sku": "7798148943589",
+   "desde": "2026-11-26"
+  },
+  {
+   "nome": "Zorzal Gran Terroir Chardonnay",
+   "palavras": [
+    "gran terroir",
+    "chardonnay"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 109.9,
+   "cor": "#8fb3ff",
+   "sku": "7798148943619",
+   "desde": "2026-11-26"
+  },
+  {
+   "nome": "Cantarinha Red Blend",
+   "palavras": [
+    "cantarinha"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 39.9,
+   "cor": "#c23a68",
+   "sku": "905",
+   "desde": "2026-11-26"
   }
  ],
  "black_11_11": {
