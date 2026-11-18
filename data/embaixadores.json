@@ -1027,6 +1027,12 @@
  },
  {
   "dia": "2026-11-15",
+  "embaixador": "Vanessa Da Silva GonÇAlves",
+  "pedidos": 2,
+  "total": 1804.38
+ },
+ {
+  "dia": "2026-11-15",
   "embaixador": "Raquel de Magalhães Gonçalves",
   "pedidos": 2,
   "total": 969.42
@@ -1093,6 +1099,12 @@
  },
  {
   "dia": "2026-11-16",
+  "embaixador": "Vanessa Avelino Cruz",
+  "pedidos": 1,
+  "total": 697.8
+ },
+ {
+  "dia": "2026-11-16",
   "embaixador": "Tatiana Cordeiro Lana Teixeira",
   "pedidos": 2,
   "total": 678.5
@@ -1152,6 +1164,12 @@
   "total": 199.8
  },
  {
+  "dia": "2026-11-16",
+  "embaixador": "Lívia Fialho Mourão",
+  "pedidos": 1,
+  "total": 99
+ },
+ {
   "dia": "2026-11-17",
   "embaixador": "Marcelo de Souza Meyer",
   "pedidos": 3,
@@ -1159,15 +1177,33 @@
  },
  {
   "dia": "2026-11-17",
-  "embaixador": "Marina Alessandra",
+  "embaixador": "Vanessa Avelino Cruz",
+  "pedidos": 2,
+  "total": 2845.7
+ },
+ {
+  "dia": "2026-11-17",
+  "embaixador": "Andrea Godoy",
   "pedidos": 1,
-  "total": 594
+  "total": 1188
  },
  {
   "dia": "2026-11-17",
   "embaixador": "Amana Castelo Branco",
-  "pedidos": 3,
-  "total": 556.82
+  "pedidos": 4,
+  "total": 925.56
+ },
+ {
+  "dia": "2026-11-17",
+  "embaixador": "Andre Guimaraes Gaiofato",
+  "pedidos": 1,
+  "total": 660
+ },
+ {
+  "dia": "2026-11-17",
+  "embaixador": "Gleybson Andrade",
+  "pedidos": 1,
+  "total": 594
  },
  {
   "dia": "2026-11-17",
@@ -1177,14 +1213,68 @@
  },
  {
   "dia": "2026-11-17",
+  "embaixador": "Carla Cavalcante",
+  "pedidos": 1,
+  "total": 539.4
+ },
+ {
+  "dia": "2026-11-17",
+  "embaixador": "Claudinete Aparecida Barbosa",
+  "pedidos": 2,
+  "total": 539
+ },
+ {
+  "dia": "2026-11-17",
+  "embaixador": "Tatiana Cordeiro Lana Teixeira",
+  "pedidos": 1,
+  "total": 538.2
+ },
+ {
+  "dia": "2026-11-17",
   "embaixador": "Monise Wenzel",
   "pedidos": 1,
   "total": 496.8
  },
  {
   "dia": "2026-11-17",
+  "embaixador": "Ródney Berto",
+  "pedidos": 1,
+  "total": 438.9
+ },
+ {
+  "dia": "2026-11-17",
+  "embaixador": "Camila Gontijo",
+  "pedidos": 1,
+  "total": 418.6
+ },
+ {
+  "dia": "2026-11-17",
+  "embaixador": "Vanessa Da Silva GonÇAlves",
+  "pedidos": 1,
+  "total": 409.7
+ },
+ {
+  "dia": "2026-11-17",
+  "embaixador": "PRISCILA GARIBALDA",
+  "pedidos": 1,
+  "total": 319.6
+ },
+ {
+  "dia": "2026-11-17",
+  "embaixador": "Vanessa Rincon",
+  "pedidos": 1,
+  "total": 179.4
+ },
+ {
+  "dia": "2026-11-17",
   "embaixador": "Ricardo Rabisquim Peres Pavão",
   "pedidos": 1,
   "total": 39.5
+ },
+ {
+  "dia": "2026-11-18",
+  "embaixador": "Ródney Berto",
+  "pedidos": 1,
+  "total": 534
  }
 ]

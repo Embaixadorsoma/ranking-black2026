@@ -1482,6 +1482,14 @@
  {
   "dia": "2026-11-15",
   "posicao": 0,
+  "produto": "Vinho Tinto Campo Burgo Crianza 2021",
+  "unidades": 1,
+  "sku": "0424",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-15",
+  "posicao": 0,
   "produto": "Vinho Tinto Anduco Malbec",
   "unidades": 6,
   "sku": "1000_sw",
@@ -1594,9 +1602,25 @@
  {
   "dia": "2026-11-15",
   "posicao": 0,
+  "produto": "Vinho Tinto Budeguer 4000 Blue Blend Reserva 2020",
+  "unidades": 2,
+  "sku": "455",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-15",
+  "posicao": 0,
   "produto": "Vinho Tinto Chileno Lauca Syrah",
   "unidades": 3,
   "sku": "5009",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-15",
+  "posicao": 0,
+  "produto": "Vinho Tinto Australiano Jacobs Creek Shiraz 750ml",
+  "unidades": 1,
+  "sku": "611390",
   "fonte": "relatorio"
  },
  {
@@ -1675,7 +1699,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
-  "unidades": 6,
+  "unidades": 8,
   "sku": "410",
   "fonte": "relatorio"
  },
@@ -1683,7 +1707,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
-  "unidades": 16,
+  "unidades": 20,
   "sku": "411",
   "fonte": "relatorio"
  },
@@ -1699,7 +1723,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Rosé Peccato Di Vino D.O. Valle Central 2024",
-  "unidades": 12,
+  "unidades": 21,
   "sku": "418_ansic",
   "fonte": "relatorio"
  },
@@ -1715,7 +1739,7 @@
   "dia": "2026-11-16",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
-  "unidades": 13,
+  "unidades": 18,
   "sku": "420",
   "fonte": "relatorio"
  },
@@ -1778,9 +1802,97 @@
  {
   "dia": "2026-11-17",
   "posicao": 0,
+  "produto": "Vinho Branco Flor Do Côa 2023",
+  "unidades": 6,
+  "sku": "0656",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Tinto Huella Carménère",
+  "unidades": 1,
+  "sku": "2004",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Tinto Huella Cabernet Sauvignon",
+  "unidades": 3,
+  "sku": "2005",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Tinto Tierraviva Cabernet Sauvigon",
+  "unidades": 3,
+  "sku": "2007",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Tinto Tierraviva Carménère",
+  "unidades": 2,
+  "sku": "2008",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
   "produto": "Vinho Frisante Buffon Brasilidades Bibiana 2026",
   "unidades": 2,
   "sku": "254_Buffon",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
+  "unidades": 3,
+  "sku": "410",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
+  "unidades": 15,
+  "sku": "411",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Sauvignon Blanc D.O. Valle Central 2025",
+  "unidades": 4,
+  "sku": "417_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Rosé Peccato Di Vino D.O. Valle Central 2024",
+  "unidades": 7,
+  "sku": "418_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Tinto Peccato Di Vino Carménère D.O. Valle Central 2024",
+  "unidades": 6,
+  "sku": "419_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
+  "unidades": 4,
+  "sku": "420",
   "fonte": "relatorio"
  },
  {
@@ -1795,7 +1907,7 @@
   "dia": "2026-11-17",
   "posicao": 0,
   "produto": "Vinho Branco Comienzos Chardonnay 2024",
-  "unidades": 10,
+  "unidades": 12,
   "sku": "7794068001576",
   "fonte": "relatorio"
  },
