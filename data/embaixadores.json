@@ -1201,6 +1201,12 @@
  },
  {
   "dia": "2026-11-17",
+  "embaixador": "Vanessa Da Silva GonÇAlves",
+  "pedidos": 3,
+  "total": 1080.6
+ },
+ {
+  "dia": "2026-11-17",
   "embaixador": "Claudinete Aparecida Barbosa",
   "pedidos": 3,
   "total": 957.6
@@ -1261,12 +1267,6 @@
  },
  {
   "dia": "2026-11-17",
-  "embaixador": "Vanessa Da Silva GonÇAlves",
-  "pedidos": 1,
-  "total": 409.7
- },
- {
-  "dia": "2026-11-17",
   "embaixador": "Vanessa Rincon",
   "pedidos": 1,
   "total": 179.4
@@ -1282,6 +1282,18 @@
   "embaixador": "Alexandra Loureiro",
   "pedidos": 2,
   "total": 6472.02
+ },
+ {
+  "dia": "2026-11-18",
+  "embaixador": "Carolina Montenegro",
+  "pedidos": 2,
+  "total": 2431
+ },
+ {
+  "dia": "2026-11-18",
+  "embaixador": "Lívia Fialho Mourão",
+  "pedidos": 1,
+  "total": 2154.6
  },
  {
   "dia": "2026-11-18",
@@ -1306,6 +1318,12 @@
   "embaixador": "Ivana Raquel A V Guardiano",
   "pedidos": 2,
   "total": 818.7
+ },
+ {
+  "dia": "2026-11-18",
+  "embaixador": "Eduardo Henrique da Silva Bastos",
+  "pedidos": 1,
+  "total": 626.5
  },
  {
   "dia": "2026-11-18",
@@ -1342,5 +1360,11 @@
   "embaixador": "Luciana Quinello",
   "pedidos": 1,
   "total": 98.7
+ },
+ {
+  "dia": "2026-11-19",
+  "embaixador": "Luciana Quinello",
+  "pedidos": 2,
+  "total": 197.4
  }
 ]

@@ -946,6 +946,14 @@
  {
   "dia": "2026-11-10",
   "posicao": 0,
+  "produto": "Vinho Tinto Don Raul - La Giganta Reserva 2018",
+  "unidades": 1,
+  "sku": "7898663710106",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-10",
+  "posicao": 0,
   "produto": "Vinho Tinto Don Raul - Epilogo 2015 Edição Limitada",
   "unidades": 1,
   "sku": "7898663710120",
@@ -1818,6 +1826,14 @@
  {
   "dia": "2026-11-17",
   "posicao": 0,
+  "produto": "Vinho Tinto 5 Oros Garnacha - Vendimia Seleccionada Rioja",
+  "unidades": 1,
+  "sku": "0439",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
   "produto": "Vinho Branco Flor Do Côa 2023",
   "unidades": 6,
   "sku": "0656",
@@ -1826,8 +1842,16 @@
  {
   "dia": "2026-11-17",
   "posicao": 0,
-  "produto": "Vinho Tinto Huella Carménère",
+  "produto": "Vinho Branco Anduco Chardonnay",
   "unidades": 1,
+  "sku": "1002_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-17",
+  "posicao": 0,
+  "produto": "Vinho Tinto Huella Carménère",
+  "unidades": 2,
   "sku": "2004",
   "fonte": "relatorio"
  },
@@ -1947,7 +1971,7 @@
   "dia": "2026-11-18",
   "posicao": 0,
   "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
-  "unidades": 3,
+  "unidades": 4,
   "sku": "410",
   "fonte": "relatorio"
  },
@@ -1955,7 +1979,7 @@
   "dia": "2026-11-18",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
-  "unidades": 1,
+  "unidades": 2,
   "sku": "411",
   "fonte": "relatorio"
  },
@@ -1971,7 +1995,7 @@
   "dia": "2026-11-18",
   "posicao": 0,
   "produto": "Vinho Rosé Peccato Di Vino D.O. Valle Central 2024",
-  "unidades": 2,
+  "unidades": 3,
   "sku": "418_ansic",
   "fonte": "relatorio"
  },
@@ -2045,6 +2069,14 @@
   "produto": "Espumante Buffon Moscatel Rosé",
   "unidades": 66,
   "sku": "buff20",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 6,
+  "sku": "7794068001576",
   "fonte": "relatorio"
  }
 ]
