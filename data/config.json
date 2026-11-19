@@ -2115,6 +2115,95 @@
    "cor": "#c23a68",
    "sku": "905",
    "desde": "2026-11-26"
+  },
+  {
+   "nome": "Heredad de Loza Tempranillo",
+   "palavras": [
+    "heredad de loza"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 81.25,
+   "cor": "#c23a68",
+   "sku": "366_WM",
+   "desde": "2026-11-19"
+  },
+  {
+   "nome": "Casa Scalecci Ronsaro",
+   "palavras": [
+    "scalecci",
+    "ronsaro"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 111.0,
+   "cor": "#c23a68",
+   "sku": "364_WM",
+   "desde": "2026-11-19"
+  },
+  {
+   "nome": "Casa Scalecci Sauvignon Blanc",
+   "palavras": [
+    "scalecci",
+    "sauvignon blanc"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 125.25,
+   "cor": "#c23a68",
+   "sku": "356_WM",
+   "desde": "2026-11-19"
+  },
+  {
+   "nome": "Casa Scalecci Il Cavaliere",
+   "palavras": [
+    "scalecci",
+    "cavaliere"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 136.5,
+   "cor": "#c23a68",
+   "sku": "358_WM",
+   "desde": "2026-11-19"
+  },
+  {
+   "nome": "Casa Scalecci Passione",
+   "palavras": [
+    "scalecci",
+    "passione"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 140.25,
+   "cor": "#c23a68",
+   "sku": "362_WM",
+   "desde": "2026-11-19"
+  },
+  {
+   "nome": "Casa Scalecci Artemis",
+   "palavras": [
+    "scalecci",
+    "artemis"
+   ],
+   "fora": [
+    "kit",
+    "garrafas"
+   ],
+   "preco": 140.25,
+   "cor": "#c23a68",
+   "sku": "354_WM",
+   "desde": "2026-11-19"
   }
  ],
  "black_11_11": {
