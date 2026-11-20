@@ -1297,6 +1297,12 @@
  },
  {
   "dia": "2026-11-18",
+  "embaixador": "Adriana Mafra Vieira",
+  "pedidos": 3,
+  "total": 1556.3
+ },
+ {
+  "dia": "2026-11-18",
   "embaixador": "PRISCILA GARIBALDA",
   "pedidos": 1,
   "total": 1198.8
@@ -1306,12 +1312,6 @@
   "embaixador": "Amana Castelo Branco",
   "pedidos": 1,
   "total": 1198.5
- },
- {
-  "dia": "2026-11-18",
-  "embaixador": "Adriana Mafra Vieira",
-  "pedidos": 2,
-  "total": 1147.5
  },
  {
   "dia": "2026-11-18",
@@ -1360,6 +1360,72 @@
   "embaixador": "Luciana Quinello",
   "pedidos": 1,
   "total": 98.7
+ },
+ {
+  "dia": "2026-11-19",
+  "embaixador": "Marcelo de Souza Meyer",
+  "pedidos": 1,
+  "total": 3468
+ },
+ {
+  "dia": "2026-11-19",
+  "embaixador": "ANDRE DE ALMEIDA PRADO",
+  "pedidos": 1,
+  "total": 2649.12
+ },
+ {
+  "dia": "2026-11-19",
+  "embaixador": "Andre Guimaraes Gaiofato",
+  "pedidos": 2,
+  "total": 1543.8
+ },
+ {
+  "dia": "2026-11-19",
+  "embaixador": "Andrea Godoy",
+  "pedidos": 2,
+  "total": 1014
+ },
+ {
+  "dia": "2026-11-19",
+  "embaixador": "Lívia Fialho Mourão",
+  "pedidos": 1,
+  "total": 857.6
+ },
+ {
+  "dia": "2026-11-19",
+  "embaixador": "Eduardo Henrique da Silva Bastos",
+  "pedidos": 2,
+  "total": 659.4
+ },
+ {
+  "dia": "2026-11-19",
+  "embaixador": "ANNA RITA DE MOURA LIRA",
+  "pedidos": 1,
+  "total": 592.2
+ },
+ {
+  "dia": "2026-11-19",
+  "embaixador": "Carla Cavalcante",
+  "pedidos": 1,
+  "total": 459.3
+ },
+ {
+  "dia": "2026-11-19",
+  "embaixador": "Tatiane Fernandes Andrade de Lima",
+  "pedidos": 1,
+  "total": 440
+ },
+ {
+  "dia": "2026-11-19",
+  "embaixador": "Tatiana Cordeiro Lana Teixeira",
+  "pedidos": 1,
+  "total": 403.8
+ },
+ {
+  "dia": "2026-11-19",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 1,
+  "total": 198
  },
  {
   "dia": "2026-11-19",

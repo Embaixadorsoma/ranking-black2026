@@ -1971,7 +1971,7 @@
   "dia": "2026-11-18",
   "posicao": 0,
   "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
-  "unidades": 4,
+  "unidades": 5,
   "sku": "410",
   "fonte": "relatorio"
  },
@@ -1979,7 +1979,7 @@
   "dia": "2026-11-18",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
-  "unidades": 2,
+  "unidades": 5,
   "sku": "411",
   "fonte": "relatorio"
  },
@@ -1987,7 +1987,7 @@
   "dia": "2026-11-18",
   "posicao": 0,
   "produto": "Vinho Branco Peccato Di Vino Sauvignon Blanc D.O. Valle Central 2025",
-  "unidades": 1,
+  "unidades": 2,
   "sku": "417_ansic",
   "fonte": "relatorio"
  },
@@ -1995,7 +1995,7 @@
   "dia": "2026-11-18",
   "posicao": 0,
   "produto": "Vinho Rosé Peccato Di Vino D.O. Valle Central 2024",
-  "unidades": 3,
+  "unidades": 5,
   "sku": "418_ansic",
   "fonte": "relatorio"
  },
@@ -2003,7 +2003,7 @@
   "dia": "2026-11-18",
   "posicao": 0,
   "produto": "Vinho Tinto Peccato Di Vino Carménère D.O. Valle Central 2024",
-  "unidades": 1,
+  "unidades": 5,
   "sku": "419_ansic",
   "fonte": "relatorio"
  },
@@ -2074,9 +2074,121 @@
  {
   "dia": "2026-11-19",
   "posicao": 0,
-  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "produto": "Vinho Branco Flor Do Côa 2023",
+  "unidades": 12,
+  "sku": "0656",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Tinto Anduco Malbec",
+  "unidades": 3,
+  "sku": "1000_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Branco Anduco Torrontés",
   "unidades": 6,
+  "sku": "1004_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
+  "unidades": 3,
+  "sku": "410",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
+  "unidades": 6,
+  "sku": "411",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Rosé Peccato Di Vino D.O. Valle Central 2024",
+  "unidades": 1,
+  "sku": "418_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Tinto Peccato Di Vino Carménère D.O. Valle Central 2024",
+  "unidades": 3,
+  "sku": "419_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
+  "unidades": 1,
+  "sku": "420",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Rosé Finca Santa Rosa",
+  "unidades": 12,
+  "sku": "425_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Tinto Chileno Lauca Reserva Cabernet Sauvignon",
+  "unidades": 1,
+  "sku": "5003",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Tinto Chileno Lauca Reserva Carménère",
+  "unidades": 1,
+  "sku": "5004",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Tinto Chileno Lauca Reserva Pinot Noir",
+  "unidades": 1,
+  "sku": "5005",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Branco Chileno Lauca Reserva Chardonnay",
+  "unidades": 1,
+  "sku": "5006",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 42,
   "sku": "7794068001576",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Tinto Don Raul - La Giganta Reserva 2018",
+  "unidades": 3,
+  "sku": "7898663710106",
   "fonte": "relatorio"
  }
 ]
