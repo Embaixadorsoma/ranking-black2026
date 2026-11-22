@@ -2074,6 +2074,14 @@
  {
   "dia": "2026-11-19",
   "posicao": 0,
+  "produto": "Vinho Tinto Campo Burgo Crianza 2021",
+  "unidades": 2,
+  "sku": "0424",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
   "produto": "Vinho Branco Flor Do Côa 2023",
   "unidades": 12,
   "sku": "0656",
@@ -2138,6 +2146,14 @@
  {
   "dia": "2026-11-19",
   "posicao": 0,
+  "produto": "Vinho Tinto 5 Oros Crianza 2021",
+  "unidades": 2,
+  "sku": "422",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
   "produto": "Vinho Rosé Finca Santa Rosa",
   "unidades": 12,
   "sku": "425_ansic",
@@ -2189,6 +2205,126 @@
   "produto": "Vinho Tinto Don Raul - La Giganta Reserva 2018",
   "unidades": 3,
   "sku": "7898663710106",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Tinto Salentein Osado  Malbec",
+  "unidades": 6,
+  "sku": "876_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-19",
+  "posicao": 0,
+  "produto": "Vinho Branco Salentein Osado Malbec Blanco",
+  "unidades": 6,
+  "sku": "877",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-20",
+  "posicao": 0,
+  "produto": "Vinho Tinto Campo Burgo Crianza 2021",
+  "unidades": 1,
+  "sku": "0424",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-20",
+  "posicao": 0,
+  "produto": "Vinho Tinto Hacienda de Susar Rioja 2022",
+  "unidades": 1,
+  "sku": "0440",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-20",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
+  "unidades": 1,
+  "sku": "420",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-20",
+  "posicao": 0,
+  "produto": "Vinho Tinto 5 Oros Crianza 2021",
+  "unidades": 1,
+  "sku": "422",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-20",
+  "posicao": 0,
+  "produto": "Vinho Tinto 5 Oros Reserva 2018",
+  "unidades": 1,
+  "sku": "423",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-21",
+  "posicao": 0,
+  "produto": "Vinho Tinto Anduco Malbec",
+  "unidades": 5,
+  "sku": "1000_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-21",
+  "posicao": 0,
+  "produto": "Vinho Branco Anduco Chardonnay",
+  "unidades": 3,
+  "sku": "1002_sw",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-21",
+  "posicao": 0,
+  "produto": "Vinho Tinto Peccato Di Vino Cabernet Sauvignon D.O. Valle Central 2024",
+  "unidades": 2,
+  "sku": "410",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-21",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Chardonnay D.O. Valle Central 2025",
+  "unidades": 7,
+  "sku": "411",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-21",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Sauvignon Blanc D.O. Valle Central 2025",
+  "unidades": 5,
+  "sku": "417_ansic",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-21",
+  "posicao": 0,
+  "produto": "Vinho Branco Peccato Di Vino Pinot Grigio 2024",
+  "unidades": 6,
+  "sku": "420",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-21",
+  "posicao": 0,
+  "produto": "Vinho Branco Comienzos Chardonnay 2024",
+  "unidades": 6,
+  "sku": "7794068001576",
+  "fonte": "relatorio"
+ },
+ {
+  "dia": "2026-11-21",
+  "posicao": 0,
+  "produto": "Vinho Branco Salentein Osado Malbec Blanco",
+  "unidades": 1,
+  "sku": "877",
   "fonte": "relatorio"
  }
 ]

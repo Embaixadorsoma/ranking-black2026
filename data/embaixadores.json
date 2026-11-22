@@ -1363,6 +1363,12 @@
  },
  {
   "dia": "2026-11-19",
+  "embaixador": "Monise Wenzel",
+  "pedidos": 3,
+  "total": 3588.6
+ },
+ {
+  "dia": "2026-11-19",
   "embaixador": "Marcelo de Souza Meyer",
   "pedidos": 1,
   "total": 3468
@@ -1432,5 +1438,77 @@
   "embaixador": "Luciana Quinello",
   "pedidos": 2,
   "total": 197.4
+ },
+ {
+  "dia": "2026-11-20",
+  "embaixador": "Monise Wenzel",
+  "pedidos": 1,
+  "total": 5940
+ },
+ {
+  "dia": "2026-11-20",
+  "embaixador": "Carolina Montenegro",
+  "pedidos": 1,
+  "total": 909.5
+ },
+ {
+  "dia": "2026-11-20",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 1,
+  "total": 639.2
+ },
+ {
+  "dia": "2026-11-20",
+  "embaixador": "ANNA RITA DE MOURA LIRA",
+  "pedidos": 1,
+  "total": 319.2
+ },
+ {
+  "dia": "2026-11-20",
+  "embaixador": "Marcelo Santos Machado",
+  "pedidos": 1,
+  "total": 59.8
+ },
+ {
+  "dia": "2026-11-21",
+  "embaixador": "Edmilson Marchioni Filho",
+  "pedidos": 2,
+  "total": 1483.7
+ },
+ {
+  "dia": "2026-11-21",
+  "embaixador": "Carolina Montenegro",
+  "pedidos": 1,
+  "total": 824
+ },
+ {
+  "dia": "2026-11-21",
+  "embaixador": "Ana Carolina Guardia da Silva",
+  "pedidos": 1,
+  "total": 499.2
+ },
+ {
+  "dia": "2026-11-21",
+  "embaixador": "Amana Castelo Branco",
+  "pedidos": 1,
+  "total": 479.4
+ },
+ {
+  "dia": "2026-11-21",
+  "embaixador": "Roberta Cristina Valverde",
+  "pedidos": 1,
+  "total": 479.2
+ },
+ {
+  "dia": "2026-11-21",
+  "embaixador": "Raquel de Magalhães Gonçalves",
+  "pedidos": 1,
+  "total": 409.1
+ },
+ {
+  "dia": "2026-11-21",
+  "embaixador": "Marina Alessandra",
+  "pedidos": 1,
+  "total": 169
  }
 ]
