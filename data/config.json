@@ -2218,6 +2218,54 @@
    "cor": "#ff9f7a",
    "sku": "7898663710106",
    "desde": "2026-11-19"
+  },
+  {
+   "nome": "Lauca Cabernet Sauvignon",
+   "palavras": [
+    "lauca cabernet sauvignon"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "reserva",
+    "2019"
+   ],
+   "preco": 27.9,
+   "cor": "#e8bd62",
+   "sku": "5000",
+   "desde": "2026-11-26"
+  },
+  {
+   "nome": "Lauca Carmenere",
+   "palavras": [
+    "lauca carmenere"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "reserva",
+    "2019"
+   ],
+   "preco": 27.9,
+   "cor": "#e8bd62",
+   "sku": "5001_sw",
+   "desde": "2026-11-26"
+  },
+  {
+   "nome": "Lauca Sauvignon Blanc",
+   "palavras": [
+    "lauca sauvignon blanc"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "reserva",
+    "2020"
+   ],
+   "preco": 27.9,
+   "cor": "#e8bd62",
+   "sku": "5002_sw",
+   "desde": "2026-11-26"
   }
  ],
  "black_11_11": {
