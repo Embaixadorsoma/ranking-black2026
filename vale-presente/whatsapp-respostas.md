@@ -8,15 +8,15 @@
 
 Oi, [nome]! 🍷 Que bom que você chamou!
 
-O **Vale Presente Terroir** funciona assim: você dá de presente e a pessoa escolhe a estampa, a cor e o tamanho no nosso site. Sem risco de errar!
+O **Vale Presente Terroir** é o presente certo para o Natal e para o Amigo Secreto: você dá de presente e a pessoa escolhe a estampa, a cor e o tamanho no nosso site. Sem risco de errar!
 
-Na **Black (até 30/11)** os vales estão assim:
-🍷 *Vale Taça*: 1 camiseta Algodão 30.1, **R$ 119,90**
-🍾 *Vale Reserva*: 1 camiseta de algodão peruano, **R$ 149,90**
-🥂 *Vale Dupla*: 2 camisetas, **R$ 219,90**
+🍷 *Vale Taça*: 1 camiseta Algodão 30.1, **R$ 139,90**
+🍾 *Vale Reserva*: 1 camiseta de algodão peruano, **R$ 179,90**
+🥂 *Vale Dupla*: 2 camisetas, **R$ 259,90**
 
 ✔ Frete grátis para o estado de SP
-✔ Válido por 30 dias a partir da compra
+✔ Válido por 60 dias (dá para resgatar com calma em janeiro)
+✔ O cartão não mostra o preço
 
 Qual deles você quer?
 
@@ -26,8 +26,8 @@ Qual deles você quer?
 
 Perfeito! O [Vale Taça / Reserva / Dupla] fica **R$ [valor]**.
 
-Você pode pagar por [PIX / link de pagamento]:
-[chave PIX ou link]
+É só pagar por este link:
+[LINK DE PAGAMENTO]
 
 Assim que o pagamento cair, eu te mando o cartão do vale com o código. 😊
 Ah, me diz o nome de quem vai ganhar, para eu colocar no cartão (se quiser).
@@ -63,7 +63,7 @@ Para fazer o seu pedido, me manda:
 
 ## 5. Pedido feito
 
-Prontinho, [nome]! Seu pedido foi feito ✅
+Prontinho, [nome]! Seu pedido foi feito ✅ Feliz Natal!
 Assim que a camiseta for postada, eu te mando o código de rastreio. Boas safras! 🍷
 
 ---
@@ -82,16 +82,19 @@ Acompanhe aqui: [link]
 O frete grátis é para o estado de SP. Para outros estados, o frete depende do CEP: me manda o CEP de quem vai receber que eu te passo o valor da diferença. Ela pode ser paga na hora do resgate.
 
 **"E se a pessoa escolher uma camiseta mais cara?"**
-Sem problema! Ela só paga a diferença. Quem tem o Vale Taça e quer a camiseta de algodão peruano paga **R$ 30,00** a mais (preço de Black, até 30/11). Depois da Black, a diferença passa a ser **R$ 40,00**.
+Sem problema! Ela só paga a diferença. Quem tem o Vale Taça e quer a camiseta de algodão peruano paga **R$ 40,00** a mais.
 
 **"Posso trocar o tamanho?"**
 Pode trocar o tamanho uma vez. É só chamar a gente aqui.
 
-**"Até quando vale o preço de Black?"**
-Até 30/11. Depois volta para o preço normal (Taça R$ 139,90 · Reserva R$ 179,90 · Dupla R$ 259,90).
+**"Serve para Amigo Secreto?"**
+Serve, sim! O valor é fechado e o cartão não mostra o preço. O Vale Taça (R$ 139,90) cabe na maioria dos amigos secretos.
+
+**"Até quando dá para comprar para o Natal?"**
+Até 24/12. O vale chega na hora pelo WhatsApp ou e-mail, sem depender dos Correios.
 
 **"O vale vence quando?"**
-Em 30 dias a partir da data da compra. A data vem escrita no cartão.
+Em 60 dias a partir da data da compra. A data vem escrita no cartão.
 
 ---
 

@@ -1,13 +1,14 @@
-# 🍷 Vale Presente Terroir: plano de divulgação (Natal 2026)
+# 🍷 Vale Presente Terroir: plano de divulgação (Natal e Amigo Secreto 2026)
 
 **Ideia central:** *"Não sabe a estampa nem o tamanho? Dá o Vale Presente e deixa a pessoa escolher."*
+**Amigo Secreto:** valor fechado, o cartão não mostra o preço e não tem como errar o tamanho.
 **Maior vantagem:** é digital. Dá para comprar **até 24/12** sem depender dos Correios.
 
 ## Valores
 - **Vale Taça:** R$ 139,90 · 1 camiseta comum
 - **Vale Reserva:** R$ 179,90 · 1 camiseta de algodão peruano
 - **Vale Dupla:** R$ 259,90 · 2 camisetas comuns
-- Frete grátis para o estado de SP · validade de 30 dias a partir da compra
+- Frete grátis para o estado de SP · validade de 60 dias a partir da compra (resgate com calma em janeiro)
 
 ---
 
@@ -16,7 +17,7 @@
 | Quando | O que fazer |
 |---|---|
 | **01/12 (segunda)** | Lançamento: post no feed + stories + WhatsApp para a base |
-| **03/12 a 14/12** | 2 a 3 stories por semana. Repostar quem comprou ou recebeu |
+| **03/12 a 14/12** | 2 a 3 stories por semana. Repostar quem comprou ou recebeu. Post "Amigo Secreto sem errar" (época das confraternizações) |
 | **15/12** | Post "Ainda dá tempo", focado em quem deixa para a última hora |
 | **18/12** | Avisar que é o último dia seguro para camiseta física chegar. Depois disso, só o vale |
 | **20/12 a 24/12** | Stories todo dia: "presente de última hora, chega na hora pelo WhatsApp" |
@@ -39,7 +40,8 @@
 >
 > ✔ Frete grátis para SP
 > ✔ Chega na hora pelo WhatsApp, perfeito para última hora
-> ✔ Vale por 30 dias
+> ✔ Vale por 60 dias
+> ✔ Perfeito para o Amigo Secreto: o cartão não mostra o preço
 >
 > Peça o seu pelo link da bio ou no direct.
 
@@ -50,9 +52,15 @@
 
 ### WhatsApp (lista de clientes)
 > Oi, {nome}! 🍷 Aqui é da Terroir.
-> Para o Natal, criamos o **Vale Presente**: você dá de presente e a pessoa escolhe a estampa e o tamanho no nosso site.
+> Para o Natal e o Amigo Secreto, criamos o **Vale Presente**: você dá de presente e a pessoa escolhe a estampa e o tamanho no nosso site.
 > Taça R$ 139,90 · Reserva R$ 179,90 · Dupla R$ 259,90, com frete grátis para SP.
 > E o melhor: chega na hora, dá para comprar até o dia 24. Quer que eu separe um para você?
+
+### Amigo Secreto (post ou stories, 03 a 14/12)
+> **Tirou alguém que ama vinho no Amigo Secreto? 🍷**
+> Dá o Vale Presente Terroir: valor fechado, o cartão não mostra o preço e a pessoa escolhe a estampa e o tamanho.
+> Vale Taça R$ 139,90 · frete grátis para SP · vale por 60 dias.
+> Monte o seu pelo link da bio.
 
 ### Última hora (20 a 24/12)
 > **Esqueceu o presente? Ainda dá tempo de brindar. 🥂**

@@ -91,11 +91,11 @@ footer a{color:var(--gold)}
   <div class="wrap">
     <div>
       <p class="brand">TERROIR STORE</p>
-      <span class="badge" id="blackBadge">Preço de Black até 30/11</span>
+      <span class="badge">🎄 Natal e Amigo Secreto</span>
       <h1>Vale Presente Terroir</h1>
-      <p class="lead">Dê uma camiseta para quem ama vinho, sem errar o tamanho. Quem ganha escolhe a estampa, a cor e o tamanho no nosso site.</p>
+      <p class="lead">O presente certo para quem ama vinho, no Natal ou no Amigo Secreto. Você dá o vale e quem ganha escolhe a estampa, a cor e o tamanho. Sem errar o tamanho.</p>
       <a class="btn" href="#montar">Montar meu presente</a>
-      <ul><li>O cartão não mostra o valor</li><li>Frete grátis para SP</li><li>Válido por 30 dias</li></ul>
+      <ul><li>O cartão não mostra o valor</li><li>Frete grátis para SP</li><li>Válido por 60 dias</li><li>Chega na hora, até 24/12</li></ul>
     </div>
     <div id="cardSlot1"></div>
   </div>
@@ -117,6 +117,10 @@ footer a{color:var(--gold)}
             <div><label for="para">Nome de quem vai ganhar</label><input type="text" id="para" maxlength="40" placeholder="Ex.: Mariana"></div>
             <div><label for="contato">WhatsApp ou e-mail dela(e)</label><input type="text" id="contato" maxlength="60" placeholder="Para enviarmos o vale"></div>
           </div>
+          <label for="ocasiao">Ocasião</label>
+          <select id="ocasiao" style="width:100%;font:16px Inter,sans-serif;padding:12px;border-radius:10px;border:1.5px solid var(--line);background:var(--field);color:var(--ink)">
+            <option>Natal</option><option>Amigo Secreto</option><option>Outra ocasião</option>
+          </select>
           <label for="msg">Mensagem no cartão</label>
           <textarea id="msg" maxlength="160" placeholder="Ex.: Feliz Natal! Escolhe a estampa que tiver a sua cara. Saúde! 🍷"></textarea>
           <p class="hint"><span id="cnt">0</span>/160 caracteres</p>
@@ -140,9 +144,10 @@ footer a{color:var(--gold)}
         <button class="btn" type="submit">Revisar e finalizar pelo WhatsApp</button>
         <div class="done" id="done" hidden>
           <h3>Seu pedido está pronto para enviar</h3>
-          <p>Toque no botão abaixo. O WhatsApp da Terroir abre com tudo preenchido; é só apertar enviar. A gente responde com o link de pagamento e, depois de pago, envia o vale.</p>
+          <p id="doneTxt">Toque no botão abaixo. O WhatsApp da Terroir abre com tudo preenchido; é só apertar enviar. A gente responde com o link de pagamento e, depois de pago, envia o vale.</p>
           <pre id="resumo"></pre>
           <a class="btn" id="go" href="#" target="_blank" rel="noopener">Enviar pedido no WhatsApp</a>
+          <a class="btn" id="pay" href="#" target="_blank" rel="noopener" hidden style="margin-top:10px">Pagar agora</a>
           <button type="button" class="linkbtn" id="edit">Editar</button>
           <p class="hint">Se o botão não abrir, mande esta mensagem para (11) 91340-4956.</p>
         </div>
@@ -156,7 +161,7 @@ footer a{color:var(--gold)}
   <div class="wrap">
     <h2>Como funciona</h2>
     <div class="steps">
-      <div><b>1</b><h3>Você monta o presente</h3><p>Escolhe o vale, escreve a mensagem e finaliza pelo WhatsApp. Pagamento por link ou Pix.</p></div>
+      <div><b>1</b><h3>Você monta o presente</h3><p>Escolhe o vale, escreve a mensagem e finaliza pelo WhatsApp. Paga pelo link, com Pix ou cartão.</p></div>
       <div><b>2</b><h3>A gente envia o vale</h3><p>O cartão chega com o nome, a sua mensagem e um código. Sem o valor.</p></div>
       <div><b>3</b><h3>Quem ganha escolhe</h3><p>Escolhe a estampa, a cor e o tamanho no site e manda o código. A camiseta vai direto para a casa dela.</p></div>
     </div>
@@ -170,8 +175,10 @@ footer a{color:var(--gold)}
       <details><summary>Quem ganha fica sabendo quanto custou?</summary><p>Não. O cartão mostra só o tipo de vale (por exemplo, "1 camiseta à sua escolha"), nunca o preço.</p></details>
       <details><summary>Onde a pessoa escolhe a estampa?</summary><p>No site www.camisetaterroirstore.com.br. Depois ela manda o código e a escolha pelo nosso WhatsApp.</p></details>
       <details><summary>E o frete?</summary><p>Grátis para todo o estado de SP. Para outros estados, a diferença é calculada pelo CEP na hora do resgate.</p></details>
-      <details><summary>Até quando o vale vale?</summary><p>30 dias a partir da data da compra. A data aparece no cartão.</p></details>
-      <details><summary>E se a pessoa quiser uma camiseta mais cara?</summary><p>Ela paga só a diferença. Do Vale Taça para o algodão peruano, a diferença é de R$ 30,00 na Black (R$ 40,00 depois).</p></details>
+      <details><summary>Até quando o vale vale?</summary><p>60 dias a partir da data da compra. Quem ganha no Natal pode resgatar com calma em janeiro. A data aparece no cartão.</p></details>
+      <details><summary>Serve para Amigo Secreto?</summary><p>Serve, sim. O valor é fechado, o cartão não mostra o preço e não tem como errar o tamanho. O Vale Taça cabe na maioria dos amigos secretos.</p></details>
+      <details><summary>Até quando dá para comprar para o Natal?</summary><p>Até 24/12. O vale chega na hora pelo WhatsApp ou e-mail, sem depender dos Correios.</p></details>
+      <details><summary>E se a pessoa quiser uma camiseta mais cara?</summary><p>Ela paga só a diferença. Do Vale Taça para o algodão peruano, a diferença é de R$ 40,00.</p></details>
       <details><summary>Dá para trocar o tamanho?</summary><p>Sim, uma vez. É só chamar a gente no WhatsApp.</p></details>
     </div>
   </div>
@@ -180,15 +187,17 @@ footer a{color:var(--gold)}
 <footer class="band">
   <div class="wrap">
     <span>Terroir Store · camisetas para quem ama vinho · São Paulo/SP</span>
-    <span>WhatsApp (11) 91340-4956 · <a href="https://instagram.com/camisetaterroirstore">@camisetaterroirstore</a></span>
+    <span>WhatsApp (11) 91340-4956 · <a href="https://instagram.com/camisetaterroirstore?utm_source=landing&amp;utm_medium=vale_presente&amp;utm_campaign=natal2026">@camisetaterroirstore</a></span>
   </div>
 </footer>
 
 <script>
 {
 const ZAP='5511913404956';
-const BLACK_END=new Date('2026-12-01T00:00:00-03:00');
-const black=new Date()<BLACK_END;
+// LINKS DE PAGAMENTO: cole aqui o link de cada vale (Mercado Pago, PagSeguro etc.).
+// Enquanto estiver vazio, a pessoa só envia o pedido no WhatsApp e você manda o link por lá.
+const LINKS={taca:'',reserva:'',dupla:''};
+const black=false;
 const VALES=[
   {id:'taca',nome:'Vale Taça',desc:'1 camiseta Algodão 30.1',card:'1 camiseta à sua escolha',p:139.9,b:119.9},
   {id:'reserva',nome:'Vale Reserva',desc:'1 camiseta de algodão peruano',card:'1 camiseta de algodão peruano',p:179.9,b:149.9},
@@ -197,13 +206,12 @@ const VALES=[
 const $=id=>document.getElementById(id);
 const brl=v=>'R$ '+v.toFixed(2).replace('.',',');
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-if(!black)$('blackBadge').hidden=true;
 
 $('opts').innerHTML=VALES.map((v,i)=>`<label class="opt"><input type="radio" name="vale" value="${v.id}" ${i===0?'checked':''}><div><strong>${v.nome}</strong><span>${v.desc}</span></div><div class="price">${black?`<s>${brl(v.p)}</s>${brl(v.b)}`:brl(v.p)}</div></label>`).join('');
 
 const cardHTML=()=>`<div class="card" aria-label="Prévia do vale presente"><span class="ring" style="width:60%;aspect-ratio:1;left:-22%;top:-30%"></span><span class="ring" style="width:30%;aspect-ratio:1;left:32%;bottom:-18%;border-width:7px"></span>
 <div class="cl"><small>TERROIR STORE</small><div class="t"><em>Vale</em>Presente</div><div><span class="pill" data-k="tipo"></span><div class="what" data-k="what"></div></div></div>
-<div class="cr"><div><b>Para</b><div class="v" data-k="para"></div></div><div><b>De</b><div class="v" data-k="de"></div></div><div class="msg" data-k="msg"></div><div class="code"><span>Código enviado após o pagamento</span><span>Válido 30 dias</span></div></div></div>`;
+<div class="cr"><div><b>Para</b><div class="v" data-k="para"></div></div><div><b>De</b><div class="v" data-k="de"></div></div><div class="msg" data-k="msg"></div><div class="code"><span>Código enviado após o pagamento</span><span>Válido 60 dias</span></div></div></div>`;
 $('cardSlot1').innerHTML=cardHTML();$('cardSlot2').innerHTML=cardHTML();
 
 const sel=()=>VALES.find(v=>v.id===(document.querySelector('input[name=vale]:checked')||{}).value)||VALES[0];
@@ -223,6 +231,7 @@ $('f').addEventListener('submit',e=>{
   const v=sel(),preco=black?v.b:v.p;
   const txt=`Olá, Terroir! Quero um Vale Presente 🍷
 
+Ocasião: ${$('ocasiao').value}
 Vale: ${v.nome} (${v.desc}) – ${brl(preco)}${black?' (preço de Black)':''}
 Para: ${$('para').value.trim()}
 Contato de quem ganha: ${$('contato').value.trim()||'—'}
@@ -234,6 +243,9 @@ Meu nome: ${$('de').value.trim()}
 Meu WhatsApp: ${$('zap').value.trim()}`;
   $('resumo').textContent=txt;
   $('go').href='https://wa.me/'+ZAP+'?text='+encodeURIComponent(txt);
+  const pl=LINKS[v.id];
+  $('pay').hidden=!pl;
+  if(pl){$('pay').href=pl;$('doneTxt').textContent='1) Envie o pedido no WhatsApp (abre com tudo preenchido). 2) Pague pelo botão "Pagar agora". Depois de pago, a gente envia o vale com o código.';}
   $('done').hidden=false;
   $('done').scrollIntoView({behavior:'smooth',block:'center'});
 });
