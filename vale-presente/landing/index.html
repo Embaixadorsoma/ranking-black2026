@@ -1,0 +1,244 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Vale Presente Terroir</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head><body><style>
+/* VOICE occasion: a wine shop's gift counter, warm and elegant
+   IDEA the gift card itself, as a printed cartão on a wine-red counter
+   PICTURE the vale drawn large, filling in live as the buyer types (never showing price)
+   COLOUR wine #5a1022 ground, cream #f6ead8 paper, gold #c9a35c accent
+   TYPE Playfair Display + Inter
+   LAYOUT laptop: title+CTA left, card right; form below with card sticky beside it. phone: title, card, form */
+:root{color-scheme:light dark;--wine:#5a1022;--wine2:#3a0814;--gold:#c9a35c;--paper:#f6ead8;--bg:light-dark(#faf4ea,#1d0509);--ink:light-dark(#2a0a10,#f6ead8);--soft:light-dark(#7a5a4a,#d8c3a5);--line:light-dark(#e3d3bb,#4a1a24);--field:light-dark(#fff,#2a0a10)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;overflow-x:clip}
+.band{padding-block:clamp(28px,4vw,64px);padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1180px;margin:0 auto}
+.hero{background:radial-gradient(ellipse at 20% 20%,#7a1a2e,var(--wine) 55%,var(--wine2));color:var(--paper);margin-top:calc(-1*env(safe-area-inset-top,0px));padding-top:calc(env(safe-area-inset-top,0px) + 3rem)}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(24px,4vw,56px);align-items:center}
+.brand{font-family:'Playfair Display',Georgia,serif;letter-spacing:.3em;color:var(--gold);font-size:15px;margin:0 0 28px}
+h1{font-family:'Playfair Display',Georgia,serif;font-weight:700;font-size:clamp(40px,6vw,68px);line-height:1.05;letter-spacing:-.02em;margin:0 0 18px}
+.lead{font-size:18px;max-width:30em;color:#f0dcc0;margin:0 0 26px}
+.badge{display:inline-block;background:var(--gold);color:var(--wine2);font-weight:600;font-size:14px;padding:7px 16px;border-radius:30px;margin-bottom:20px}
+.btn{display:inline-block;background:var(--gold);color:var(--wine2);font-weight:600;font-size:17px;padding:15px 30px;border-radius:40px;text-decoration:none;border:0;cursor:pointer;font-family:inherit}
+.btn:hover{filter:brightness(1.07)}.btn:focus-visible{outline:3px solid var(--paper);outline-offset:3px}
+.hero ul{list-style:none;padding:0;margin:26px 0 0;display:flex;flex-wrap:wrap;gap:8px 22px;font-size:15px;color:#f0dcc0}
+.hero li::before{content:"✓ ";color:var(--gold)}
+/* the card */
+.card{position:relative;aspect-ratio:1.6;background:linear-gradient(135deg,#6b1428,#4a0c1c);border:2px solid var(--gold);border-radius:18px;box-shadow:0 30px 60px -20px rgba(0,0,0,.55);color:var(--paper);display:grid;grid-template-columns:1.05fr 1fr;overflow:hidden;transform:rotate(-2deg)}
+.card::before{content:"";position:absolute;inset:9px;border:1px solid rgba(201,163,92,.45);border-radius:12px;pointer-events:none}
+.card .ring{position:absolute;border-radius:50%;border:10px solid rgba(20,0,6,.25)}
+.cl{padding:clamp(14px,3.2vw,30px);display:flex;flex-direction:column;justify-content:space-between;position:relative}
+.cl small{font-family:'Playfair Display',serif;letter-spacing:.25em;color:var(--gold);font-size:clamp(9px,1.3vw,12px)}
+.cl .t{font-family:'Playfair Display',serif;line-height:.95;font-size:clamp(30px,5.4vw,56px)}
+.cl .t em{display:block;color:var(--gold);font-weight:500;font-size:.7em}
+.pill{align-self:flex-start;background:var(--gold);color:var(--wine2);font-weight:600;border-radius:20px;padding:4px 12px;font-size:clamp(10px,1.4vw,13px)}
+.cl .what{font-size:clamp(11px,1.5vw,14px);color:#f0dcc0;margin-top:6px}
+.cr{background:var(--paper);color:var(--wine2);margin:clamp(12px,2.4vw,22px);border-radius:10px;padding:clamp(10px,2vw,18px);display:flex;flex-direction:column;gap:clamp(4px,1vw,10px);font-size:clamp(11px,1.5vw,14px);position:relative}
+.cr b{display:block;font-size:clamp(9px,1.1vw,11px);letter-spacing:.12em;color:#7a1a2e;text-transform:uppercase}
+.cr .v{border-bottom:1px solid var(--gold);min-height:1.5em;overflow-wrap:anywhere;font-family:'Playfair Display',serif}
+.cr .msg{font-style:italic;flex:1;overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical}
+.cr .code{border-top:1px dashed var(--gold);padding-top:6px;display:flex;justify-content:space-between;gap:8px;font-size:clamp(9px,1.2vw,12px)}
+/* order */
+h2{font-family:'Playfair Display',Georgia,serif;font-size:clamp(30px,4vw,44px);line-height:1.08;letter-spacing:-.02em;margin:0 0 8px}
+.sub{color:var(--soft);margin:0 0 28px}
+.order{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(24px,4vw,56px);align-items:start}
+.side{position:sticky;top:calc(env(safe-area-inset-top,0px) + 20px)}
+.side p{font-size:14px;color:var(--soft);margin:22px 0 0;text-align:center}
+fieldset{border:1px solid var(--line);border-radius:14px;padding:20px;margin:0 0 18px;background:color-mix(in srgb,var(--field) 60%,transparent)}
+legend{font-family:'Playfair Display',serif;font-size:21px;padding:0 8px}
+.opts{display:grid;gap:10px}
+.opt{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:14px;align-items:center;border:1.5px solid var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;background:var(--field)}
+.opt:has(input:checked){border-color:var(--gold);box-shadow:0 0 0 3px color-mix(in srgb,var(--gold) 30%,transparent)}
+.opt input{width:20px;height:20px;accent-color:var(--wine)}
+.opt strong{font-family:'Playfair Display',serif;font-size:19px;display:block}
+.opt span{font-size:14px;color:var(--soft)}
+.price{text-align:right;font-weight:600;font-size:19px;white-space:nowrap}
+.price s{display:block;font-weight:400;font-size:13px;color:var(--soft)}
+label{display:block;font-weight:500;font-size:15px;margin:14px 0 6px}
+label:first-of-type{margin-top:0}
+input[type=text],input[type=tel],input[type=date],textarea{width:100%;font:16px/1.4 Inter,sans-serif;color:var(--ink);background:var(--field);border:1.5px solid var(--line);border-radius:10px;padding:12px 14px}
+input:focus,textarea:focus{outline:none;border-color:var(--gold)}
+textarea{min-height:92px;resize:vertical}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(13em,1fr));gap:0 16px}
+.hint{font-size:13px;color:var(--soft);margin:6px 0 0}
+.err{color:#c0392b;font-size:14px;margin:4px 0 0}
+.done{border:2px solid var(--gold);border-radius:14px;padding:22px;background:var(--field)}
+.done h3{font-family:'Playfair Display',serif;font-size:24px;margin:0 0 8px}
+.done pre{white-space:pre-wrap;font:14px/1.5 Inter,sans-serif;background:var(--bg);border-radius:10px;padding:14px;margin:14px 0}
+.linkbtn{background:none;border:0;color:var(--soft);text-decoration:underline;cursor:pointer;font:inherit;font-size:14px;margin-left:12px}
+/* how + faq */
+.how{background:var(--wine);color:var(--paper)}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(18px,3vw,40px);margin-top:24px}
+.steps div{border-top:2px solid var(--gold);padding-top:14px}
+.steps b{font-family:'Playfair Display',serif;font-size:42px;color:var(--gold);display:block;line-height:1}
+.steps h3{font-family:'Playfair Display',serif;font-size:21px;margin:10px 0 6px}
+.steps p{margin:0;color:#f0dcc0}
+.faq{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 40px;margin-top:20px}
+details{border-bottom:1px solid var(--line);padding:14px 0}
+summary{cursor:pointer;font-weight:600}
+details p{margin:8px 0 0;color:var(--soft)}
+footer{background:var(--wine2);color:#d8c3a5;font-size:15px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
+footer a{color:var(--gold)}
+@media(max-width:860px){.hero .wrap,.order{grid-template-columns:minmax(0,1fr)}.side{display:none}.faq{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:600px){.steps{grid-template-columns:minmax(0,1fr)}.card{transform:none}}
+@media(prefers-reduced-motion:no-preference){.card{transition:transform .5s}.card:hover{transform:rotate(0)}}
+</style>
+
+<section class="band hero">
+  <div class="wrap">
+    <div>
+      <p class="brand">TERROIR STORE</p>
+      <span class="badge" id="blackBadge">Preço de Black até 30/11</span>
+      <h1>Vale Presente Terroir</h1>
+      <p class="lead">Dê uma camiseta para quem ama vinho, sem errar o tamanho. Quem ganha escolhe a estampa, a cor e o tamanho no nosso site.</p>
+      <a class="btn" href="#montar">Montar meu presente</a>
+      <ul><li>O cartão não mostra o valor</li><li>Frete grátis para SP</li><li>Válido por 30 dias</li></ul>
+    </div>
+    <div id="cardSlot1"></div>
+  </div>
+</section>
+
+<section class="band" id="montar">
+  <div class="wrap">
+    <h2>Monte o seu presente</h2>
+    <p class="sub">Escolha o vale, escreva a mensagem e finalize pelo WhatsApp. O cartão vai ficando pronto enquanto você preenche, e quem ganha nunca vê o preço.</p>
+    <div class="order">
+      <form id="f" novalidate>
+        <fieldset>
+          <legend>1. Escolha o vale</legend>
+          <div class="opts" id="opts"></div>
+        </fieldset>
+        <fieldset>
+          <legend>2. Para quem é</legend>
+          <div class="row">
+            <div><label for="para">Nome de quem vai ganhar</label><input type="text" id="para" maxlength="40" placeholder="Ex.: Mariana"></div>
+            <div><label for="contato">WhatsApp ou e-mail dela(e)</label><input type="text" id="contato" maxlength="60" placeholder="Para enviarmos o vale"></div>
+          </div>
+          <label for="msg">Mensagem no cartão</label>
+          <textarea id="msg" maxlength="160" placeholder="Ex.: Feliz Natal! Escolhe a estampa que tiver a sua cara. Saúde! 🍷"></textarea>
+          <p class="hint"><span id="cnt">0</span>/160 caracteres</p>
+          <div class="row">
+            <div><label for="quando">Quando entregar o vale</label><input type="date" id="quando"></div>
+            <div><label for="envio">Quem entrega?</label>
+              <select id="envio" style="width:100%;font:16px Inter,sans-serif;padding:12px;border-radius:10px;border:1.5px solid var(--line);background:var(--field);color:var(--ink)">
+                <option>A Terroir envia direto para a pessoa</option><option>Mandem para mim, eu entrego</option>
+              </select></div>
+          </div>
+          <p class="hint">Deixe a data em branco para enviarmos assim que o pagamento for confirmado.</p>
+        </fieldset>
+        <fieldset>
+          <legend>3. Seus dados</legend>
+          <div class="row">
+            <div><label for="de">Seu nome (vai no cartão)</label><input type="text" id="de" maxlength="40" placeholder="Ex.: Ricardo"></div>
+            <div><label for="zap">Seu WhatsApp</label><input type="tel" id="zap" maxlength="20" placeholder="(11) 99999-9999"></div>
+          </div>
+        </fieldset>
+        <p class="err" id="err" hidden></p>
+        <button class="btn" type="submit">Revisar e finalizar pelo WhatsApp</button>
+        <div class="done" id="done" hidden>
+          <h3>Seu pedido está pronto para enviar</h3>
+          <p>Toque no botão abaixo. O WhatsApp da Terroir abre com tudo preenchido; é só apertar enviar. A gente responde com o link de pagamento e, depois de pago, envia o vale.</p>
+          <pre id="resumo"></pre>
+          <a class="btn" id="go" href="#" target="_blank" rel="noopener">Enviar pedido no WhatsApp</a>
+          <button type="button" class="linkbtn" id="edit">Editar</button>
+          <p class="hint">Se o botão não abrir, mande esta mensagem para (11) 91340-4956.</p>
+        </div>
+      </form>
+      <div class="side"><div id="cardSlot2"></div><p>Prévia do cartão. Quem ganha não vê o preço.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band how">
+  <div class="wrap">
+    <h2>Como funciona</h2>
+    <div class="steps">
+      <div><b>1</b><h3>Você monta o presente</h3><p>Escolhe o vale, escreve a mensagem e finaliza pelo WhatsApp. Pagamento por link ou Pix.</p></div>
+      <div><b>2</b><h3>A gente envia o vale</h3><p>O cartão chega com o nome, a sua mensagem e um código. Sem o valor.</p></div>
+      <div><b>3</b><h3>Quem ganha escolhe</h3><p>Escolhe a estampa, a cor e o tamanho no site e manda o código. A camiseta vai direto para a casa dela.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>Dúvidas</h2>
+    <div class="faq">
+      <details><summary>Quem ganha fica sabendo quanto custou?</summary><p>Não. O cartão mostra só o tipo de vale (por exemplo, "1 camiseta à sua escolha"), nunca o preço.</p></details>
+      <details><summary>Onde a pessoa escolhe a estampa?</summary><p>No site www.camisetaterroirstore.com.br. Depois ela manda o código e a escolha pelo nosso WhatsApp.</p></details>
+      <details><summary>E o frete?</summary><p>Grátis para todo o estado de SP. Para outros estados, a diferença é calculada pelo CEP na hora do resgate.</p></details>
+      <details><summary>Até quando o vale vale?</summary><p>30 dias a partir da data da compra. A data aparece no cartão.</p></details>
+      <details><summary>E se a pessoa quiser uma camiseta mais cara?</summary><p>Ela paga só a diferença. Do Vale Taça para o algodão peruano, a diferença é de R$ 30,00 na Black (R$ 40,00 depois).</p></details>
+      <details><summary>Dá para trocar o tamanho?</summary><p>Sim, uma vez. É só chamar a gente no WhatsApp.</p></details>
+    </div>
+  </div>
+</section>
+
+<footer class="band">
+  <div class="wrap">
+    <span>Terroir Store · camisetas para quem ama vinho · São Paulo/SP</span>
+    <span>WhatsApp (11) 91340-4956 · <a href="https://instagram.com/camisetaterroirstore">@camisetaterroirstore</a></span>
+  </div>
+</footer>
+
+<script>
+{
+const ZAP='5511913404956';
+const BLACK_END=new Date('2026-12-01T00:00:00-03:00');
+const black=new Date()<BLACK_END;
+const VALES=[
+  {id:'taca',nome:'Vale Taça',desc:'1 camiseta Algodão 30.1',card:'1 camiseta à sua escolha',p:139.9,b:119.9},
+  {id:'reserva',nome:'Vale Reserva',desc:'1 camiseta de algodão peruano',card:'1 camiseta de algodão peruano',p:179.9,b:149.9},
+  {id:'dupla',nome:'Vale Dupla',desc:'2 camisetas à escolha',card:'2 camisetas à sua escolha',p:259.9,b:219.9}
+];
+const $=id=>document.getElementById(id);
+const brl=v=>'R$ '+v.toFixed(2).replace('.',',');
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+if(!black)$('blackBadge').hidden=true;
+
+$('opts').innerHTML=VALES.map((v,i)=>`<label class="opt"><input type="radio" name="vale" value="${v.id}" ${i===0?'checked':''}><div><strong>${v.nome}</strong><span>${v.desc}</span></div><div class="price">${black?`<s>${brl(v.p)}</s>${brl(v.b)}`:brl(v.p)}</div></label>`).join('');
+
+const cardHTML=()=>`<div class="card" aria-label="Prévia do vale presente"><span class="ring" style="width:60%;aspect-ratio:1;left:-22%;top:-30%"></span><span class="ring" style="width:30%;aspect-ratio:1;left:32%;bottom:-18%;border-width:7px"></span>
+<div class="cl"><small>TERROIR STORE</small><div class="t"><em>Vale</em>Presente</div><div><span class="pill" data-k="tipo"></span><div class="what" data-k="what"></div></div></div>
+<div class="cr"><div><b>Para</b><div class="v" data-k="para"></div></div><div><b>De</b><div class="v" data-k="de"></div></div><div class="msg" data-k="msg"></div><div class="code"><span>Código enviado após o pagamento</span><span>Válido 30 dias</span></div></div></div>`;
+$('cardSlot1').innerHTML=cardHTML();$('cardSlot2').innerHTML=cardHTML();
+
+const sel=()=>VALES.find(v=>v.id===(document.querySelector('input[name=vale]:checked')||{}).value)||VALES[0];
+function paint(){
+  const v=sel(),vals={tipo:v.nome.replace('Vale ',''),what:v.card,para:$('para').value.trim()||'Quem vai ganhar',de:$('de').value.trim()||'Você',msg:$('msg').value.trim()||'Sua mensagem aparece aqui.'};
+  document.querySelectorAll('[data-k]').forEach(el=>{el.textContent=vals[el.dataset.k]});
+  $('cnt').textContent=$('msg').value.length;
+}
+$('f').addEventListener('input',()=>{paint();$('err').hidden=true});
+paint();
+
+const fmtDate=d=>d?d.split('-').reverse().join('/'):'assim que o pagamento for confirmado';
+$('f').addEventListener('submit',e=>{
+  e.preventDefault();
+  const need=[['para','o nome de quem vai ganhar'],['de','o seu nome'],['zap','o seu WhatsApp']].filter(([id])=>!$(id).value.trim());
+  if(need.length){$('err').textContent='Falta preencher: '+need.map(n=>n[1]).join(', ')+'.';$('err').hidden=false;$(need[0][0]).focus();return}
+  const v=sel(),preco=black?v.b:v.p;
+  const txt=`Olá, Terroir! Quero um Vale Presente 🍷
+
+Vale: ${v.nome} (${v.desc}) – ${brl(preco)}${black?' (preço de Black)':''}
+Para: ${$('para').value.trim()}
+Contato de quem ganha: ${$('contato').value.trim()||'—'}
+Mensagem: ${$('msg').value.trim()||'—'}
+Entregar: ${fmtDate($('quando').value)}
+Envio: ${$('envio').value}
+
+Meu nome: ${$('de').value.trim()}
+Meu WhatsApp: ${$('zap').value.trim()}`;
+  $('resumo').textContent=txt;
+  $('go').href='https://wa.me/'+ZAP+'?text='+encodeURIComponent(txt);
+  $('done').hidden=false;
+  $('done').scrollIntoView({behavior:'smooth',block:'center'});
+});
+$('edit').addEventListener('click',()=>{$('done').hidden=true;$('para').focus()});
+}
+</script>
+</body></html>
