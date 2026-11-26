@@ -26,8 +26,8 @@ Qual deles você quer?
 
 Perfeito! O [Vale Taça / Reserva / Dupla] fica **R$ [valor]**.
 
-É só pagar por este link:
-[LINK DE PAGAMENTO]
+Pode ser por Pix ou cartão:
+[chave Pix ou link do cartão]
 
 Assim que o pagamento cair, eu te mando o cartão do vale com o código. 😊
 Ah, me diz o nome de quem vai ganhar, para eu colocar no cartão (se quiser).
