@@ -2266,6 +2266,22 @@
    "cor": "#e8bd62",
    "sku": "5002_sw",
    "desde": "2026-11-26"
+  },
+  {
+   "nome": "Chablis Comte de Bernadotte",
+   "palavras": [
+    "bernadotte",
+    "chablis"
+   ],
+   "fora": [
+    "kit",
+    "garrafas",
+    "caixa"
+   ],
+   "preco": 289.0,
+   "cor": "#e8bd62",
+   "sku": "3003_sw",
+   "desde": "2026-11-26"
   }
  ],
  "black_11_11": {
